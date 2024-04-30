@@ -1,0 +1,387 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3c745700-17ec-4873-a17b-c3496b0a627c": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "3372bea2-b543-4de2-a7e0-db69501fe91c": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual-trainers",
+            "title": "CASUAL TRAINERS"
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "holiday-sandals",
+            "title": ""
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-shoes-1",
+            "title": ""
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-range-1",
+            "title": "VEGAN RANGE"
+          }
+        },
+        "cc352780-7f5e-4628-9561-6a1c7312c70b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "b0812362-b479-430c-aede-0c760d47b3f6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-0",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-1",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-2",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-3",
+        "cc352780-7f5e-4628-9561-6a1c7312c70b",
+        "b0812362-b479-430c-aede-0c760d47b3f6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collection list",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de": {
+      "type": "section-double",
+      "blocks": {
+        "template--16797408887027__5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de-1684407668dbf9111f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Light a candle, put on some music and relax!",
+            "text_size": 8
+          }
+        },
+        "template--16797408887027__5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de-1684407668dbf9111f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Soak your feet in warm water for 10 minutes to soften your skin and get rid of dead skin cells. Try adding a few drops of essential oils to your bath for a spa-like touch of peppermint, lemon or tea tree oils are great choices.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16797408887027__5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de-1684407668dbf9111f-0",
+        "template--16797408887027__5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de-1684407668dbf9111f-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Get_your_feet_summer_ready.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "08c46bfe-e46b-449e-90c3-2dd7f27c85d3": {
+      "type": "section-double",
+      "blocks": {
+        "0cd41f88-de72-4031-8f73-b2b5ae5918bb": {
+          "type": "heading",
+          "settings": {
+            "title": "It's all in the preparation!",
+            "text_size": 8
+          }
+        },
+        "4826039a-a8ea-4628-a1d1-96683b9322a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cut and shape you toe nails with nail clippers and a nail file. Angle the nail file at the corners of your nail to round them, or file them straight across for a squarer look.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "745e4b2f-8baa-4b6e-a720-cdb964a86635": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply a <a href=\"https://www.amazon.com/s?k=cuticle+oil&crid=38LUJDQ0Y3QQX&sprefix=cuticle+oil%2Caps%2C111&ref=nb_sb_noss_1&tag=wikihow45462-20\" target=\"_blank\">cuticle oil</a> and push your cuticles back with a <a href=\"https://www.amazon.com/s?k=cuticle+pusher&sprefix=cuticle+pu%2Caps%2C95&ref=nb_sb_ss_ts-doa-p_1_10&tag=wikihow45462-20\" target=\"_blank\">cuticle tool</a>.Cuticle oil helps soften the skin around your nail, so it’s easier to press back. Rub the oil around the base of your nail, and push your cuticles back gently.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "0cd41f88-de72-4031-8f73-b2b5ae5918bb",
+        "4826039a-a8ea-4628-a1d1-96683b9322a8",
+        "745e4b2f-8baa-4b6e-a720-cdb964a86635"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Get_your_feet_summer_ready_8.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "323da975-5723-4c52-86b7-14959bf5ae6f": {
+      "type": "section-double",
+      "blocks": {
+        "c5bcfc7d-bc5a-42f1-a5b4-673ecb80d389": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "b48649f6-59c5-435d-98a3-2dd6d50ee700": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply foot cream to soften and moisturize your feet.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "bd3dcaf4-4226-469e-b902-39eb04d138b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paint your nails with a clear base coat to protect your natural nail. Apply a thin layer of polish to each nail. Start at the cuticle, and work your way up the nail with even, vertical brush strokes. Let dry for about 2 minutes.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "2ce49a4f-b4fb-443f-9d35-2749e8f1a11e": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "3c882a67-9bf9-471f-8ad5-961443211222": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "c5bcfc7d-bc5a-42f1-a5b4-673ecb80d389",
+        "b48649f6-59c5-435d-98a3-2dd6d50ee700",
+        "bd3dcaf4-4226-469e-b902-39eb04d138b9",
+        "2ce49a4f-b4fb-443f-9d35-2749e8f1a11e",
+        "3c882a67-9bf9-471f-8ad5-961443211222"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Get_your_feet_summer_ready_3.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7b2d2050-4ed9-42c2-84a0-422d1475f392": {
+      "type": "section-double",
+      "blocks": {
+        "e06fb53a-9e67-4a1a-b6ce-6a1ca4614fd3": {
+          "type": "heading",
+          "settings": {
+            "title": "Now, the fun bit...",
+            "text_size": 8
+          }
+        },
+        "d017ade7-8b76-4c97-a842-b5985af6eba4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paint your nails with at least 2 coats of nail polish. Paint your toes as you did with the base coat using thin layers.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "c0516a32-f884-4b2d-8105-2e454c3462ab": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply a top coat for a shine. Once your base colour is completely dry , finish off your pedicure with a top coat. This final layer locks in your hard work and protects the polish from chipping.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "06715e99-807c-41eb-ad97-4277e992b4f3": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "e06fb53a-9e67-4a1a-b6ce-6a1ca4614fd3",
+        "d017ade7-8b76-4c97-a842-b5985af6eba4",
+        "c0516a32-f884-4b2d-8105-2e454c3462ab",
+        "06715e99-807c-41eb-ad97-4277e992b4f3"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Get_your_feet_summer_ready_4.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "548b6311-c8a9-4ddf-97d9-7003c7a9d016": {
+      "type": "section-double",
+      "blocks": {
+        "75b3d2b6-c8f0-4daa-afbb-6a3fb228eee0": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "a64607eb-a994-4597-a65a-2a8276a56733": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Check to make sure the polish is completely dry by tapping the edge of a nail with the tip of your finger. You're good to go if it feels firm, cool, and dry.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "5f6bec04-ab8c-4c26-9cd8-86370c90f3f3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now, grab your sandals and show off your amazing work!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "bfd9b96d-7ebe-4d4b-8d83-fb3bd76a6cc6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "b892d851-dd5b-407e-9379-232bace2ff16": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "81822082-b565-4fbc-89db-626fa3890c61": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP NOW",
+            "button_url": "shopify://products/josef-seibel-tonga-77",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "75b3d2b6-c8f0-4daa-afbb-6a3fb228eee0",
+        "a64607eb-a994-4597-a65a-2a8276a56733",
+        "5f6bec04-ab8c-4c26-9cd8-86370c90f3f3",
+        "bfd9b96d-7ebe-4d4b-8d83-fb3bd76a6cc6",
+        "b892d851-dd5b-407e-9379-232bace2ff16",
+        "81822082-b565-4fbc-89db-626fa3890c61"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Get_your_feet_summer_ready_7.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c745700-17ec-4873-a17b-c3496b0a627c",
+    "3372bea2-b543-4de2-a7e0-db69501fe91c",
+    "5cab2c7b-2b3f-46cf-ade6-a34baaf1b9de",
+    "08c46bfe-e46b-449e-90c3-2dd7f27c85d3",
+    "323da975-5723-4c52-86b7-14959bf5ae6f",
+    "7b2d2050-4ed9-42c2-84a0-422d1475f392",
+    "548b6311-c8a9-4ddf-97d9-7003c7a9d016"
+  ]
+}

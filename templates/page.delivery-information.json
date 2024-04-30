@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "e1b30db3-5b16-4fc0-bb8c-62687999784c": {
+      "type": "section-sidebar",
+      "blocks": {
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-0": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping Information"
+          }
+        },
+        "8b018b7d-35f8-421e-adfe-102942722cfe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Getting your goods to you swiftly and safely is of utmost importance to us. That's why we entrust our deliveries to carefully selected couriers. It’s also why we may need to confirm your details with your card issuer when you pay with a credit/debit card. We will do our best to keep delays to a minimum but reserve the right to cancel an order if a different address is provided. We do this to protect our customers from potential fraud and it may be necessary for us to contact you to request an amendment to the original order details. After your first successful order with us, we will be happy to ship your order to your address of choice.</p><p>If you use PayPal to pay for your products, these payment services conduct their own fraud checks, and so you may be able to use an alternative address, however this is not guaranteed.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Which courier company do you use?",
+            "content": "<p>We work with DPD  as well other selected couriers to ensure your parcels arrive safely and on time.</p>"
+          }
+        },
+        "bb7a5fbe-0aed-4d00-bd58-8fc4de7633d3": {
+          "type": "accordion",
+          "settings": {
+            "title": "What are my delivery options?",
+            "content": "<p><strong>Standard UK delivery</strong></p><p>We offer free UK delivery on all orders over £40.</p><p>We aim to dispatch all orders within 3-5 working days* for standard orders, although most of our orders are dispatched same day.</p><p>For our standard delivery service, products are sent out by our designated courier and delivery will usually be attempted within 3-5 working days of dispatch. * ‘Working day’ means Monday-Friday, and as such we do not dispatch on weekends or Bank Holidays.</p><p><strong>48 hour UK delivery</strong></p><p>With express delivery we can guarantee a same day dispatch window providing the order is placed before 2pm on a working day*.</p><p>Trusting you provide an email address and mobile number when placing your order, we will notify you of your delivery when your order is dispatched.</p><p>48hr delivery is charged from £6.95 and is available on all products; simply select the option at Checkout. * Please note that because our couriers do not operate on weekends and Bank Holidays, we do not include them as working days for the purposes of our above dispatch promise. If you order on a weekend, we will class the Monday as the first working day.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "When am I charged for my order?",
+            "content": "<p>If you choose to pay for your order with a credit or debit card, the payment will be taken (as pending) immediately after confirming your card details. If you have opted<br/>to checkout with PayPal, payment will be authorised at the point of placing your order, but will not be processed until we confirm the order.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if I am not in when you make a delivery?",
+            "content": "<p>DPD will notify you in<br/>advance of the delivery time and give you an opportunity to amend delivery instructions.  We appreciate things can change at short notice, so if you happen to be out when your delivery is attempted your parcel will be delivered to the nearest DPD pick up point for you to collect within 7 days.  </p>"
+          }
+        },
+        "3bdca9d4-9d26-4a91-bc06-c7111725f9a0": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I track my order?",
+            "content": "<p>Yes! All orders placed are tracked. We pass on your contact details to the relevant delivery company, so that they can notify you about your delivery.<strong> </strong></p>"
+          }
+        },
+        "e116a6ba-ca9a-4f60-8b18-1d42278f870e": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if I am shipping to the Republic of Ireland?",
+            "content": "<p>westlandbyjosefseibel.co.uk offers shipping to the Republic of Ireland. Please note; your order will be subject to local import duties and taxes which are applied when the delivery reaches the destination country along with an administration fee charged by the courier. </p><p>Please note that we have no control over these charges, and we cannot predict the amount.  As the buyer, you are responsible for paying the cost of all local duties, taxes and administration fees. For further information, please contact your local customs office before placing your order.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-5": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at <a href=\"mailto:enqueries@josefseibel.co.uk\">enquiries@josefseibel.co.uk</a>  and we will get back to you within 24 hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-0",
+        "8b018b7d-35f8-421e-adfe-102942722cfe",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-1",
+        "bb7a5fbe-0aed-4d00-bd58-8fc4de7633d3",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-2",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-4",
+        "3bdca9d4-9d26-4a91-bc06-c7111725f9a0",
+        "e116a6ba-ca9a-4f60-8b18-1d42278f870e",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-5",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-6"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "faq-first": {
+      "type": "page-faq",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-third": {
+      "type": "page-faq",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns questions"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e1b30db3-5b16-4fc0-bb8c-62687999784c",
+    "faq-first",
+    "faq-third",
+    "icons"
+  ]
+}

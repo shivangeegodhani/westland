@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "e1b30db3-5b16-4fc0-bb8c-62687999784c": {
+      "type": "section-sidebar",
+      "blocks": {
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-0": {
+          "type": "header",
+          "settings": {
+            "title": "Frequently Asked Questions"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you offer a repair service?",
+            "content": "<p>Unfortunately, we do not offer a repair service. If you do have a fault with your item and have proof of purchase, please get in touch directly with your original point of purchase.</p><p>If you faulty item has been purchased from <a href=\"http://www.josefseibel.co.uk\">www.westlandshoes.co.uk </a>please<br/>contact us direct using the following email; <a href=\"mailto:enquiries@josefseibel.co.uk\">enquiries@josefseibel.co.uk</a>,<br/>providing your order number and photos.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you offer replacement sundries?",
+            "content": "<p>Unfortunately, we do not offer replacement sundries, for example; shoe laces.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Where is my nearest stockist?",
+            "content": "<p>Please visit our store locator page.</p>"
+          }
+        },
+        "9a4b8553-e05e-4588-b3b6-922a7dee369d": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I place an order over the phone?",
+            "content": "<p>If you do not have access to the internet, you can call our order line: 01530 447700 to place an order over the phone.  </p>"
+          }
+        },
+        "963d4fa8-8747-4377-b0be-eb312d2ff315": {
+          "type": "accordion",
+          "settings": {
+            "title": "When is your order line open?",
+            "content": "<p>Weekday 8am-4pm</p>"
+          }
+        },
+        "d59731ec-cb07-464d-a9f2-52cf2b238fa3": {
+          "type": "accordion",
+          "settings": {
+            "title": "How can I change my mailing preferences?",
+            "content": "<p>You can OPT out to our mailing list at any time.  Simply log into your online account and click<br/>–‘OPT OUT’ or click unsubscribe the next time you receive an email from us and this will automatically remove you from our mailing database.</p>"
+          }
+        },
+        "445e9034-5a45-4a62-8e5f-5bde5aafc7a1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Will you be getting more stock back in?",
+            "content": "<p>We do receive stock back daily, so keep an eye on our website as the item you’re looking for may reappear!</p>"
+          }
+        },
+        "b4fd01cc-44e6-49db-858e-da325441cd32": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy during sale?",
+            "content": "<p>Our 35 days return period applies to our sale lines too. </p>"
+          }
+        },
+        "3e14c4bc-8fff-4fc0-9d7b-01f47cf36525": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I change or cancel my order?",
+            "content": "<p>We’ll need to check the status of your order to see if this is possible, as it might already be on its way. Please contact us with your order number to hand, and we will be happy to investigate this further. Email our customer service team: <a href=\"mailto:enqueries@josefseibel.co.uk\">enquiries@josefseibel.co.uk</a></p>"
+          }
+        },
+        "dbbf636d-895d-4075-8c4b-0b27a1e5d543": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you do exchanges?",
+            "content": "<p>No, we do not exchange items. You will need to cancel / return your order and place a new<br/>order.</p>"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-5": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at <a href=\"mailto:enquiries@josefseibel.co.uk\">enquiries@josefseibel.co.uk</a> and we will get back to you within 24 hours.</p>"
+          }
+        },
+        "a5c02116-b145-4e98-91ec-a7d1372e3faa": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-0",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-1",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-2",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-4",
+        "9a4b8553-e05e-4588-b3b6-922a7dee369d",
+        "963d4fa8-8747-4377-b0be-eb312d2ff315",
+        "d59731ec-cb07-464d-a9f2-52cf2b238fa3",
+        "445e9034-5a45-4a62-8e5f-5bde5aafc7a1",
+        "b4fd01cc-44e6-49db-858e-da325441cd32",
+        "3e14c4bc-8fff-4fc0-9d7b-01f47cf36525",
+        "dbbf636d-895d-4075-8c4b-0b27a1e5d543",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-5",
+        "template--17821359735095__e1b30db3-5b16-4fc0-bb8c-62687999784c-16756032863b1d9706-6",
+        "a5c02116-b145-4e98-91ec-a7d1372e3faa"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "faq-first": {
+      "type": "page-faq",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-third": {
+      "type": "page-faq",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns questions"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        "icon-1": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        "icon-2": {
+          "type": "text-item",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "icon_size": 20,
+        "icon_alignment": "icon--top",
+        "heading_size": "h6",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e1b30db3-5b16-4fc0-bb8c-62687999784c",
+    "faq-first",
+    "faq-third",
+    "icons"
+  ]
+}

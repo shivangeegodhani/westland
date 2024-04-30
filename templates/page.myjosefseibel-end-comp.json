@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "31b30abf-e16a-45ee-aa62-203c85bbf087": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/myjosefseibel-use_1.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "53b19d99-0688-4459-89ed-cc6fe3901e3e": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "22e4c7ea-a0fe-46e2-88b0-fe7130b76def": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "#myjosefseibel Competition",
+            "text_size": 12,
+            "text_weight": 500,
+            "show_line": false
+          }
+        },
+        "36eb6d48-a13f-4828-95ef-4b6c989c3257": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p></p><p>Whether you’re celebrating your countryside roots, getting back to nature, indulging your family and friends, or simply escaping the everyday stresses of life, the Josef Seibel community reaches people from all walks of life. Whatever your life looks or feels like, we always love to share in your special memories and<br/>of course wearing a pair of your favourite JOSEF SEIBEL shoes. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "5f66b6be-8a09-46c5-9ee0-be75ca948786": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>To enter. Share a photo of you or your loved ones enjoying wearing a pair of JOSEF SEIBEL shoes via Instagram or Facebook.  For your photo to be successfully entered into the monthly competition you will need to: </h6><p></p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        },
+        "b2cf1565-208c-46cf-8fb8-c71a594fac01": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow @josefseibeluk on the social media channel you are entering via.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "ae82cdb0-918b-4526-8c2d-7299eb3ac6dc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add @josefseibeluk to the copy in the message you are posting.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "bd71ae65-0754-4f9b-b026-54330a8ba37b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use the hashtag #myjosefseibeluk in the copy of the message you are posting.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>If you do not have an Instagram or Facebook account you can submit your entry one of the following ways: </h6>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        },
+        "89439065-765c-4a15-93a0-99d92962b86d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email your photo to <a href=\"mailto:marketing@josefseibel.co.uk\">marketing@josefseibel.co.uk</a> with the subject #myjosefseibeluk </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "ef57e3e7-46cb-4955-a750-fd08ce615e70": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Post your entry with a covering letter of contact detail to:</p><p>Marketing & Ecommerce Manager,  Unit 2 ,Wylam Court, Off Telford Way,<br/>Stephenson Industrial Estate, Coalville, LE67 3HP. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-0",
+        "22e4c7ea-a0fe-46e2-88b0-fe7130b76def",
+        "36eb6d48-a13f-4828-95ef-4b6c989c3257",
+        "5f66b6be-8a09-46c5-9ee0-be75ca948786",
+        "b2cf1565-208c-46cf-8fb8-c71a594fac01",
+        "ae82cdb0-918b-4526-8c2d-7299eb3ac6dc",
+        "bd71ae65-0754-4f9b-b026-54330a8ba37b",
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-2",
+        "89439065-765c-4a15-93a0-99d92962b86d",
+        "ef57e3e7-46cb-4955-a750-fd08ce615e70",
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-center",
+        "bg_color": "#ffffff",
+        "color": "#212121",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1e426326-0e29-4c91-aa56-412ec54ccf46": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_myjosefseibel_1917_x_431px_4.png",
+        "bg_position": "center-center",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "c211c280-ca1f-4079-a978-d097445810f1": {
+      "type": "jos-competition-form",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "",
+        "description": "We would love to stay in touch with you via email, to let you know about exciting new products, competitions, and any other brand news.",
+        "check_box_msg": "I’ve read and accept the Term & Conditions below.",
+        "competition_id": "id123",
+        "button_text": "YES PLEASE!",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "TERMS & CONDITIONS",
+            "heading_size": 3,
+            "width": "wrapper--full",
+            "text": "<p>The competition starts<br/>March 2023, 5pm GMT, with a new prize winner being selected each month. </p><p>Who Can Enter?  Entrants must be 1 years and over. </p><p>No purchase necessary and entry is free. </p><p>By entering, you agree that:  You are over 18 years old. The imagery you enter to the competition may be used for no fee and in any media (including online, marketing emails and social media) ,commercial advertising basis with no time restriction.  Your name may be announced on ,Josef Seibel social channels and the Josef Seibel email newsletter.  If you change your mind, please inform us in writing and we will remove the imagery from further use.</p><p><strong>Method of Entry </strong></p><p>Share a photo of yourself enjoying your Josef Seibel footwear via Instagram or facebook. For your photo to be successfully entered into the monthly competition you will need to:  Follow @josefseibeluk on the social media channel you are entering via. Add @josefseibeluk to the copy in the message you are posting. Use the hashtag #myjosefseibel in the copy of the message you are posting. If you do not have an Instagram or Facebook account you can submit your entry one of the<br/>following ways:  Email your photo to <a href=\"mailto:marketing@josefseibel.co.uk\">marketing@josefseibel.co.uk</a> with the subject #myjosefseibeluk </p><p>Post your entry with a covering letter of contact details to Marketing & Ecommerce Manager, Unit 2 ,Wylam Court, Off Telford Way, Stephenson Industrial Estate, Coalville, LE67 3HP. </p><p> We are not able<br/>to return any photos submitted </p><p><strong> THE WINNER</strong></p><p>JOSEF SEIBEL will<br/>     select 1 (one) winner each month.</p><p>Winners will be notified by<br/>     email or by original method of entry and prizes must be claimed within 14<br/>     days of notification.</p><p>The prize is a pair of JOSEF<br/>     SEIBEL footwear , available from the website at the time of<br/>     winning. </p><p> <strong>LIABILITY</strong><br/><br/>1. JOSEF SEIBEL accepts no responsibility for any damage, loss, injury (other<br/>than our liability for personal injury or death as a result of our negligence)<br/>or disappointment of any kind suffered by any entrant in entering the<br/>Competition, including as a result of any entrant winning or not winning any<br/>prize.<br/><br/>2. JOSEF SEIBEL accepts no responsibility for Entries lost or delayed due to<br/>computer error in transit. Entries made online using methods generated by a<br/>script, macro or the use of automated devices will be void.<br/><br/><span style=\"text-decoration:underline\"><strong><br/><br/></strong></span><strong>INTELLECTUAL PROPERTY RIGHTS AND DATA PROTECTION</strong><br/><br/>1. You agree that Josef Seibel (and any third party authorised by JOSEF SEIBEL)<br/>may use your Entry (whether or not it wins the Competition) for any promotional<br/>purpose (for example, placing it on the Josef Seibel website or on any poster,<br/>leaflet or other advertising media). You confirm that your Entry is original<br/>that you own and have the right to license to Josef Seibel the copyright and other<br/>intellectual property rights in the Entry for the purposes referred to in these<br/>Rules. You will retain ownership of copyright in your Entry, but you give Josef<br/>Seibel (and any third party authorised by Josef Seibel) your irrevocable<br/>permission to use, reproduce, publish, display, transmit, copy, amend, store,<br/>sell and sub-licence your Entry worldwide for such promotional purposes and for<br/>the purposes of the Competition.<br/><br/>2. JOSEF SEIBEL will use any personal information that you provide with your<br/>Entry for the purposes of the Competition and, where you have given your<br/>consent, for marketing purposes including the distribution of regular email<br/>updates or newsletters. Any personal information relating to entrants will be<br/>used solely by us in accordance with applicable data protection legislation.<br/><br/>3. All Prize-winners unconditionally agree (as a condition of accepting any<br/>prize) to: (a) the use of their name, one or more photographs of themselves;<br/>and (b) co-operate with or participate in any other reasonable post-Competition<br/>publicity.<br/><br/><br/><br/><strong>GOVERNING LAW AND JURISDICTION</strong><br/><br/>1. The Rules and any dispute or claim arising out of or in connection with them<br/>or their subject matter (including the Competition), existence, negotiation,<br/>validity, termination or enforceability (including non-contractual disputes or<br/>claims) shall be governed by and construed in accordance with English law.<br/><br/>2. The Courts of England shall have exclusive jurisdiction in relation to any<br/>dispute or claim arising out of or in connection with the Rules or their<br/>subject matter, existence, negotiation, validity, termination or enforceability<br/>(including non-contractual disputes or claims).</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Back",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "31b30abf-e16a-45ee-aa62-203c85bbf087",
+    "53b19d99-0688-4459-89ed-cc6fe3901e3e",
+    "1e426326-0e29-4c91-aa56-412ec54ccf46",
+    "c211c280-ca1f-4079-a978-d097445810f1",
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "31b30abf-e16a-45ee-aa62-203c85bbf087": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/header_4.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "53b19d99-0688-4459-89ed-cc6fe3901e3e": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "22e4c7ea-a0fe-46e2-88b0-fe7130b76def": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "#myjosefseibel Competition",
+            "text_size": 12,
+            "text_weight": 500,
+            "show_line": false
+          }
+        },
+        "36eb6d48-a13f-4828-95ef-4b6c989c3257": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p></p><p>Whether you’re celebrating your countryside roots, getting back to nature, indulging your family and friends, or simply escaping the everyday stresses of life, the Josef Seibel community reaches people from all walks of life. Whatever your life looks or feels like, we always love to share in your special memories and<br/>of course wearing a pair of your favourite JOSEF SEIBEL shoes. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "5f66b6be-8a09-46c5-9ee0-be75ca948786": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>VEGAN FOOTWEAR GIVEAWAY</strong></h2><p>The WESTLAND by Josef Seibel collection interprets the latest trends to create modern effortless and easy to style footwear for this season and beyond.</p><p>We're giving 5 lucky winners the chance of winning a FREE pair of WESTLAND by Josef Seibel AW23 footwear, simply sign up to our newsletter via the link below. All entries must be in by midnight on Sunday 8th Oct.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-0",
+        "22e4c7ea-a0fe-46e2-88b0-fe7130b76def",
+        "36eb6d48-a13f-4828-95ef-4b6c989c3257",
+        "5f66b6be-8a09-46c5-9ee0-be75ca948786",
+        "template--16756549189875__53b19d99-0688-4459-89ed-cc6fe3901e3e-1677840077f928f127-3"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-center",
+        "bg_color": "#ffffff",
+        "color": "#212121",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1e426326-0e29-4c91-aa56-412ec54ccf46": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_myjosefseibel_1917_x_431px_4.png",
+        "bg_position": "center-center",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "c211c280-ca1f-4079-a978-d097445810f1": {
+      "type": "jos-competition-form",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "",
+        "description": "We would love to stay in touch with you via email, to let you know about exciting new products, competitions, and any other brand news.",
+        "check_box_msg": "I’ve read and accept the Term & Conditions below.",
+        "competition_id": "id123",
+        "button_text": "YES PLEASE!",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "TERMS & CONDITIONS",
+            "heading_size": 3,
+            "width": "wrapper--full",
+            "text": "<p><strong>JOSEF SEIBEL COMPETITION RULES FOR VEGAN FOOD & LIVING COMPETITION</strong></p><p>1. To enter the competition; </p><p>Entrants can submit their entry using the link provided within the Vegan Food & Living emailer or by visiting our competitions page on our website.</p><p>2. The closing date for entries is midnight on Sunday 8th October 2023.<br/>The 5 lucky winners will be chosen at random and will be notified on Monday 9th October 2023.<br/><br/>3. The prize will be one pair of WESTLAND by Josef Seibel footwear for each 5 identified winners, from the Vegan range. Available to view at www.josefseibel.co.uk<br/><br/>4. Josef Seibel is responsible for the lawful operation of the competition. <br/><br/>5. Entrants must be 18 years or older to enter. <br/><br/>6. The prize is non-transferrable and there is no cash alternative. <br/><br/>7. In the event of a prize being unavailable for any reason, Josef Seibel reserve the right to substitute prizes of equal value at any time. <br/><br/>8. Prizes must be accepted in the manner set out in the notification. <br/><br/>9. The promotion is in no way sponsored, endorsed or administered by, or associated with, Facebook, Twitter, Google Plus or any other social media platform that Josef Seibel or representatives of Josef Seibel may use to promote the competition. <br/><br/>10. Josef Seibel does not promote or facilitate online gambling, games of skill or lotteries, including online casino, sports books, bingo, or poker. <br/><br/>11. We may use your personal data to select a winner from the list of qualifiers and to contact you if you are a winner. <br/><br/>12. The winner of the competition will be contacted by private message and may also be announced on social media networks.  <br/><br/> <span style=\"text-decoration:underline\">TERMS AND CONDITIONS</span> <br/><br/>1. These terms and conditions, together with the terms and conditions that are specific to any Competition (as defined below) (the 'Competition Terms') are known as the 'Rules'. Words used in the Competition Terms shall have the same meaning when used here. In the event of any conflict between the Competition Terms and the Standard Terms, the Competition Terms shall prevail. <br/><br/>2. The Rules apply to any competition (the 'Competition') that is promoted on the Josef Seibel Footwear website (https://www.josefseibel.co.uk) behalf of Josef Seibel by entering the<br/>Competition, you agree to be bound by the Rules. <br/><br/>3. Josef Seibel reserve the right to cancel or amend all or any part of the Competition and/or the Rules without notice for any event that is outside of Josef Seibel’s reasonable control. Any changes to the Rules, or cancellation of the Competition, will be posted on the Josef Seibel website (https://www.josefseibel.co.uk). It is the responsibility of entrants to keep themselves informed as to any changes to the Rules. <br/><br/>4. In the event of any dispute regarding the Rules, the conduct or results of the Competition, or any other matter relating to a Competition, the decision of Josef Seibel shall be final and unchallengeable, and no correspondence or discussion shall be entered into, comment issued, or reason given in respect of any decision made by Josef Seibel. <br/><br/><span style=\"text-decoration:underline\">COMPETITION ENTRANTS</span> <br/><br/>5. Unless otherwise stated in the Competition Terms, the Competition is only open to persons who are resident in the United Kingdom and persons who are resident outside of the United Kingdom may not apply. <br/><br/>6. Entrants may be required to provide proof of identity<br/>to ensure they are 18+years . <br/><br/>7. Josef Seibel reserve the right in its absolute discretion to disqualify any entrant if it has reasonable grounds to believe<br/>that an entrant has breached any of the Rules, any applicable law (including copyright law) or has otherwise infringed the intellectual property of any<br/>other person. Each entrant acknowledges and agrees that any failure to comply<br/>with the Rules could lead to Josef Seibel disqualifying that person, without<br/>Josef Seibel giving any reason for such disqualification or granting any<br/>opportunity for challenge. <br/><br/>8. Any person that is: (a) an employee of any company<br/>involved in the Competition (including Josef Seibel); or (b) a family member of<br/>such employee, is not eligible to enter the Competition. Josef Seibel reserves<br/>the right to disqualify any person that it knows is, or has reasonable grounds<br/>to believe is, ineligible for the Competition as a result of this Rule. <br/><br/>9. In the event that a Prize-winner is disqualified<br/>from the Competition, Josef Seibel will, unless otherwise stated in the<br/>Competition Terms, select an alternative Prize-winner in the same manner as the<br/>original Prize-winner and such selection will be subject to the Rules. <br/><br/> <br/><br/><span style=\"text-decoration:underline\">COMPETITION<br/>ENTRIES</span> <br/><br/>10. Entries must be made by the Closing Date and in<br/>the manner set out in the Competition Terms. Failure to do so will result in<br/>disqualification. <br/><br/>11. There is no requirement to make any purchase in<br/>order to enter the Competition.<br/><br/>12. Unless otherwise stated in the Competition Terms,<br/>only one Entry per person is permitted. In the event that Josef Seibel<br/>discovers or has reasonable grounds to believe that the same person has made<br/>multiple Entries, such person and any Entries made by them shall be<br/>disqualified and, if such Entrant has already been selected as a Prize-winner,<br/>an alternative Prize-winner will be selected in accordance with Rule 10 above. <br/><br/>13. Unless otherwise set out in the Competition<br/>Terms, Josef Seibel accepts no responsibility for the return of any Entries. <br/><br/> <br/><br/><span style=\"text-decoration:underline\">PRIZE-WINNERS</span> <br/><br/>14. Prize-winners will be selected and notified in<br/>the manner set out in the Competition Terms. No prize will be awarded where any<br/>entrant has committed any form of misconduct (as determined by Josef Seibel in<br/>its sole discretion). <br/><br/>15. Prizes are non-transferable and there is no cash<br/>alternative. In the event of a prize being unavailable for any reason Josef<br/>Seibel reserve the right to substitute prizes of equal or greater value at any<br/>time. <br/><br/>16. Prizes must be accepted in the manner set out in<br/>the Prize Notification. In the event that any Prize Notification is returned as<br/>undeliverable or any Prize-winner fails to validly reply to a Prize<br/>Notification within 28 days, Josef Seibel reserves the right to disqualify the<br/>Prize-winner and select an alternative Prize-winner in accordance with Rule 10<br/>above. <br/><br/> <br/><br/><span style=\"text-decoration:underline\">LIABILITY</span> <br/><br/>17. Josef Seibel accepts no responsibility for any<br/>damage, loss, injury (other than our liability for personal injury or death as<br/>a result of our negligence) or disappointment of any kind suffered by any<br/>entrant in entering the Competition, including as a result of any entrant<br/>winning or not winning any prize. <br/><br/>18. Josef Seibel accepts no responsibility for<br/>Entries lost or delayed due to computer error in transit. Entries made online<br/>using methods generated by a script, macro or the use of automated devices will<br/>be void. <br/><br/> <br/><br/> <br/><br/><span style=\"text-decoration:underline\">INTELLECTUAL<br/>PROPERTY RIGHTS AND DATA PROTECTION</span> <br/><br/>19. You agree that Josef Seibel (and any third party<br/>authorised by Josef Seibel) may use your Entry (whether or not it wins the<br/>Competition) for any promotional purpose (for example, placing it on the Josef<br/>Seibel website or on any poster, leaflet or other advertising media). You<br/>confirm that your Entry is original that you own and have the right to license<br/>to Josef Seibel the copyright and other intellectual property rights in the<br/>Entry for the purposes referred to in these Rules. You will retain ownership of<br/>copyright in your Entry, but you give Josef Seibel (and any third party<br/>authorised by Josef Seibel) your irrevocable permission to use, reproduce,<br/>publish, display, transmit, copy, amend, store, sell and sub-licence your Entry<br/>worldwide for such promotional purposes and for the purposes of the<br/>Competition. <br/><br/>20. Josef Seibel will use any personal information<br/>that you provide with your Entry for the purposes of the Competition and, where<br/>you have given your consent, for marketing purposes including the distribution<br/>of regular email updates or newsletters. Any personal information relating to<br/>entrants will be used solely by us in accordance with applicable data<br/>protection legislation. <br/><br/>21. All Prize-winners unconditionally agree (as a<br/>condition of accepting any prize) to: (a) the use of their name, one or more<br/>photographs of themselves; and (b) co-operate with or participate in any other<br/>reasonable post-Competition publicity. <br/><br/> <br/><br/> <br/><br/><span style=\"text-decoration:underline\">GOVERNING<br/>LAW AND JURISDICTION</span> <br/><br/>22. The Rules and any dispute or claim arising out of<br/>or in connection with them or their subject matter (including the Competition),<br/>existence, negotiation, validity, termination or enforceability (including<br/>non-contractual disputes or claims) shall be governed by and construed in<br/>accordance with English law. <br/><br/>23. The Courts of England shall have exclusive<br/>jurisdiction in relation to any dispute or claim arising out of or in<br/>connection with the Rules or their subject matter, existence, negotiation,<br/>validity, termination or enforceability (including non-contractual disputes or<br/>claims).</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Back",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "31b30abf-e16a-45ee-aa62-203c85bbf087",
+    "53b19d99-0688-4459-89ed-cc6fe3901e3e",
+    "1e426326-0e29-4c91-aa56-412ec54ccf46",
+    "c211c280-ca1f-4079-a978-d097445810f1",
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d"
+  ]
+}

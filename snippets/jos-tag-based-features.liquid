@@ -1,0 +1,458 @@
+{%- assign imgHeight = '75px' -%}
+{%- assign imgwidth = '75px' -%}
+
+{% assign priorityTags = "UPLeather, UPTextile, UPMixed, LINLeather, LINTextile, LINMixed, LINWool, FASLace, FASZip, FASLaceZIp, FASRiptape, FASBuckle, SOLPu, SOLTR, SOLGum, SOLEva, SOLEvo, SOLTpu, INSLeather, INSTextile, INSMixed, INSCork, VEGApproved, VEGFriendly, Waterproof, WideFit, Removable, Handstitched, Machine" | split: ", " %}
+{% assign productTags = "" %}
+
+{% for tag in priorityTags %}
+  {% if product.tags contains tag %}
+    {% capture productTags %}
+      {{ productTags }},{{ tag }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+
+{% assign displayTags = productTags | downcase | split: "," %}
+
+{% for tag in displayTags %}
+  {% if tag == 'upleather' %}
+    {% assign UPLeather = true %}
+  {% endif %}
+
+  {% if tag == 'uptextile' %}
+    {% assign UPTextile = true %}
+  {% endif %}
+
+  {% if tag == 'upmixed' %}
+    {% assign UPMixed = true %}
+  {% endif %}
+
+  {% if tag == 'linleather' %}
+    {% assign LINLeather = true %}
+  {% endif %}
+
+  {% if tag == 'lintextile' %}
+    {% assign LINTextile = true %}
+  {% endif %}
+
+  {% if tag == 'linmixed' %}
+    {% assign LINMixed = true %}
+  {% endif %}
+
+  {% if tag == 'linwool' %}
+    {% assign LINWool = true %}
+  {% endif %}
+
+  {% if tag == 'faslace' %}
+    {% assign FASLace = true %}
+  {% endif %}
+
+  {% if tag == 'faszip' %}
+    {% assign FASZip = true %}
+  {% endif %}
+
+  {% if tag == 'faslacezip' %}
+    {% assign FASLaceZip = true %}
+  {% endif %}
+
+  {% if tag == 'fasriptape' %}
+    {% assign FASRiptape = true %}
+  {% endif %}
+
+  {% if tag == 'fasbuckle' %}
+    {% assign FASBuckle = true %}
+  {% endif %}
+
+  {% if tag == 'solpu' %}
+    {% assign SOLPU = true %}
+  {% endif %}
+
+  {% if tag == 'soltr' %}
+    {% assign SOLTR = true %}
+  {% endif %}
+
+  {% if tag == 'solgum' %}
+    {% assign SOLGum = true %}
+  {% endif %}
+
+  {% if tag == 'soleva' %}
+    {% assign SOLEVA = true %}
+  {% endif %}
+
+  {% if tag == 'solevo' %}
+    {% assign SOLEVO = true %}
+  {% endif %}
+
+  {% if tag == 'soltpu' %}
+    {% assign SOLTPU = true %}
+  {% endif %}
+
+  {% if tag == 'insleather' %}
+    {% assign INSLeather = true %}
+  {% endif %}
+
+  {% if tag == 'instextile' %}
+    {% assign INSTextile = true %}
+  {% endif %}
+
+  {% if tag == 'insmixed' %}
+    {% assign INSMixed = true %}
+  {% endif %}
+
+  {% if tag == 'inscork' %}
+    {% assign INSCork = true %}
+  {% endif %}
+
+  {% if tag == 'vegapproved' %}
+    {% assign VEGApproved = true %}
+  {% endif %}
+
+  {% if tag == 'vegfriendly' %}
+    {% assign VEGFriendly = true %}
+  {% endif %}
+
+  {% if tag == 'waterproof' %}
+    {% assign Waterproof = true %}
+  {% endif %}
+
+  {% if tag == 'widefit' %}
+    {% assign WideFit = true %}
+  {% endif %}
+  {% if tag == 'removable' %}
+    {% assign Removable = true %}
+  {% endif %}
+  {% if tag == 'handstitched' %}
+    {% assign Handstitched = true %}
+  {% endif %}
+  {% if tag == 'machine' %}
+    {% assign Machine = true %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} {% assign VEGFriendly = true %}
+{% assign Machine = true %}
+{% assign VEGFriendly = true %}
+{% assign Handstitched = true %}
+{% assign INSMixed = true %}
+{% assign SOLPU = true %}
+{% assign UPMixed = true %}
+{% assign FASBuckle = true %} {% endcomment %}
+
+{% if UPLeather %}
+  <figure>
+    <img
+      src="{{ 'UPLeather.svg' | asset_url }}"
+      alt="Leather Upper"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather Upper">
+  </figure>
+{% endif %}
+
+{% if UPTextile %}
+  <figure>
+    <img
+      src="{{ 'UPTextile.svg' | asset_url }}"
+      alt="Textile Upper"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Textile Upper">
+  </figure>
+{% endif %}
+
+{% if UPMixed %}
+  <figure>
+    <img
+      src="{{ 'UPMixed.svg' | asset_url }}"
+      alt="Leather & Textile Upper"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather & Textile Upper">
+  </figure>
+{% endif %}
+
+{% if LINLeather %}
+  <figure>
+    <img
+      src="{{ 'LINLeather.svg' | asset_url }}"
+      alt="Leather Lining"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather Lining">
+  </figure>
+{% endif %}
+
+{% if LINTextile %}
+  <figure>
+    <img
+      src="{{ 'LINTextile.svg' | asset_url }}"
+      alt="Textile Lining"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Textile Lining">
+  </figure>
+{% endif %}
+
+{% if LINMixed %}
+  <figure>
+    <img
+      src="{{ 'LINMixed.svg' | asset_url }}"
+      alt="Leather & Textile Lining"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather & Textile Lining">
+  </figure>
+{% endif %}
+
+{% if LINWool %}
+  <figure>
+    <img
+      src="{{ 'LINWool.svg' | asset_url }}"
+      alt="Wool Lining"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Wool Lining">
+  </figure>
+{% endif %}
+
+{% if FASLace %}
+  <figure>
+    <img
+      src="{{ 'FASLace.svg' | asset_url }}"
+      alt="Lace"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Lace">
+  </figure>
+{% endif %}
+
+{% if FASZip %}
+  <figure>
+    <img
+      src="{{ 'FASZip.svg' | asset_url }}"
+      alt="Zip"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Zip">
+  </figure>
+{% endif %}
+
+{% if FASLaceZip %}
+  <figure>
+    <img
+      src="{{ 'FASLaceZip.svg' | asset_url }}"
+      alt="Lace & Zip"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Lace & Zip">
+  </figure>
+{% endif %}
+
+{% if FASRiptape %}
+  <figure>
+    <img
+      src="{{ 'FASRiptape.svg' | asset_url }}"
+      alt="Velcro"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Velcro">
+  </figure>
+{% endif %}
+
+{% if FASBuckle %}
+  <figure>
+    <img
+      src="{{ 'FASBuckle.svg' | asset_url }}"
+      alt="Buckle"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Buckle">
+  </figure>
+{% endif %}
+
+{% if SOLPU %}
+  <figure>
+    <img
+      src="{{ 'SOLPU.svg' | asset_url }}"
+      alt="Pu Sole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Pu Sole">
+  </figure>
+{% endif %}
+
+{% if SOLTR %}
+  <figure>
+    <img
+      src="{{ 'SOLTR.svg' | asset_url }}"
+      alt="TR Sole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="TR Sole">
+  </figure>
+{% endif %}
+
+{% if SOLGum %}
+  <figure>
+    <img
+      src="{{ 'SOLGum.svg' | asset_url }}"
+      alt="Gum Sole"
+      height="60px"
+      width="60px"
+      data-tooltip="Gum Sole">
+  </figure>
+{% endif %}
+
+{% if SOLEVA %}
+  <figure>
+    <img
+      src="{{ 'SOLEVA.svg' | asset_url }}"
+      alt="EVA Sole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="EVA Sole">
+  </figure>
+{% endif %}
+
+{% if SOLEVO %}
+  <figure>
+    <img
+      src="{{ 'SOLEVO.svg' | asset_url }}"
+      alt="EVO Sole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="EVO Sole">
+  </figure>
+{% endif %}
+
+{% if SOLTPU %}
+  <figure>
+    <img
+      src="{{ 'SOLTPU.svg' | asset_url }}"
+      alt="TPU Sole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="TPU Sole">
+  </figure>
+{% endif %}
+
+{% if INSLeather %}
+  <figure>
+    <img
+      src="{{ 'INSLeather.svg' | asset_url }}"
+      alt="Leather"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather">
+  </figure>
+{% endif %}
+
+{% if INSTextile %}
+  <figure>
+    <img
+      src="{{ 'INSTextile.svg' | asset_url }}"
+      alt="Textile"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Textile">
+  </figure>
+{% endif %}
+
+{% if INSMixed %}
+  <figure>
+    <img
+      src="{{ 'INSMixed.svg' | asset_url }}"
+      alt="Leather & Textile"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Leather & Textile">
+  </figure>
+{% endif %}
+
+{% if INSCork %}
+  <figure>
+    <img
+      src="{{ 'INSCork.svg' | asset_url }}"
+      alt="Cork"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Cork">
+  </figure>
+{% endif %}
+
+{% if VEGApproved %}
+  <figure>
+    <img
+      src="{{ 'VEGApproved.svg' | asset_url }}"
+      alt="Vegan Approved"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Vegan Approved">
+  </figure>
+{% endif %}
+
+
+{% if VEGFriendly %}
+  <figure>
+    <img
+      src="{{ 'VEGFriendly.svg' | asset_url }}"
+      alt="Vegan Friendly"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Vegan Friendly">
+  </figure>
+{% endif %}
+
+{% if Waterproof %}
+  <figure>
+    <img
+      src="{{ 'Waterproof.svg' | asset_url }}"
+      alt="Waterproof"
+      height="60px"
+      width="60px"
+      data-tooltip="Waterproof">
+  </figure>
+{% endif %}
+
+{% if WideFit %}
+  <figure>
+    <img
+      src="{{ 'WideFit.svg' | asset_url }}"
+      alt="Wide"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Wide">
+  </figure>
+{% endif %}
+
+{% if Removable %}
+  <figure>
+    <img
+      src="{{ 'Removable.svg' | asset_url }}"
+      alt="Removable Insole"
+      height="{{ imgHeight }}"
+      width="{{ imgwidth }}"
+      data-tooltip="Removable Insole">
+  </figure>
+{% endif %}
+
+{% if Handstitched %}
+  <figure>
+    <img
+      src="{{ 'Handstitched.svg' | asset_url }}"
+      alt="Handstitched"
+      height="60px"
+      width="60px"
+      data-tooltip="Handstitched">
+  </figure>
+{% endif %}
+
+{% if Machine %}
+  <figure>
+    <img
+      src="{{ 'Machine.svg' | asset_url }}"
+      alt="Machine Washable"
+      height="60px"
+      width="60px"
+      data-tooltip="Machine Washable">
+  </figure>
+{% endif %}

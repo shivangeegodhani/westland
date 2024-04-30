@@ -1,0 +1,60 @@
+<div class="dynamic-section bootstrapiso my_sec section-padding" style="padding: 10%;">
+  {% assign image_position = section.settings.image_position | default: 'left' %}
+  
+  {% if image_position == 'left' %}
+    <div class="image-container" style="float: left; width: 50%;">
+      <img src="{{ section.settings.image | img_url: '1024x'  }}" alt="Image">
+    </div>
+  {% endif %}
+
+  <div class="info-container" style="float:width: 50%;">
+    <h2>{{ section.settings.heading | default: 'Default Heading' }}</h2>
+    <p>{{ section.settings.paragraph | default: 'Default Paragraph Text' }}</p>
+  </div>
+
+  {% if image_position == 'right' %}
+    <div class="image-container" style="float: right; width: 50%;">
+      <img src="{{ section.settings.image }}" height="100%" width="100%" alt="Image">
+    </div>
+  {% endif %}
+</div>
+
+
+
+{% schema %}
+  {
+  "name": "Dynamic Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image"
+    },
+    {
+      "type": "select",
+      "label": "Image Position",
+      "id": "image_position",
+      "options": [
+        {"value": "left", "label": "Left"},
+        {"value": "right", "label": "Right"}
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading"
+    },
+    {
+      "type": "textarea",
+      "label": "Paragraph",
+      "id": "paragraph"
+    }
+  ],
+    "presets": [
+    {
+      "name": "Dynamic Section",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

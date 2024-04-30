@@ -1,0 +1,97 @@
+{%- style -%}
+  #Policy--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section id="Policy--{{ section.id }}" class="bootstrapiso policy_sec section-padding">
+    <div class="container" style="background-color: #f2f2f1">
+      <div class="inner">
+        <div class="row" style="margin-left: auto !important;margin-right: auto !important; gap:0px 50px; justify-content: space-evenly">
+          {%- for block in section.blocks -%}
+            <div class="col-m d-4">
+              <div class="policy">
+              {% if block.settings.link %}<a href="{{ block.settings.link }}">{% endif %}
+                  <figure>
+                    {% if block.settings.image %}
+                      <img src="{{ block.settings.image | img_url }}" alt="">
+                    {% endif %}
+                  </figure>{% if block.settings.link %}</a>{% endif %}
+                <h3>{{ block.settings.title }}</h3>
+                <p style="max-width: 300px;">{{ block.settings.description }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "JOS Policy",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Policy Block",
+      "type": "policy-block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "JOS Policy"
+    }
+  ]
+}
+{% endschema %}

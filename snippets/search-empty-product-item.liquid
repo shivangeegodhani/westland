@@ -1,0 +1,148 @@
+{% comment %}
+    Renders product item in predictive search
+
+    Accepts:
+    - product: {Object} product (required)
+    - product_item_classes: {String} product item classes
+    - use_aos_animation: {Boolean} Whether or not to use AOS or custom animation
+    - animation_delay: {Int}Animation delay
+    - animation_duration: {Int} Animation duration
+    - animation_anchor: {String} Animation anchor
+    - animation_delay: {Int} animation timing for load
+
+    Usage:
+    {% render 'search-empty-product-item', product: product, use_aos_animation: use_aos_animation, animation_delay: animation_delay, animation_duration: animation_duration, animation_anchor: animation_anchor, product_item_classes: product_item_classes %}
+{% endcomment %}
+
+{%- liquid
+  assign featured_image = product.featured_media
+  assign second_image = product.media[1]
+
+  assign product_double_class = ''
+  if second_image.preview_image and settings.image_hover_enable
+    assign product_double_class = 'double__image'
+  endif
+-%}
+
+<div class="product-item{{ product_item_classes }}"
+  {% if use_aos_animation %}
+    data-aos="fade"
+    data-aos-delay="{{ animation_delay }}"
+    data-aos-duration="{{ animation_duration }}"
+    data-aos-anchor="{{ animation_anchor }}"
+  {% else %}
+    style="--transition-delay: {{ animation_delay }}ms; --transition-duration: {{ animation_duration }}ms;"
+  {% endif %}> 
+  <a href="{{ product.url }}" class="product-link" aria-label="{{ product.title | strip_html | escape }}">
+    <div class="product-item__image {{ product_double_class }}">
+      {%- if featured_image -%}
+        <div class="product-item__bg lazyload"
+          aria-label="{{ featured_image.alt | strip_html | escape }}"
+          data-bgset="{% render 'bgset', image: featured_image.preview_image %}">
+        </div>
+        
+        {%- if second_image -%}
+          <div class="product-item__bg__under lazyload"
+            aria-label="{{ second_image.alt | strip_html | escape }}"
+            data-bgset="{% render 'bgset', image: second_image.preview_image %}">
+          </div>
+        {%- endif -%}
+      {%- else -%}
+        {%- comment -%} Show "No image" if product has no media {%- endcomment -%}
+        {%- assign image_url_pattern = product.featured_image | img_url: '540x' | replace: '_540x.', '_{width}x.' -%}
+        {%- assign image_widths = "[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" -%}
+  
+        <div class="product-item__bg product-item__bg--empty"
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ animation_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart">
+          <img
+            class="lazyload"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{{ image_url_pattern }}"
+            data-widths= "{{ image_widths }}"
+            data-aspectratio="1"
+            data-sizes="auto"
+            width="540"
+            height="540"
+            alt="{{ product.title | strip_html | escape }}">
+        </div>
+      {%- endif -%}
+    </div>
+  
+    <div class="product-information">
+      <div class="product-item__info">
+        <p class="product-item__title">
+          {{ product.title | strip_html }}
+        </p>
+
+        {%- liquid
+  if settings.currency_code_enable
+    assign product_price_min = product.price_min | money_with_currency
+    assign product_compare_at_price = product.compare_at_price | money_with_currency
+  else
+    assign product_price_min = product.price_min | money
+    assign product_compare_at_price = product.compare_at_price | money
+  endif
+-%}
+
+        {% assign lowest_price = product.first_available_variant.price %}
+
+{% for variant in product.variants %}
+  {% if variant.available %}
+    {% if variant.price < lowest_price %}
+      {% assign lowest_price = variant.price %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+  {% assign compare_at_price = product.first_available_variant.compare_at_price %}
+
+{% for variant in product.variants %}
+  {% if variant.available %}
+    {% if variant.compare_at_price < compare_at_price %}
+      {% assign compare_at_price = variant.compare_at_price %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<span class="price{% if product.compare_at_price > product.price %} sale{% endif %}">
+  {% if product.available %}
+    <span class="new-price">
+      {% if product.price_varies %}
+        <small>{{ 'products.general.from' | t }}</small>
+      {% endif %}
+      {%- if product.price == 0 and product.price_varies == false -%}
+        {{ 'general.money.free' | t }}
+      {%- else -%}
+        {{ lowest_price | money }}
+      {%- endif -%}
+    </span>
+    {% if product.compare_at_price > product.price %}
+      <span class="old-price">{{ compare_at_price | money }}</span>
+    {% endif %}
+  {% else %}
+    <span class="sold-out">{{ 'products.product.sold_out' | t }}</span>
+  {% endif %}
+</span>
+{% if current_variant.unit_price %}
+  {% capture unit_price_separator %}
+    <span aria-hidden="true">/</span>
+    <span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+  {% endcapture %}
+  {% capture unit_price_base_unit %}
+    {% if current_variant.unit_price_measurement.reference_value != 1 %}
+      {{ current_variant.unit_price_measurement.reference_value }}
+    {% endif %}
+    {{ current_variant.unit_price_measurement.reference_unit }}
+  {% endcapture %}
+  <br>
+  <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+  <span class="unit small">{% if settings.currency_code_enable %}{{ current_variant.unit_price | money_with_currency }}{% else %}{{ current_variant.unit_price | money }}{% endif %}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+{% endif %}
+        </div>
+    </div>
+  </a>
+</div>

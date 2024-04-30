@@ -1,0 +1,722 @@
+<!-- /sections/footer.liquid -->
+<footer class="bootstrapiso">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'text_message' %}
+        <!-- Where Sec -->
+        <div class="where_sec" style="background-color: {{ block.settings.backgroundColor }}">
+          <div
+               style="color: {{ block.settings.textColor }};">{{ block.settings.message }}</div>
+        </div>
+
+      {% when 'social-icons' %}
+        {%- style -%}
+          #SocialIcons--{{ block.type }} {
+          --PT: {{ block.settings.padding_top }}px;
+          --PB: {{ block.settings.padding_bottom }}px;
+          }
+        {%- endstyle -%}
+
+        {%- assign social_accounts = 'Instagram, Facebook, Twitter, TikTok, Pinterest, Tumblr, YouTube, Vimeo, Linkedin, Snapchat, Feed' | split: ', ' -%}
+
+
+
+        <div id="SocialIcons--{{ block.type }}" class="footer_detail section-padding">
+          <div class="container">
+            <h3>{{ block.settings.title }}</h3>
+
+            <!-- Social -->
+            <ul class="social_info">
+              {%- for social_account in social_accounts -%}
+                {%- assign social_handle = social_account | handleize -%}
+                {%- capture social_link -%}{{ social_handle }}_link{%- endcapture -%}
+
+                {%- if settings[social_link] != blank -%}
+                  <li>
+                    <a href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}" target="_blank" class="social-link">
+                      {%- case social_handle -%}
+                        {%- when 'instagram' -%}
+                          <i class="fa fa-instagram"></i>
+                        {%- when 'facebook' -%}
+                          <i class="fa fa-facebook"></i>
+                        {%- when 'twitter' -%}
+                        <i class="fa fa-twitter"></i>
+                        {%- when 'youtube' -%}
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        {%- when 'tiktok' -%}
+                          {%- render 'icon-tiktok' -%}
+                        {%- when 'linkedin' -%}
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        {%- when 'vimeo' -%}
+                          {%- render 'icon-vimeo' -%}
+                        {%- when 'pinterest' -%}
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        {%- when 'tumblr' -%}
+                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                        {%- when 'snapchat' -%}
+                        <i class="fa fa-snapchat" aria-hidden="true"></i>
+                        {%- when 'feed' -%}
+                        <i class="fa fa-rss" aria-hidden="true"></i>
+                      {%- endcase -%}
+                      <span class="icon-fallback-text">{{ social_account }}</span>
+                    </a>
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+
+          </div>
+        </div>
+
+      {% when 'logo' %}
+        {%- style -%}
+          #Logo--{{ block.type }} {
+          --PT: {{ block.settings.padding_top }}px;
+          --PB: {{ block.settings.padding_bottom }}px;
+          }
+        {%- endstyle -%}
+        <div id="Logo--{{ block.type }}" class="footer_detail section-padding">
+          <div class="container">
+
+            <!-- Logo -->
+            <figure class="footer_logo">
+              {% if block.settings.logo %}
+                <img src="{{ block.settings.logo | img_url: '300x' }}" alt="">
+              {% endif %}
+            </figure>
+          </div>
+        </div>
+
+      {% when 'call' %}
+        {%- style -%}
+          #Call--{{ block.type }} {
+          --PT: {{ block.settings.padding_top }}px;
+          --PB: {{ block.settings.padding_bottom }}px;
+          }
+        {%- endstyle -%}
+        <div id="Call--{{ block.type }}" class="footer_detail section-padding">
+          <div class="container">
+            <!-- Phone -->
+            <div class="phone_info">{{ block.settings.phone }}</div>
+            <!-- Time -->
+            <p>{{ block.settings.message }}</p>
+          </div>
+        </div>
+      {% when 'linklist' %}
+        {%- style -%}
+          #LinkList--{{ block.type }} {
+          --PT: {{ block.settings.padding_top }}px;
+          --PB: {{ block.settings.padding_bottom }}px;
+          }
+        {%- endstyle -%}
+        <div id="LinkList--{{ block.type }}" class="footer_detail section-padding">
+          <div class="container">
+
+            <!-- Footer Link -->
+            <ul class="footer_link">
+              {%- assign linklist = linklists[block.settings.linklist] -%}
+              {%- for link in linklist.links -%}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+
+      {% when 'footer-brands' %}
+        {%- style -%}
+          #FooterBrands--{{ block.type }} {
+          --PT: {{ block.settings.padding_top }}px;
+          --PB: {{ block.settings.padding_bottom }}px;
+          }
+        {%- endstyle -%}
+        <div id="FooterBrands--{{ block.type }}" class="footer_detail section-padding">
+          <div class="container">
+
+            <!-- Other Logo -->
+            <div class="other_logo">
+              <figure>
+                {% if block.settings.logo1 %}
+                  <img src="{{ block.settings.logo1 | img_url: '300x' }}" alt="">
+                {% endif %}
+              </figure>
+              <figure>
+                {% if block.settings.logo2 %}
+                  <img src="{{ block.settings.logo2 | img_url: '300x' }}" alt="">
+                {% endif %}
+              </figure>
+            </div>
+          </div>
+        </div>
+
+    {% endcase %}
+  {% endfor %}
+
+  <!-- Payment -->
+  {%- if section.settings.footer_payment_enable -%}
+    {%- unless shop.enabled_payment_types == empty -%}
+      <div class="pay_detail">
+        <div class="container">
+          <ul class="footer__payment payment-icons inline-list">
+            {%- for type in shop.enabled_payment_types -%}
+              <li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    {%- endunless -%}
+  {%- endif -%}
+<p style="text-align:center"><span style="font-size:9px"><span style="font-family:Tahoma,Geneva,sans-serif">Website design and Shopify support by <a href="https://wearepumpkin.co.uk/" target="_blank" title="https://wearepumpkin.co.uk/"><span style="color:#f39c12">Pumpkin Digital Marketing</span></a></span></span></p>
+
+</footer>
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        {
+          "value": "wrapper",
+          "label": "Normal"
+        },
+        {
+          "value": "wrapper--full",
+          "label": "Full width"
+        }
+      ]
+    },
+    {
+      "label": "Logo",
+      "type": "image_picker",
+      "id": "logo"
+    },
+    {
+      "type": "range",
+      "id": "logo_image_width",
+      "label": "Logo width (in pixels)",
+      "min": 50,
+      "max": 400,
+      "step": 5,
+      "unit": "px",
+      "default": 150
+    },
+    {
+      "type": "header",
+      "content": "Optional background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "bg_position",
+      "label": "Position",
+      "default": "center-center",
+      "info": "Requires the 'Image parallax' setting to be disabled",
+      "options": [
+        {
+          "label": "Top",
+          "value": "center-top"
+        },
+        {
+          "label": "Right",
+          "value": "right-center"
+        },
+        {
+          "label": "Center",
+          "value": "center-center"
+        },
+        {
+          "label": "Left",
+          "value": "left-center"
+        },
+        {
+          "label": "Bottom",
+          "value": "center-bottom"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 75
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#fff"
+    },
+    {
+      "type": "header",
+      "content": "Bottom bar"
+    },
+    {
+      "type": "link_list",
+      "id": "footer_secondary_linklist",
+      "label": "Link List",
+      "info": "This menu won't show dropdown items."
+    },
+    {
+      "type": "checkbox",
+      "id": "footer_payment_enable",
+      "label": "Show payment types",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "language selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Currency selector",
+      "info": "To add a currency, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": "Show currency selector",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "type",
+      "label": "Type",
+      "options": [
+        {
+          "value": "currency",
+          "label": "Currency"
+        },
+        {
+          "value": "country",
+          "label": "Country"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Anchor logo"
+    },
+    {
+      "label": "Image",
+      "type": "image_picker",
+      "id": "anchor_logo"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_message",
+      "name": "Text message",
+      "settings": [
+        {
+          "type": "text",
+          "id": "message",
+          "label": "Message"
+        },
+        {
+          "type": "color",
+          "id": "backgroundColor",
+          "label": "Background color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "textColor",
+          "label": "Text color",
+          "default": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "social-icons",
+      "name": "Social icons",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Social"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 75
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 65
+        }
+      ]
+    },
+    {
+      "type": "call",
+      "name": "Call",
+      "settings": [
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "Phone"
+        },
+        {
+          "type": "text",
+          "id": "message",
+          "label": "Message"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 75
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 65
+        }
+      ]
+    },
+    {
+      "type": "linklist",
+      "name": "Link list",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "linklist",
+          "label": "Link list",
+          "default": "footer",
+          "info": "This menu won't show dropdown items."
+        }
+      ]
+    },
+    {
+      "type": "footer-brands",
+      "name": "Footer Brands",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo1",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo2",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 75
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 65
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Subscribers are under 'Accepts Marketing' in your [customer admin](/admin/customers)."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_name",
+          "label": "Show name field",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "Join"
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "label": "Button color",
+          "info": "Full width button only",
+          "default": "btn--neutral",
+          "options": [
+            {
+              "value": "btn--primary",
+              "label": "Bright accent"
+            },
+            {
+              "value": "btn--secondary",
+              "label": "Secondary accent"
+            },
+            {
+              "value": "btn--link",
+              "label": "Link color"
+            },
+            {
+              "value": "btn--neutral",
+              "label": "Text color"
+            },
+            {
+              "value": "btn--black",
+              "label": "Black"
+            },
+            {
+              "value": "btn--white",
+              "label": "White"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "terms",
+          "label": "Show reCAPTCHA terms",
+          "default": true,
+          "info": "Recommended if your online store preferences have spam protection enabled."
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social_links",
+          "label": "Show social icons",
+          "info": "Edit your social settings and accounts in [Theme settings](/admin/themes/current/editor?context=theme)",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Edit your social settings and accounts in [Theme settings](/admin/themes/current/editor?context=theme)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Social"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        }
+      ]
+    },
+    {
+      "type": "jos-social",
+      "name": "JOS Social",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Edit your social settings and accounts in [Theme settings](/admin/themes/current/editor?context=theme)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Social"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image width (in pixels)",
+          "min": 50,
+          "max": 400,
+          "step": 5,
+          "unit": "px",
+          "default": 150
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share store details, promotions, or brand content with your customers.</p>"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "name": "Page",
+      "settings": [
+        {
+          "id": "page",
+          "type": "page",
+          "label": "Page"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

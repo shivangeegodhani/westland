@@ -1,0 +1,103 @@
+{%- style -%}
+  #JOSPowerReviews--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+<style>
+    .product-tabs-container{
+    width: 100%;
+    padding: 15px 30px;
+    }
+    .tab-option{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    }
+</style>
+    <section id="JOSPowerReviews--{{ section.id }}" class="bootstrapiso section-padding product-tabs-container">
+    <div id="rev" class="tab-option">
+            <!-- start_review_render_code_widget_section -->
+            <script src='//ui.powerreviews.com/stable/4.0/ui.js'></script>
+            <div id="powerReviewID">
+                 <div id="pr-reviewdisplay" style=""></div>
+            </div>
+            <!-- end_review_render_code_widget_section -->  
+
+            <!-- start_review_render_code_js_section -->
+
+            <script>
+            POWERREVIEWS.display.render({
+                api_key: "354c0837-4e2b-4ee9-843d-b0114e6e4f44",
+                locale: "en_GB",
+                merchant_group_id: "345204098",
+                merchant_id: "2032301978",
+                page_id: "{{ product.id }}",
+                review_wrapper_url: "https://josef-seibel-shop.myshopify.com/pages/write-a-review/?pr_page_id={{ product.id }}",
+                product: {
+                    name: "{{ product.title | replace: "+", " " }}",
+                    url: "https://josef-seibel-shop.myshopify.com{{ product.url }}",
+                    image_url: "https:{{ product.featured_image | product_img_url: "large" }}",
+                    description: "{{ product.description | strip_html | strip_newlines | replace: "%0A", "%20" | replace: '"', '%27' | escape }}",
+                    category_name: {% if product.type != '' %}"{{ product.type }}"{% else %} "Default" {% endif %},
+                    upc: "{{ product.barcode }}",
+                    brand_name: "{{ product.vendor }}",
+                    price: "{{ product.price | money_without_currency }}",
+                    in_stock: "{{ product.available }}",
+                        variants: [ {% for variant in product.variants %}
+                        {% assign product_name = product.title %}
+                        {% if product.variants.size > 1 %}{% assign product_name = variant.title %}{% endif %}
+                    {
+                    name: "{{ product_name | replace: "+", " " }}",
+                    description: "{{ product_name | escape }}",
+                    page_id_variant: "{{variant.id}}",
+                    upc: "{{ variant.barcode }}"
+                    }{% if forloop.last == false %}, {% endif %} {% endfor %}
+                ]},
+                components: {
+                    ReviewDisplay: "pr-reviewdisplay",
+                    ReviewSnippet: "pr-reviewsnippet"
+                }	
+                });
+            </script> 
+		</div>
+        </section>
+{%  schema  %}  
+{
+  "name": "Jos Power Review",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Jos Power Review"
+    }
+  ]
+}
+
+
+{% endschema %}

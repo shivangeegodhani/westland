@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0492c636-c437-4272-8412-86020dad2eb0": {
+      "type": "jos-collection-banner",
+      "disabled": true,
+      "settings": {
+        "brand_description": "",
+        "bg_position": "left-center",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1676951153cff47c6e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_hero_iJCVcY": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design-15.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_FgzWKQ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_tQ7j9G": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "heading_9g4TLT": {
+          "type": "heading",
+          "settings": {
+            "title": "VEGAN SHOES",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "text_KjCzE8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_QQhpTj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tQ7j9G",
+        "heading_9g4TLT",
+        "text_KjCzE8",
+        "buttons_QQhpTj"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#f7f7f7",
+        "color": "#313c20",
+        "padding_top": 8,
+        "padding_bottom": 26
+      }
+    },
+    "main": {
+      "type": "jos-collection",
+      "blocks": {
+        "505c9806-44ef-4d73-8233-b1ab5d876a44": {
+          "type": "inline_block",
+          "settings": {
+            "title": "",
+            "product_image": "shopify://shop_images/june_10.png",
+            "right_image": "shopify://shop_images/PAGE_BREAKERS_cdbde7df-65fe-429d-a4cf-0f0d9eb96171.png",
+            "product": "westland-freya-01",
+            "button_text": "SHOP",
+            "button_link": "shopify://products/westland-freya-01"
+          }
+        }
+      },
+      "block_order": [
+        "505c9806-44ef-4d73-8233-b1ab5d876a44"
+      ],
+      "custom_css": [
+        ".product-card__image-wrapper {display: flex; justify-content: center; align-items: center;}",
+        ".product-card__image {object-fit: contain !important; max-height: 100% !important;}"
+      ],
+      "settings": {
+        "tt_color": "",
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 32,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5d2b3cac-8b54-4f20-bd09-51c8c4318a6c": {
+      "type": "jos-reviews",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reviewtitle": "What our customers think...",
+        "reviewone": "<p>Josef Seibel make excellent shoes, extremely comfortable and long lasting. I'm on my 4th pair now, having bought my first pair ten years ago.</p>",
+        "reviewtwo": "<p>Love my Josef Seibel shoes. Bought them to replace my last ones which only needed replacing because I had worn down the heels.</p>",
+        "reviewthree": "<p>These shoes fit perfectly. They are some of the most comfortable shoes I have owned. I have received several compliments from friends and strangers about them.</p>",
+        "reviews_color_text": "#000000",
+        "reviews_color_container": "#ffffff",
+        "reviews_logo_select": true
+      }
+    },
+    "d8df26dd-590a-472a-b451-101a104643f3": {
+      "type": "jos-section-newsletter",
+      "disabled": true,
+      "settings": {
+        "title": "Stay in the loop",
+        "description": "Subscribe to our mailing list and be the first to hear about the latest arrivals, new collections and promotions",
+        "button_text": "SIGN UP",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "section_reviews_tLXxRq": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_NhPeVA": {
+          "type": "review",
+          "settings": {
+            "title": "Anna",
+            "subheading": "CUSTOMER PURCHASE FROM JOSEFSEIBEL.CO.UK",
+            "review_text": "I love these shoes. They're warm and I can wear them for hours, with or without socks.",
+            "review_url": ""
+          }
+        },
+        "review_EXDTXW": {
+          "type": "review",
+          "settings": {
+            "title": "Oxford Girl",
+            "subheading": "CUSTOMER PURCHASE FROM JOSEFSEIBEL.CO.UK",
+            "review_text": "I have normal width feet but they are a size 8/42. These are lovely shoes so well made and soft and cushioning. But they are a little short for me and there isn't a bigger size sadly",
+            "review_url": ""
+          }
+        },
+        "review_MKUHLz": {
+          "type": "review",
+          "settings": {
+            "title": "Paula",
+            "subheading": "customer purchase from josefseibel.co.uk",
+            "review_text": "Look great vegan trainers, very comfortable and well made as always.",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_NhPeVA",
+        "review_EXDTXW",
+        "review_MKUHLz"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-center",
+        "text_size": 4,
+        "bg_color": "",
+        "color": "#0e2d08",
+        "card_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "0492c636-c437-4272-8412-86020dad2eb0",
+    "subcollections",
+    "1676951153cff47c6e",
+    "section_hero_iJCVcY",
+    "section_rich_text_FgzWKQ",
+    "main",
+    "5d2b3cac-8b54-4f20-bd09-51c8c4318a6c",
+    "d8df26dd-590a-472a-b451-101a104643f3",
+    "section_reviews_tLXxRq"
+  ]
+}

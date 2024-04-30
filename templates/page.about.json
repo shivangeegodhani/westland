@@ -1,0 +1,486 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_rw4crf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design-15.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "cd1fa1c2-fb52-486d-b3a0-0a072f4d90e0": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--17678511538487__cd1fa1c2-fb52-486d-b3a0-0a072f4d90e0-167480126367a3b088-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "ABOUT THE BRAND",
+            "text_size": 4,
+            "text_weight": 300,
+            "show_line": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17678511538487__cd1fa1c2-fb52-486d-b3a0-0a072f4d90e0-167480126367a3b088-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "rgba(0,0,0,0)",
+        "padding_top": 100,
+        "padding_bottom": 2
+      }
+    },
+    "section_rich_text_KGYCyF": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_pRpCMh": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "heading_k7VpLC": {
+          "type": "heading",
+          "settings": {
+            "title": "A LITTLE BIT ABOUT OUR BRAND",
+            "text_size": 10,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "text_d4XWAD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JOSEF SEIBEL has been manufacturing high quality men’s and ladies footwear since 1886.  JOSEF SEIBEL prides itself with the technical know-how to focus on the essence of a shoe, its comfort, whilst retaining an optimistic outlook to the future and embracing change. </p><p>In 2022 the WESTLAND  by Josef Seibel range was introduced; sustainable thinking footwear that is unapologetically vegan. As practical as on-trend, this range does not disappoint. From the modern utilitarian combat to the contemporary hiker, there’s something for every style guru.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_7qnyLq": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_pRpCMh",
+        "heading_k7VpLC",
+        "text_d4XWAD",
+        "buttons_7qnyLq"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "#53603c",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "86c9192e-56cd-43b6-8222-f50aea15aa35": {
+      "type": "jos-vertical-image-cards",
+      "blocks": {
+        "36c6014f-48e0-4e00-be52-c5f789fe5390": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Josef seibel",
+            "description": "JOSEF SEIBEL has been manufacturing high quality men’s and ladies footwear since 1886.  JOSEF SEIBEL prides itself with the technical know-how to focus on the essence of a shoe, its comfort, whilst retaining an optimistic outlook to the future and embracing change. JOSEF SEIBEL footwear is created using a combination of high quality materials and hand-crafted elements, designed with sustainability and the perfect fit in mind. Removable insoles, genuine hand stitching and lightweight soles all provide endless comfort in every pair. High aesthetic standards and modern design come together to create a comprehensive selection of beautifully versatile footwear."
+          }
+        },
+        "99686639-2b9e-4d5c-8311-198e9e413de4": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "WESTLAND",
+            "description": "Our brand WESTLAND by Josef Seibel is a comprehensive collection of Outdoor and indoor footwear. Using a combination of materials and high-tech waterproof membranes to create a perfect synergy of practicality, comfort and style. WESTLAND by Josef Seibel vegan Collection covers all seasonal settings. Find sleek silhouettes sculpted with supple materials. Robust in construction, but beautiful in appearance the collection gives an edgy look for modern feminine styling. Our Vegan collection offers products that are free from animal ingredients, animal testing and cross-contamination."
+          }
+        }
+      },
+      "block_order": [
+        "36c6014f-48e0-4e00-be52-c5f789fe5390",
+        "99686639-2b9e-4d5c-8311-198e9e413de4"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "07a7a2a1-b332-42c6-a464-d48ebed1c2a3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--17678511538487__07a7a2a1-b332-42c6-a464-d48ebed1c2a3-167430032952c8ee4f-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 4,
+            "text_weight": 700,
+            "show_line": true
+          }
+        },
+        "text_B6xVdz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "heading_XKHcK8": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17678511538487__07a7a2a1-b332-42c6-a464-d48ebed1c2a3-167430032952c8ee4f-1",
+        "text_B6xVdz",
+        "heading_XKHcK8"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "b54080f4-7c36-4a59-90dd-fc23fb4cea27": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page_breaker_image-6.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Vegan Friendly",
+            "heading_size": 7,
+            "text": "<p>Westland’s vegan footwear range is <strong>100% free from animal ingredients</strong>, animal testing and cross contamination, all products in the WESTLAND by Josef Seibel vegan range is independently tested so that we can be confident that the manufacture and development of our products, and their ingredients do not involve or have involved, the use of any animal product, by-product, or derivative. In doing so we proudly display the vegan friendly trademark.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "#53603c",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-0",
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "fc94734b-8a40-48d7-b8f6-c530ddde8c2a": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-02-28T153052.835.png",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Packaging",
+            "heading_size": 7,
+            "text": "<p>We're always looking for new ways to reduce our environmental impact, at every step. All our boxes and paper packaging are FSC certified. All of which helps us in our commitment to reducing plastic usage and ensuring our shoes leave a lighter footprint.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#313c20",
+            "color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        },
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLECTION_BANNERS_953X599_4.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-1",
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "jos_image_custom_content_L3xa8a": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "image_kVRjkd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page_breaker_image-3.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "text_zmX7kJ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_page_breaker_image.png",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 2,
+            "title": "Modern Styling",
+            "heading_size": 7,
+            "text": "<p>We look for great design, trending styles, and quality. In other words, WESTLAND by Josef Seibel is a brand that doesn’t compromise looking good for doing good. On trend or modern classic, we have it covered.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "#313c20",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "image_kVRjkd",
+        "text_zmX7kJ"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "421f28f2-3c06-4a8b-834b-c72ef038f017": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Manufacturing",
+            "heading_size": 7,
+            "text": "<p>We only work with suppliers that can ensure that<br/>the people making our items are paid and treated fairly, and work in a safe and<br/>respectful environment. With transparency across the supply chain also being<br/>key. </p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "#313c20",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        },
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page_breaker_image-5.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-1",
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "3968f1d5-c564-4550-ad5f-e2ba78d3c192": {
+      "type": "jos-card-with-large-image",
+      "settings": {
+        "width": "wrapper--full",
+        "title": "THE VEGAN COLLECTION",
+        "description": "With an array of different styles to choose from, make an ethical choice with your footwear and select your next pair of  comfort from our WESTLAND by Josef Seibel's vegan range.",
+        "button_text": "EXPLORE",
+        "button_url": "shopify://collections/vegan-collection",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps",
+        "padding_top": 46,
+        "padding_bottom": 84
+      }
+    },
+    "jos_collection_carousel_krKGW8": {
+      "type": "jos-collection-carousel",
+      "blocks": {
+        "collection_block_bmYpYx": {
+          "type": "collection-block",
+          "settings": {
+            "title": "",
+            "collection_link": "shopify://collections/vegan-sandals"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_bmYpYx"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "blocks": 3,
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_rw4crf",
+    "cd1fa1c2-fb52-486d-b3a0-0a072f4d90e0",
+    "section_rich_text_KGYCyF",
+    "86c9192e-56cd-43b6-8222-f50aea15aa35",
+    "07a7a2a1-b332-42c6-a464-d48ebed1c2a3",
+    "b54080f4-7c36-4a59-90dd-fc23fb4cea27",
+    "fc94734b-8a40-48d7-b8f6-c530ddde8c2a",
+    "jos_image_custom_content_L3xa8a",
+    "421f28f2-3c06-4a8b-834b-c72ef038f017",
+    "3968f1d5-c564-4550-ad5f-e2ba78d3c192",
+    "jos_collection_carousel_krKGW8"
+  ]
+}

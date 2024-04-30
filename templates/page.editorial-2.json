@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "0419504f-7ebe-4114-a4b8-a9160f3613ff": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--17942228861239__0419504f-7ebe-4114-a4b8-a9160f3613ff-1675943923b7068bd4-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "EDITORIAL",
+            "heading_size": 6,
+            "width": "wrapper--full",
+            "text": "<p>The place to find a little inspiration - from new product  to all the latest lifestyle and fashion trends. </p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17942228861239__0419504f-7ebe-4114-a4b8-a9160f3613ff-1675943923b7068bd4-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--narrow",
+        "padding": false,
+        "borders": false,
+        "padding_top": 30,
+        "padding_bottom": 31
+      }
+    },
+    "2912f972-3bee-4dbe-b0b1-27f02d120275": {
+      "type": "jos-editorial-tabs",
+      "blocks": {
+        "tab_HYQxhi": {
+          "type": "tab",
+          "settings": {
+            "tag": "",
+            "image": "shopify://shop_images/Elevated.png",
+            "button_text": "DISCOVER MORE",
+            "button_link": "shopify://blogs/blog/elevated-athleisure",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "a210d1dd-25bc-419a-9203-3734f97c5467": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "tag": "Inspiration",
+            "image": "shopify://shop_images/Untitled_design_-_2023-11-27T162418.598.png",
+            "button_text": "READ",
+            "button_link": "shopify://blogs/blogs/chunky-boots-vegan-style",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "tab_xQkAdd": {
+          "type": "tab",
+          "settings": {
+            "tag": "",
+            "image": "shopify://shop_images/1_1f40cb1a-4557-42b6-8431-97aeeb38b290.png",
+            "button_text": "Discover More",
+            "button_link": "shopify://blogs/blogs/the-peyton-collection",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "fd70ebbb-ec57-4a90-9485-02a8020dfdde": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "tag": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "tab_HYQxhi",
+        "a210d1dd-25bc-419a-9203-3734f97c5467",
+        "tab_xQkAdd",
+        "fd70ebbb-ec57-4a90-9485-02a8020dfdde"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7784aeb6-1268-46f0-b9d4-7d90f0848b38": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 82,
+        "padding_bottom": 28,
+        "title": "READ OUR LATEST BLOGS",
+        "show_title": true,
+        "blog": "blogs",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "61e6af44-7722-4b7d-98d1-6b815f85611c": {
+      "type": "jos-image-with-button",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "de2f350d-3e02-47dc-81c9-f9698af4b495": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 38,
+        "padding_bottom": 35,
+        "title": "News 2",
+        "show_title": false,
+        "blog": "blogs",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "e98ea955-0232-489f-9733-bbc0d67cd7f7": {
+      "type": "jos-reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reviewtitle": "What our customers think...",
+        "reviewone": "<p>Josef Seibel make excellent shoes, extremely comfortable and long lasting. I'm on my 4th pair now, having bought my first pair ten years ago.</p>",
+        "reviewtwo": "<p>Love my Josef Seibel shoes. Bought them to replace my last ones which only needed replacing because I had worn down the heels.</p>",
+        "reviewthree": "<p>These shoes fit perfectly. They are some of the most comfortable shoes I have owned. I have received several compliments from friends and strangers about them.</p>",
+        "reviews_color_text": "#000000",
+        "reviews_color_container": "#ffffff",
+        "reviews_logo_select": true
+      }
+    },
+    "a9404b57-ff18-4403-82df-3446f4e7e9d2": {
+      "type": "jos-section-newsletter",
+      "settings": {
+        "title": "Stay in the loop",
+        "description": "Subscribe to our mailing list and be the first to hear about the latest arrivals, new collections and promotions",
+        "button_text": "Sign Up",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0419504f-7ebe-4114-a4b8-a9160f3613ff",
+    "2912f972-3bee-4dbe-b0b1-27f02d120275",
+    "7784aeb6-1268-46f0-b9d4-7d90f0848b38",
+    "61e6af44-7722-4b7d-98d1-6b815f85611c",
+    "de2f350d-3e02-47dc-81c9-f9698af4b495",
+    "e98ea955-0232-489f-9733-bbc0d67cd7f7",
+    "a9404b57-ff18-4403-82df-3446f4e7e9d2"
+  ]
+}

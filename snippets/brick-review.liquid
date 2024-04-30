@@ -1,0 +1,112 @@
+{% comment %}
+    Renders review block for custom content section
+
+    Accepts:
+    - block: {Object} Block object
+    - style: {String} Block inline style
+    - animation_anchor: {String} ID of the element that will trigger animations
+
+    Usage:
+    {% render 'brick-image', block: block, style: style, animation_anchor: animation_anchor %}
+{% endcomment %}
+
+{%- liquid
+  assign show_quotation_marks = block.settings.show_quotation_marks
+  assign block_title = block.settings.title
+  assign review = block.settings.review
+  assign bio_image = block.settings.bio_image
+  assign subheading = block.settings.subheading
+  assign review_url = block.settings.review_url
+  assign review_block_classes = 'review review--block' | append: ' ' | append: block.settings.align_text
+
+  if show_quotation_marks
+    assign review_block_classes = review_block_classes | append: ' ' | append: 'review--has-quotes'
+  endif
+-%}
+
+<div class="brick__block"{% if style != blank %} style="{{ style }}"{% endif %} data-prevent-transparent-header data-overflow-frame {{ block.shopify_attributes }}>
+  <div class="brick__block__text{{ padding_class }}">
+    <div class="brick__block__text__inner" data-overflow-content>
+      <div class="{{ review_block_classes }}">
+        <div class="review__content">
+          {%- if review != blank -%}
+            {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+
+            {%- capture quote_font_size -%}
+              calc(var(--font-{{ block.settings.text_size }}) * var(--FONT-ADJUST-BODY) * 2.5)
+            {%- endcapture -%}
+
+            <blockquote class="{{ font_size_class }}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="1">
+              {% if show_quotation_marks %}
+                <span class="review__quote review__quote--single">
+                  <span class="review__quote-inner" style="font-size: {{ quote_font_size }};">&ldquo;</span>
+                </span>
+              {% endif %}
+
+              <p>{{- review | truncatewords: 200 -}}</p>
+            </blockquote>
+          {%- endif -%}
+
+          {%- if block_title != blank or subheading != blank or review_link_name != blank or bio_image != blank -%}
+            <div class="review__foot">
+              <div class="review__author{% if bio_image == blank %} review__author--no-bio-image{% endif %}"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="2">
+                {%- if bio_image != blank -%}
+                  {%- assign image_url_pattern = bio_image | img_url: '136x' | replace: '_136x.', '_{width}x.' -%}
+                  {%- assign image_widths = "[136, 272, 544, 1088]" -%}
+
+                  <img
+                    class="lazyload review__author__bio-image"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-src="{{ image_url_pattern }}"
+                    data-widths= "{{ image_widths }}"
+                    data-aspectratio="1"
+                    data-sizes="auto"
+                    width="136"
+                    height="136"
+                    alt="{{ bio_image.alt | default: block_title | strip_html | escape }}">
+
+                  <noscript>
+                    <img class="review__author__bio-image no-js-image" src="{{ bio_image | img_url: '136x' }}" alt="{{ bio_image.alt | default: block_title | strip_html | escape }}">
+                  </noscript>
+                {%- endif -%}
+
+                {%- if block_title != blank or subheading != blank -%}
+                  <div class="review__author__content">
+                    {%- if block_title != blank -%}
+                      <div class="review__author__name">{{ block_title }}</div>
+                    {%- endif -%}
+
+                    {%- if subheading != blank -%}
+                      <span class="review__author__subheading subheading">{{ subheading }}</span>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </div>
+
+              {%- if review_link_name != blank -%}
+                <div class="review__tweet-url"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="3">
+                  <a href="{{ review_url }}" class="standard__cta caps--large btn--neutral" rel="noopener" target="_blank">
+                    {{- review_link_name -}}
+
+                    {%- if settings.show_arrow -%}
+                      {%- render 'icon-arrow-right' -%}
+                    {%- endif -%}
+                  </a>
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

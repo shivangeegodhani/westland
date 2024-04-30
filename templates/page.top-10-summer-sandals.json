@@ -1,0 +1,555 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3c745700-17ec-4873-a17b-c3496b0a627c": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "e17a51fa-c568-4f34-867b-9652d7a2f475": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "our top 10 summer sandal picks",
+        "font_size": 39,
+        "description": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "be57d61c-1fe0-4b50-bbc0-977bbcadd604": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/1_95c9cf16-a473-443a-aebe-dba2a2438a32.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "b423eb0d-29cd-437e-8f03-98214975f018": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-1": {
+          "type": "heading",
+          "settings": {
+            "title": "01.  Clea 16",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boost your height and style confidence with JOSEF SEIBEL Clea 16. A modern, open-toe platform sandal. With its two-tone leather design, woven front strap, and adjustable strap you can effortlessly transition from dawn to dusk, looking elegant and in comfort.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-clea-16",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-1",
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-2",
+        "template--16797742334195__b423eb0d-29cd-437e-8f03-98214975f018-168449594492512b02-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3c257520-b19c-4661-aa37-352dc45b79d1": {
+      "type": "section-rich-text",
+      "blocks": {
+        "16919a28-d162-45ee-80f6-74cc20ac7c5e": {
+          "type": "heading",
+          "settings": {
+            "title": "02. Tonga 25",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "81e35552-616b-4062-aadc-c836dc3175d8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With its wrap-around cork sole, will provide the ultimate all-day comfort. Its adjustable straps and practical wedge heel make this a very versatile slip-on style that is the perfect choice to finish any look.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "32c938a9-cdeb-4357-9767-7b578b677167": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-tonga-25",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "16919a28-d162-45ee-80f6-74cc20ac7c5e",
+        "81e35552-616b-4062-aadc-c836dc3175d8",
+        "32c938a9-cdeb-4357-9767-7b578b677167"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "409b8987-e112-41ad-84a5-b7e970e5ffeb": {
+      "type": "section-rich-text",
+      "blocks": {
+        "49e45f80-8abe-4daf-929f-f87c3a80f349": {
+          "type": "heading",
+          "settings": {
+            "title": "03. Michelle 06",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "acc4b7e6-82aa-4893-8025-0fe2c3ffbf60": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready to conquer summer in these classic twin-strap sandals with scalloped edges and stud detailing. JOSEF SEIBEL Michelle 06 is designed with a supportive footbed and secured with two buckle straps. These are the summer sandals you can wear with everything.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "b5ebc8a1-57b4-4f81-bf33-faad574cb2ee": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-michelle-06",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "49e45f80-8abe-4daf-929f-f87c3a80f349",
+        "acc4b7e6-82aa-4893-8025-0fe2c3ffbf60",
+        "b5ebc8a1-57b4-4f81-bf33-faad574cb2ee"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8d9e40dd-c713-45e7-be83-a6c44bbcbf34": {
+      "type": "section-rich-text",
+      "blocks": {
+        "28e998bc-5a0f-4aa5-b2c1-1b3d2de8c146": {
+          "type": "heading",
+          "settings": {
+            "title": "04. Willa 02",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "3ebd083d-1df4-46d8-829a-e7c1b51696b1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Summer strolls along the seafront or evening walks with the dog? Willa 02 an active sandal provides out-of-the-box comfort and protection with a supportive fit and a lightweight sole.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "80d33a7e-3cc9-4f5e-baf5-cd87cc3ed0e6": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-willa-02",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "28e998bc-5a0f-4aa5-b2c1-1b3d2de8c146",
+        "3ebd083d-1df4-46d8-829a-e7c1b51696b1",
+        "80d33a7e-3cc9-4f5e-baf5-cd87cc3ed0e6"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "08aabb05-c38a-4144-9802-c6dc522663d5": {
+      "type": "section-rich-text",
+      "blocks": {
+        "ab7c285e-9310-4d1a-8e28-1b7ebe88296f": {
+          "type": "heading",
+          "settings": {
+            "title": "05. Celine 06",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "7a2ceea7-844c-4e24-97cc-d1a4d2f1fa56": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take control and own your style with a pair of Celine 06. These chunky platform sandals are perfect for turning up the heat on summer nights.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "a13382e5-2ef9-403f-b275-cfb645d51ebd": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-celine-06",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "ab7c285e-9310-4d1a-8e28-1b7ebe88296f",
+        "7a2ceea7-844c-4e24-97cc-d1a4d2f1fa56",
+        "a13382e5-2ef9-403f-b275-cfb645d51ebd"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d7abf622-7a3c-46c8-a8ae-3535e626f028": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/2_0dfe26ad-8d00-4b26-b877-d9e5650dc2a9.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "31c4215a-5df6-41c6-8eea-3cf84bed64c3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "be991aa5-b3ab-4fdd-ace7-fae2cdd9aff6": {
+          "type": "heading",
+          "settings": {
+            "title": "06. Tonga 77",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "ab05ca0d-687e-4c90-985d-a6f57779dc6d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A super versatile toe-post style that will just about go with anything. Crafted in luxuriously soft leather with soft leather insole and underfoot cushioning, to ensure the ultimate comfort throughout the summer.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "3cd2f0df-74d2-4e55-819f-b2f3a997937d": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-tonga-77-print",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "be991aa5-b3ab-4fdd-ace7-fae2cdd9aff6",
+        "ab05ca0d-687e-4c90-985d-a6f57779dc6d",
+        "3cd2f0df-74d2-4e55-819f-b2f3a997937d"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ebd55cb4-733e-45a8-b718-794fe64fb3f3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "d75eb13c-1869-4fac-b621-12ee1a2d2aa4": {
+          "type": "heading",
+          "settings": {
+            "title": "07. Celine 03",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "98bc5206-b3d2-4d9b-8ec3-d21e05448c2c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing the perfect pair of sandals JOSEF SEIBEL Celine 03. Lightweight, and equipped with an adjustable buckle for a perfect fit. Manufactured using premium leather. In a silver and tan colourway, these sandals are sure to go with all outfits.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "57a3b5dd-5b44-43bb-8067-e631fd583d2e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-celine-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "d75eb13c-1869-4fac-b621-12ee1a2d2aa4",
+        "98bc5206-b3d2-4d9b-8ec3-d21e05448c2c",
+        "57a3b5dd-5b44-43bb-8067-e631fd583d2e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a2725ac1-2390-4fa7-8da4-ac8573a69f2f": {
+      "type": "section-rich-text",
+      "blocks": {
+        "6496c0ae-7684-45de-973c-b04a903750b6": {
+          "type": "heading",
+          "settings": {
+            "title": "08. Lucie 04",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "b1409ef4-0bbc-4a51-94dd-bd1b5c901ef1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lucie 04 will bring comfort and practicality to your summer styling. Featuring two adjustable straps with rip tape fastening for a secure fit. Finished with dual density sole, that'll provide lasting underfoot cushioning as you step through the season.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "3c1b99b2-b6f4-4e84-9c64-ffcfd61550ec": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-lucie-04",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "6496c0ae-7684-45de-973c-b04a903750b6",
+        "b1409ef4-0bbc-4a51-94dd-bd1b5c901ef1",
+        "3c1b99b2-b6f4-4e84-9c64-ffcfd61550ec"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e22a23ef-b4d5-4390-87bd-4bb57e4aed4f": {
+      "type": "section-rich-text",
+      "blocks": {
+        "30d25f69-f22e-476f-b658-89c43e10e28e": {
+          "type": "heading",
+          "settings": {
+            "title": "09. Tonga 54",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "eac81e4c-e279-41b6-84e9-40fc2970ccb6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Tonga 54 adjustable summer sandal crafted in high quality leathers has the best of both worlds with an easy slip-on design and two adjustable straps to create the perfect bespoke fit overfoot. Crafted using soft leathers and sitting atop a lightweight and flexible wedged sole.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "93dfb01e-93fb-4b94-82af-db18cb5cf8e5": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-tonga-54",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "30d25f69-f22e-476f-b658-89c43e10e28e",
+        "eac81e4c-e279-41b6-84e9-40fc2970ccb6",
+        "93dfb01e-93fb-4b94-82af-db18cb5cf8e5"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6d4a51e0-d0ff-4747-843b-47bcda111fdc": {
+      "type": "section-rich-text",
+      "blocks": {
+        "72b24f3b-5d5a-4566-84d4-4f0a0c47dfb2": {
+          "type": "heading",
+          "settings": {
+            "title": "10. Tonga 64",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "6017b03f-53a3-4f54-a28f-fcb7adea3fd3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tonga 64 Brings together comfort and practicality, whatever your mood is, these sandals will be your go-to this summer. Featuring two adjustable straps with rip tape and decorative buckle, your feet will feet secure If you can only pick one pair this summer choose Tonga.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "e146f863-5ec7-45c6-942f-8d6fccef244e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-tonga-54",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "72b24f3b-5d5a-4566-84d4-4f0a0c47dfb2",
+        "6017b03f-53a3-4f54-a28f-fcb7adea3fd3",
+        "e146f863-5ec7-45c6-942f-8d6fccef244e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b001d184-f329-4c76-ab12-229b6290925e": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP ALL WOMENS  SANDALS",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "shopify://collections/holiday-sandals",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "holiday-sandals",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c745700-17ec-4873-a17b-c3496b0a627c",
+    "e17a51fa-c568-4f34-867b-9652d7a2f475",
+    "be57d61c-1fe0-4b50-bbc0-977bbcadd604",
+    "b423eb0d-29cd-437e-8f03-98214975f018",
+    "3c257520-b19c-4661-aa37-352dc45b79d1",
+    "409b8987-e112-41ad-84a5-b7e970e5ffeb",
+    "8d9e40dd-c713-45e7-be83-a6c44bbcbf34",
+    "08aabb05-c38a-4144-9802-c6dc522663d5",
+    "d7abf622-7a3c-46c8-a8ae-3535e626f028",
+    "31c4215a-5df6-41c6-8eea-3cf84bed64c3",
+    "ebd55cb4-733e-45a8-b718-794fe64fb3f3",
+    "a2725ac1-2390-4fa7-8da4-ac8573a69f2f",
+    "e22a23ef-b4d5-4390-87bd-4bb57e4aed4f",
+    "6d4a51e0-d0ff-4747-843b-47bcda111fdc",
+    "b001d184-f329-4c76-ab12-229b6290925e"
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "38da73b0-693e-439a-a7e5-34023faa7f31": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image banner",
+            "heading_size": 11
+          }
+        },
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-0",
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-1",
+        "template--16797409411315__38da73b0-693e-439a-a7e5-34023faa7f31-1684407399163302a2-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/The_Wedding_guest_pair_0b1a8800-c629-42e8-aecc-fbaed663db0f.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "e4bc21a2-e88b-4f77-bede-47b669655ffe": {
+      "type": "section-double",
+      "blocks": {
+        "a9c11d79-9f96-46ee-846d-09900d1f93d8": {
+          "type": "heading",
+          "settings": {
+            "title": "The Wedding Guest Pair",
+            "text_size": 5
+          }
+        },
+        "88f91460-5949-4648-9c00-9aba4420779a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your summer look with Avery 03. Crafted with a wedge sole and a closed toe, they're completed with an adjustable buckled ankle strap for a comfortable fit every time. Perfect paired with any summer dress for a wedding!</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "33375e76-3deb-43ce-b26d-4bcc92d6e38d": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/westland-avery-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a9c11d79-9f96-46ee-846d-09900d1f93d8",
+        "88f91460-5949-4648-9c00-9aba4420779a",
+        "33375e76-3deb-43ce-b26d-4bcc92d6e38d"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_Wedding_guest_pair_2_cd3bc8ea-e05c-4c45-84dd-c95367b50099.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e847950-eaaf-44ba-92fb-c67b5ef4bafd": {
+      "type": "section-double",
+      "blocks": {
+        "161b7fd0-9fdc-46e9-b28f-c2ff5eb81cdb": {
+          "type": "heading",
+          "settings": {
+            "title": "The Everyday Pair",
+            "text_size": 5
+          }
+        },
+        "74545e0f-792a-4e34-a1ce-6854a8a80869": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Madison 03 will be your go-to summer staple and this sling-back silhouette will not disappoint. Composed of two leather straps and one around the ankle, your feet will feel secure with every step. Perfect for everyday, this style will go with everything!</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "fd467928-ed3c-4888-b4b9-dc4d84e71ef5": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/westland-madison-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "161b7fd0-9fdc-46e9-b28f-c2ff5eb81cdb",
+        "74545e0f-792a-4e34-a1ce-6854a8a80869",
+        "fd467928-ed3c-4888-b4b9-dc4d84e71ef5"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_Everyday_pair_9945c2f7-9688-482f-a07d-016fd037e33a.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1bec2944-8eb0-4a9d-ae09-9e571c64cb06": {
+      "type": "section-double",
+      "blocks": {
+        "d071b724-4511-4e5e-a23e-f33f9bdcd288": {
+          "type": "heading",
+          "settings": {
+            "title": "The Holiday Pair",
+            "text_size": 5
+          }
+        },
+        "92d98f70-9d69-4155-9a4d-5a026fd9b38c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emma 02. A playful sandal guaranteed to bring some joy to your foot-drobe! - super easy to slip on at the beach or by the pool.</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "cbe28522-e3e3-4b96-91ab-dd6f3f457f41": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "d071b724-4511-4e5e-a23e-f33f9bdcd288",
+        "92d98f70-9d69-4155-9a4d-5a026fd9b38c",
+        "cbe28522-e3e3-4b96-91ab-dd6f3f457f41"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_Holiday_Pair_881123ed-2e9e-45f0-a031-72e6192251f4.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "559b92a4-06c8-4acf-b6ab-61446d118900": {
+      "type": "section-double",
+      "blocks": {
+        "a3ff1d56-ec74-4d91-aa64-8d5419437a0e": {
+          "type": "heading",
+          "settings": {
+            "title": "The Party Pair",
+            "text_size": 8
+          }
+        },
+        "fbaa4d4c-25f0-401b-aec5-d996cb2ef839": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Avery 02. A fresh take on comfortable footwear, these mid-heel sandals combine an authentic espadrille aesthetic with a vibrant canvas upper and complimentary Aztec ankle strap. The perfect pair to make you the life of the party. Featured in this beautifully vibrant pink!</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "343f530e-156f-4c2a-930e-4a88c382e42b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/westland-avery-02",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a3ff1d56-ec74-4d91-aa64-8d5419437a0e",
+        "fbaa4d4c-25f0-401b-aec5-d996cb2ef839",
+        "343f530e-156f-4c2a-930e-4a88c382e42b"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_Party_Pair_a8c5a395-04e7-4221-9a26-83ec4333b92f.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e60bd86e-f02f-418f-84a4-b1e2c692fe48": {
+      "type": "section-double",
+      "blocks": {
+        "16b65e33-adf7-4523-90d4-9ef531911fce": {
+          "type": "heading",
+          "settings": {
+            "title": "The Slip On Pair",
+            "text_size": 5
+          }
+        },
+        "ce929487-ffa7-467b-a196-fa1e7edf2fdd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emma 01 sandal is a holiday essential for those poolside vibes. Featuring a statement-making gold chain link, perfect for styling with any summer-worthy outfit.</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "fc52dab2-f0a0-49c5-96c1-1f412bbf6108": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/westland-emma-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "16b65e33-adf7-4523-90d4-9ef531911fce",
+        "ce929487-ffa7-467b-a196-fa1e7edf2fdd",
+        "fc52dab2-f0a0-49c5-96c1-1f412bbf6108"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_Slip_on_pair_79c0be8e-bebf-4389-bb0c-8cef6c5322b3.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c5da628a-173a-4984-8979-d60088b25c0e": {
+      "type": "section-double",
+      "blocks": {
+        "b5935412-00ed-4891-a934-7ee4745ebb9a": {
+          "type": "heading",
+          "settings": {
+            "title": "The Timeless Pair",
+            "text_size": 5
+          }
+        },
+        "29b84f2f-e37f-45f8-b5e6-18045d09a660": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your summer look with Avery 03. Crafted with a wedge sole and a closed toe, they're completed with an adjustable buckled ankle strap for a comfortable fit every time.</p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "2f65f5ab-7d2b-467b-a72a-642cd9666678": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/westland-avery-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "b5935412-00ed-4891-a934-7ee4745ebb9a",
+        "29b84f2f-e37f-45f8-b5e6-18045d09a660",
+        "2f65f5ab-7d2b-467b-a72a-642cd9666678"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/The_timeless_pair_92df5fd2-1d6a-492b-be5d-ef23eb2bb5e2.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "38da73b0-693e-439a-a7e5-34023faa7f31",
+    "e4bc21a2-e88b-4f77-bede-47b669655ffe",
+    "5e847950-eaaf-44ba-92fb-c67b5ef4bafd",
+    "1bec2944-8eb0-4a9d-ae09-9e571c64cb06",
+    "559b92a4-06c8-4acf-b6ab-61446d118900",
+    "e60bd86e-f02f-418f-84a4-b1e2c692fe48",
+    "c5da628a-173a-4984-8979-d60088b25c0e"
+  ]
+}

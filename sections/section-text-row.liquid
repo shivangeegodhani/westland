@@ -1,0 +1,284 @@
+<!-- /sections/section-text-row.liquid -->
+
+{%- liquid
+  assign text_alignment = section.settings.text_alignment
+  assign text_color = section.settings.color
+  assign bg_color = section.settings.bg_color
+
+  case section.blocks.size
+    when 1
+      assign grid_strings = 'large-up--one-half large-up--push-one-quarter medium--one-half medium--push-one-quarter small--one-whole'
+    when 2
+      assign grid_strings = 'large-up--one-half medium--one-half small--one-whole'
+    when 3
+      assign grid_strings = 'large-up--one-third medium--one-third small--one-whole'
+    else
+      assign grid_strings = 'large-up--one-quarter medium--one-half small--one-whole'
+  endcase
+
+  assign animation_anchor = '#TextRow--' | append: section.id
+-%}
+
+{%- style -%}
+  #TextRow--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+    {%- endunless -%}
+  }
+
+  #TextRow--{{ section.id }} .icon__animated {
+    --size: {{ section.settings.icon_size }}px;
+  }
+{%- endstyle -%}
+
+<div id="TextRow--{{ section.id }}"
+  class="text-row section-padding"
+  data-section-id="{{ section.id }}"
+  data-section-type="text-row"
+  data-text-alignment="{{ text_alignment }}">
+  <div class="wrapper--columns {{ section.settings.icon_alignment }}">
+    <div class="grid grid--uniform">
+      {%- if section.blocks.size > 0 -%}
+        {%- for block in section.blocks -%}
+          {%- liquid
+            assign image = block.settings.image
+            assign icon_color = block.settings.icon_color
+            if icon_color != blank and icon_color != 'rgba(0,0,0,0)'
+              assign block_style = ' style="--text: ' | append: icon_color | append: '"'
+            endif
+          -%}
+          <div class="grid__item {{ grid_strings }}"{{ block_style }} {{ block.shopify_attributes }}>
+            <div class="icon__column">
+              {%- if image -%}
+                <div class="icon__animated icon--custom lazyload"
+                  data-aos="hero"
+                  data-aos-delay="500"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-bgset="{%- render 'bgset', image: image -%}"
+                  data-sizes="auto"
+                  data-parent-fit="cover"
+                  data-aspectratio="{{ image.aspect_ratio }}">
+                </div>
+
+                <noscript>
+                  <div class="icon__animated icon--custom" style="background-image: url( {{ image | img_url: '40x' }} );"></div>
+                </noscript>
+              {%- else -%}
+                <div class="icon__animated"
+                  data-aos="svg-dash"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-delay="500">
+                  {% render 'animated-icon', filename: block.settings.icon_name %}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.title != blank or block.settings.text != blank -%}
+                <div class="icon__column__text">
+                  {%- if block.settings.title != blank -%}
+                    <h2 class="icon__column__text__heading {{ section.settings.heading_size }}"><strong>{{ block.settings.title }}</strong></h2>
+                  {%- endif -%}
+
+                  {%- if block.settings.text != blank -%}
+                    <p>{{ block.settings.text }}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      {%- else -%}
+        {%- render 'no-blocks' -%}
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Text columns with icons",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "default": "left",
+      "options": [
+        { "label": "Left", "value": "left" },
+        { "label": "Center", "value": "center" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "unit": "px",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "icon_alignment",
+      "label": "Icon placement",
+      "default": "icon--top",
+      "options": [
+        { "value": "icon--top", "label": "Top" },
+        { "value": "icon--left", "label": "Left" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "h6",
+      "options": [
+        { "value": "h6", "label": "Normal" },
+        { "value": "h5", "label": "Large" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text-item",
+      "name": "Icon column",
+      "settings": [
+      {
+          "type": "select",
+          "id": "icon_name",
+          "label": "Icon",
+          "default": "icon-award",
+          "options": [
+            { "label": "Award", "value": "icon-award" },
+            { "label": "Box", "value": "icon-box" },
+            { "label": "Chat", "value": "icon-chat" },
+            { "label": "Cloud", "value": "icon-cloud" },
+            { "label": "Discount", "value": "icon-discount" },
+            { "label": "Donation", "value": "icon-donation" },
+            { "label": "Email", "value": "icon-email" },
+            { "label": "Fast shipment", "value": "icon-fast-shipment" },
+            { "label": "Flower", "value": "icon-flower" },
+            { "label": "Gift", "value": "icon-gift" },
+            { "label": "Green shipment", "value": "icon-green-shipment" },
+            { "label": "Heart", "value": "icon-heart" },
+            { "label": "Leaf", "value": "icon-leaf" },
+            { "label": "Lightening", "value": "icon-lightening" },
+            { "label": "Location", "value": "icon-location" },
+            { "label": "Mail", "value": "icon-mail" },
+            { "label": "Peace", "value": "icon-peace" },
+            { "label": "Phone", "value": "icon-phone" },
+            { "label": "Recycle", "value": "icon-recycle" },
+            { "label": "Shield", "value": "icon-shield" },
+            { "label": "Smile", "value": "icon-smile" },
+            { "label": "Star", "value": "icon-star" },
+            { "label": "Trophy", "value": "icon-trophy" },
+            { "label": "Truck", "value": "icon-truck" },
+            { "label": "Vegan", "value": "icon-vegan" }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Alternative icon/image"
+        },
+        {
+          "type": "color",
+          "id": "icon_color",
+          "label": "Icon color",
+          "default": "#545454"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Share details about your shipping policies, item returns, or customer service."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text columns with icons",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "text-item",
+          "settings": {
+            "title": "Secure transactions",
+            "icon_name": "icon-shield",
+            "text": "Transactions are handled with bank-grade security."
+          }
+        },
+        {
+          "type": "text-item",
+          "settings": {
+            "title": "Simple checkout",
+            "icon_name": "icon-trophy",
+            "text": "Our secure checkout is quick and easy to use."
+          }
+        },
+        {
+          "type": "text-item",
+          "settings": {
+            "title": "Get in touch",
+            "icon_name": "icon-chat",
+            "text": "Have questions? Get in touch with us at any time."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

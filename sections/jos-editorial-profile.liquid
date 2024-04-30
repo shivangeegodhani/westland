@@ -1,0 +1,89 @@
+{%- style -%}
+  #EditorialProfile--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{% assign animation_anchor = '#EditorialProfile--' | append: section.id %}
+
+<section id="EditorialProfile--{{ section.id }}" class="bootstrapiso   section-padding">
+  <div class="inner_banner">
+  {% if section.settings.background_image %}
+    <img
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="1"
+            src="{{ section.settings.background_image | img_url: '4472x' }}"
+            alt=""
+    >
+    {% endif %}
+  </div>
+
+  <div class="container explore_sec">
+    <figure class="top_img">
+      {% if section.settings.profile_image %}
+        <img
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="2"
+                src="{{ section.settings.profile_image | img_url: '4472x' }}"
+                alt=""
+        >
+      {% endif %}
+    </figure>
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "JOS Editorial Profile",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Section Details"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "profile_image",
+      "label": "Profile Image"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "JOS Editorial Profile"
+    }
+  ]
+}
+{% endschema %}

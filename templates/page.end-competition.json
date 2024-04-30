@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "31b30abf-e16a-45ee-aa62-203c85bbf087": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/competition_banner.jpg",
+        "bg_position": "center-center",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "c211c280-ca1f-4079-a978-d097445810f1": {
+      "type": "jos-competition-form",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "THE GREAT VEGAN FOOTWEAR GIVEAWAY",
+        "description": "To be in with the chance of winning a pair of WESTLAND by Josef Seibel vegan boots. Simply sign up to our newsletter by completing your details below and clicking 'YES PLEASE!'",
+        "check_box_msg": "I’ve read and accept the Term & Conditions below.",
+        "competition_id": "Vegan23",
+        "button_text": "YES PLEASE!",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "TERMS & CONDITIONS",
+            "heading_size": 3,
+            "width": "wrapper--full",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Back",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16749020905715__e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d-16769562374ca5e17b-1"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "31b30abf-e16a-45ee-aa62-203c85bbf087",
+    "c211c280-ca1f-4079-a978-d097445810f1",
+    "e5e0ed91-b41e-4ac7-89aa-c2d650e7e85d"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "jos-footer",
+      "blocks": {
+        "c57b044a-007b-4849-8431-686086c5b20e": {
+          "type": "text_message",
+          "settings": {
+            "message": "WESTLAND by Josef Seibel. Interpreting the latest trends to create modern, effortless and easy-to-style footwear",
+            "backgroundColor": "#c4caba",
+            "textColor": "#ffffff"
+          }
+        },
+        "0a71684c-47a5-4fdd-8b88-31cf374cffc0": {
+          "type": "social-icons",
+          "settings": {
+            "title": "Follow Us On Socials",
+            "padding_top": 23,
+            "padding_bottom": 9
+          }
+        },
+        "7e046527-a5b0-4ae2-a209-2d057e2ada40": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Westland_Grey_2022_1_41750148-4a15-4425-8cac-9e29938fe20d.svg",
+            "padding_top": 0,
+            "padding_bottom": 11
+          }
+        },
+        "b3ed1718-ebf8-4646-adf2-4ccff28d9085": {
+          "type": "call",
+          "settings": {
+            "phone": "CUSTOMER SERVICE",
+            "message": "Tel: 01530 447700       Email: enquiries@josefseibel.co.uk",
+            "padding_top": 85,
+            "padding_bottom": 0
+          }
+        },
+        "6bcd1e4e-d4a9-4f88-b0bd-659a896bbd2b": {
+          "type": "call",
+          "settings": {
+            "phone": "",
+            "message": "Monday - Friday: 08:00 - 16:00",
+            "padding_top": 0,
+            "padding_bottom": 1
+          }
+        },
+        "175b2862-c791-4e5a-8a73-370e97cd31ff": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer"
+          }
+        },
+        "4fa6723c-5737-43d2-aee1-5a1e2ff47659": {
+          "type": "footer-brands",
+          "settings": {
+            "padding_top": 10,
+            "padding_bottom": 10
+          }
+        },
+        "37754830-e34c-48b8-9b34-c765d0b17075": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "",
+            "text": "<p>Website design and Shopify support by <a href=\"https://wearepumpkin.co.uk/\" target=\"_blank\" title=\"https://wearepumpkin.co.uk/\">Pumpkin Digital Marketing</a></p>",
+            "column_width": 51
+          }
+        }
+      },
+      "block_order": [
+        "c57b044a-007b-4849-8431-686086c5b20e",
+        "0a71684c-47a5-4fdd-8b88-31cf374cffc0",
+        "7e046527-a5b0-4ae2-a209-2d057e2ada40",
+        "b3ed1718-ebf8-4646-adf2-4ccff28d9085",
+        "6bcd1e4e-d4a9-4f88-b0bd-659a896bbd2b",
+        "175b2862-c791-4e5a-8a73-370e97cd31ff",
+        "4fa6723c-5737-43d2-aee1-5a1e2ff47659",
+        "37754830-e34c-48b8-9b34-c765d0b17075"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "logo": "shopify://shop_images/Westland_Grey_2022_1.svg",
+        "logo_image_width": 150,
+        "bg_position": "center-center",
+        "overlay_opacity": 80,
+        "overlay_color": "#ffffff",
+        "footer_secondary_linklist": "",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "type": "currency"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

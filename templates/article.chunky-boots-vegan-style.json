@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/chunky_boots-Vegan_Style.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "be58df23-585c-4372-a717-0b191a57c5c9": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba": {
+      "type": "section-double",
+      "blocks": {
+        "a37a36e7-86f1-4e23-a921-375440221a99": {
+          "type": "heading",
+          "settings": {
+            "title": "WILLEY COLLECTION",
+            "text_size": 8
+          }
+        },
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These chunky wedge boots are the perfect style for that capsule wardrobe this season, adding a relaxed and attention-grabbing look to your everyday outfits.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "df50c6be-e197-4de8-bc2e-9c8170987990": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a37a36e7-86f1-4e23-a921-375440221a99",
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d",
+        "df50c6be-e197-4de8-bc2e-9c8170987990"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/THE_WILLEY_COLLECTION.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87": {
+      "type": "section-look",
+      "blocks": {
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-westland-peyton-01",
+            "position_x": 14,
+            "position_y": 37
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/THE_WILLEY_COLLECTION_1.png",
+        "bg_position": "left-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "649a53a2-369d-44bd-82d5-4392ce8932fd": {
+      "type": "section-double",
+      "blocks": {
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "RED HOT",
+            "text_size": 8
+          }
+        },
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red, the hottest colour trend of the season. For a show stopping look go vibrant with this bright and confident shade. </p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0",
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/5_c52ea06c-e99e-4ad5-a694-3700f445ad5f.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "70bdada7-515b-4f41-8e53-37a51a27d9a0": {
+      "type": "section-look",
+      "blocks": {
+        "f3f3f9c0-5a31-43a3-ba77-dc76d2804c5e": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-westland-peyton-05",
+            "position_x": 14,
+            "position_y": 37
+          }
+        }
+      },
+      "block_order": [
+        "f3f3f9c0-5a31-43a3-ba77-dc76d2804c5e"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/THE_WILLEY_COLLECTION_2.png",
+        "bg_position": "right-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5a20a513-f1fc-4d8f-b835-80c6c312745c": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Discover our vegan boots collection...",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/vegan-trainers",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "vegan-trainers",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799",
+    "be58df23-585c-4372-a717-0b191a57c5c9",
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba",
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87",
+    "649a53a2-369d-44bd-82d5-4392ce8932fd",
+    "70bdada7-515b-4f41-8e53-37a51a27d9a0",
+    "5a20a513-f1fc-4d8f-b835-80c6c312745c"
+  ]
+}

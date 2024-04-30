@@ -1,0 +1,358 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "77f79e2d-d382-492b-b605-d119ca0cb320": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1_1586ab6b-cf8e-4e32-8d9b-33a1a4815fbf.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "f3e05d2d-841c-4f60-a1e2-c3bf062f5eb8": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/2_d18dc4fe-e317-4095-85b3-35c464a6379a.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "83664f8b-b02f-4614-8b1f-f15c180da219": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "MODERN METALS",
+            "heading_size": 11
+          }
+        },
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-1": {
+          "type": "text",
+          "settings": {
+            "description": "Our Metallic sandals go from city sidewalks to sandy beaches in no time.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "SHOP",
+            "link": "shopify://products/josef-seibel-clea-01",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-0",
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-1",
+        "template--16796107833587__83664f8b-b02f-4614-8b1f-f15c180da219-1684242383b031723f-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Modern_Metallics.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "e4fe2648-d1b3-49e4-ab22-4faabffe78b1": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/1_4621848b-bf1c-4380-8cca-af8768d4a58f.png",
+            "bg_position": "center-center",
+            "title": "CLEA 14",
+            "text": "",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-clea-14",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_10.png",
+            "bg_position": "center-center",
+            "title": "CLEA 09",
+            "text": "",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-clea-09",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/3_a4846870-f572-44fd-900e-fe6000f7a124.png",
+            "bg_position": "center-center",
+            "title": "CLEA 16",
+            "text": "",
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-clea-16",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-0",
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-1",
+        "template--16796107833587__e4fe2648-d1b3-49e4-ab22-4faabffe78b1-16842440765da8722e-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.2,
+        "enable_image": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 35
+      }
+    },
+    "7ecaf20b-6d54-4888-aa31-36b854073824": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16796107833587__7ecaf20b-6d54-4888-aa31-36b854073824-168424463840224b30-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Live life on the wedge with our Clea Collection. A modern, open-toe platform sandal. With its adjustable strap you can effortlessly transition from dawn to dusk, looking elegant and in comfort.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796107833587__7ecaf20b-6d54-4888-aa31-36b854073824-168424463840224b30-2"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    },
+    "6a9e93c9-f3da-450b-9027-9a01619b2b23": {
+      "type": "section-double",
+      "blocks": {
+        "4361ebc4-8ffa-4d61-89c0-899c0fee3fc4": {
+          "type": "heading",
+          "settings": {
+            "title": "WONDER",
+            "text_size": 8
+          }
+        },
+        "a65bf427-16b1-432c-8ad0-dd12234ea1d3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make a statement with our metallic finished sandals. Comfortable footwear doesn't have to be boring.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "ef8677b5-a067-4fa7-a8fa-a3ffbb605f2a": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-caren-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "4361ebc4-8ffa-4d61-89c0-899c0fee3fc4",
+        "a65bf427-16b1-432c-8ad0-dd12234ea1d3",
+        "ef8677b5-a067-4fa7-a8fa-a3ffbb605f2a"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Untitled_design_1_974f1080-35a6-4990-a340-2cc55c7b94ee.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f311cb7f-0e0a-4798-9ddf-fc829b7c5fd1": {
+      "type": "section-hero",
+      "blocks": {
+        "baf71152-cada-4bfd-8a98-26e3593e451a": {
+          "type": "heading",
+          "settings": {
+            "title": "TIME TO SHINE",
+            "heading_size": 9
+          }
+        },
+        "df9f6a9e-1d0f-4d2f-89bf-3737ac63c6b5": {
+          "type": "text",
+          "settings": {
+            "description": "This trend is not only for sandals. Treat your feet to some trainers that sparkle.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "9691c2bb-9e6f-46d2-b357-d165e95d9e70": {
+          "type": "button",
+          "settings": {
+            "link_text": "SHOP",
+            "link": "shopify://products/josef-seibel-wonder-01",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "baf71152-cada-4bfd-8a98-26e3593e451a",
+        "df9f6a9e-1d0f-4d2f-89bf-3737ac63c6b5",
+        "9691c2bb-9e6f-46d2-b357-d165e95d9e70"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Modern_Metallics_1.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "2e9da955-0f38-4a34-aa12-64d8a040a79d": {
+      "type": "section-double",
+      "blocks": {
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Caren 01",
+            "text_size": 8
+          }
+        },
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This leather sneaker will transition you through the season with its comfortable cushioned insole and soft leather linings. Finished in high quality, soft supple leather with a unique perforated side panel and contrasting white sole for a contemporary look.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-caren-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-0",
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-1",
+        "template--16796107833587__2e9da955-0f38-4a34-aa12-64d8a040a79d-16842430350378d86e-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/4_036384b8-539e-4c14-915e-92ffc9c6d00b.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "77f79e2d-d382-492b-b605-d119ca0cb320",
+    "f3e05d2d-841c-4f60-a1e2-c3bf062f5eb8",
+    "83664f8b-b02f-4614-8b1f-f15c180da219",
+    "e4fe2648-d1b3-49e4-ab22-4faabffe78b1",
+    "7ecaf20b-6d54-4888-aa31-36b854073824",
+    "6a9e93c9-f3da-450b-9027-9a01619b2b23",
+    "f311cb7f-0e0a-4798-9ddf-fc829b7c5fd1",
+    "2e9da955-0f38-4a34-aa12-64d8a040a79d"
+  ]
+}

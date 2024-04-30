@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "0419504f-7ebe-4114-a4b8-a9160f3613ff": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--narrow",
+        "padding": false,
+        "borders": false,
+        "padding_top": 30,
+        "padding_bottom": 31
+      }
+    },
+    "section_hero_yUrHtC": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design-15.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_rYReRX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_cdEJf4": {
+          "type": "heading",
+          "settings": {
+            "title": "EDITORIALS",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "text_nJbXF7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The place to find a little inspiration - from new product to all the latest lifestyle and fashion trends.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_EXXGqp": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ MORE",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cdEJf4",
+        "text_nJbXF7",
+        "buttons_EXXGqp"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "#313c20",
+        "padding_top": 8,
+        "padding_bottom": 26
+      }
+    },
+    "2912f972-3bee-4dbe-b0b1-27f02d120275": {
+      "type": "jos-editorial-tabs",
+      "blocks": {
+        "tab_xQkAdd": {
+          "type": "tab",
+          "settings": {
+            "tag": "",
+            "image": "shopify://shop_images/CATEGORY_GROUPS_COLLECTIONS_1.png",
+            "button_text": "DISCOVER MORE",
+            "button_link": "shopify://blogs/blogs/the-peyton-edit",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "tab_HYQxhi": {
+          "type": "tab",
+          "settings": {
+            "tag": "",
+            "image": "shopify://shop_images/CATEGORY_GROUPS_COLLECTIONS_-4.png",
+            "button_text": "DISCOVER MORE",
+            "button_link": "shopify://blogs/blogs/chunky-sandals",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "a210d1dd-25bc-419a-9203-3734f97c5467": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "tag": "Inspiration",
+            "image": "shopify://shop_images/Untitled_design_-_2023-11-27T162418.598.png",
+            "button_text": "READ",
+            "button_link": "shopify://blogs/blogs/chunky-boots-vegan-style",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "fd70ebbb-ec57-4a90-9485-02a8020dfdde": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "tag": "",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "tab_xQkAdd",
+        "tab_HYQxhi",
+        "a210d1dd-25bc-419a-9203-3734f97c5467",
+        "fd70ebbb-ec57-4a90-9485-02a8020dfdde"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7784aeb6-1268-46f0-b9d4-7d90f0848b38": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 82,
+        "padding_bottom": 28,
+        "title": "READ OUR LATEST BLOGS",
+        "show_title": true,
+        "blog": "blogs",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "61e6af44-7722-4b7d-98d1-6b815f85611c": {
+      "type": "jos-image-with-button",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0419504f-7ebe-4114-a4b8-a9160f3613ff",
+    "section_hero_yUrHtC",
+    "section_rich_text_rYReRX",
+    "2912f972-3bee-4dbe-b0b1-27f02d120275",
+    "7784aeb6-1268-46f0-b9d4-7d90f0848b38",
+    "61e6af44-7722-4b7d-98d1-6b815f85611c"
+  ]
+}

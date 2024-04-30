@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/COLOURFUL_SANDALS_3.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "be58df23-585c-4372-a717-0b191a57c5c9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16807002636531__be58df23-585c-4372-a717-0b191a57c5c9-1686649442400f3976-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create a refreshing look to your summertime vibe with our seasons mood boosting Crayola brights!  JOSEF SEIBEL’s versatile collection of summer sandals  offer everything you need to give you that summer feeling all day long. From mellow yellows to hot red and all colours in-between.</p>",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "template--16807002636531__be58df23-585c-4372-a717-0b191a57c5c9-1686649442400f3976-2"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba": {
+      "type": "section-double",
+      "blocks": {
+        "a37a36e7-86f1-4e23-a921-375440221a99": {
+          "type": "heading",
+          "settings": {
+            "title": "MELLOW YELLOW",
+            "text_size": 8
+          }
+        },
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add a ray of sunshine to your everyday. Our collection of yellow toned sandals will bring happiness, energy, warmth and optimism to your summer time styling.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "df50c6be-e197-4de8-bc2e-9c8170987990": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a37a36e7-86f1-4e23-a921-375440221a99",
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d",
+        "df50c6be-e197-4de8-bc2e-9c8170987990"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/ezgif.com-gif-maker_25.gif",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87": {
+      "type": "section-look",
+      "blocks": {
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-willa-02",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-1": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wonder-02",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0",
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/yellows.png",
+        "bg_position": "left-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "649a53a2-369d-44bd-82d5-4392ce8932fd": {
+      "type": "section-double",
+      "blocks": {
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "RED HOT",
+            "text_size": 8
+          }
+        },
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red, the hottest colour trend of the season. For a show stopping look go vibrant with this bright and confident shade. Our Lucie 03 looks great styled with a crisp white dress.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0",
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/ezgif.com-gif-maker_27.gif",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "a74ee25e-9a60-4fc0-a831-ce9e9f718687": {
+      "type": "section-double",
+      "blocks": {
+        "8b5e810d-9e57-4f24-a281-8eb793eb4a67": {
+          "type": "heading",
+          "settings": {
+            "title": "COOL BLUES",
+            "text_size": 8
+          }
+        },
+        "6617b3c8-db8c-4cf2-8aff-b92785f7143c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think deep oceanic tones and try using them in a tonally immersive way, by matching your shoe colour with your attire for a more is more vibe, pair with blue 'denim' hues' for that easy to go to summer look. </p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "8b5e810d-9e57-4f24-a281-8eb793eb4a67",
+        "6617b3c8-db8c-4cf2-8aff-b92785f7143c"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/BLUES_2.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "9cd4db60-b5ac-4146-a5e7-8da173366ddb": {
+      "type": "section-look",
+      "blocks": {
+        "bbb52540-ac77-47f5-b636-2cef11b0e7fc": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-henriette-03",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "c5ff9a96-e499-4fa3-b371-ac12b3d264d1": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wonder-02",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "bbb52540-ac77-47f5-b636-2cef11b0e7fc",
+        "c5ff9a96-e499-4fa3-b371-ac12b3d264d1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/yellows_3.png",
+        "bg_position": "right-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "849b0b14-bdeb-40da-bb05-7aa153df62be": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16807002636531__849b0b14-bdeb-40da-bb05-7aa153df62be-1686570669325f215a-1": {
+          "type": "text",
+          "settings": {
+            "description": "SHOP OUR COLURFUL SANDALS HERE",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16807002636531__849b0b14-bdeb-40da-bb05-7aa153df62be-1686570669325f215a-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify://collections/holiday-sandals",
+            "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16807002636531__849b0b14-bdeb-40da-bb05-7aa153df62be-1686570669325f215a-1",
+        "template--16807002636531__849b0b14-bdeb-40da-bb05-7aa153df62be-1686570669325f215a-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLOURFUL_SANDALS.png",
+        "bg_position": "center-top",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--top-center",
+        "bg_color": "",
+        "color": "#212121"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799",
+    "be58df23-585c-4372-a717-0b191a57c5c9",
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba",
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87",
+    "649a53a2-369d-44bd-82d5-4392ce8932fd",
+    "a74ee25e-9a60-4fc0-a831-ce9e9f718687",
+    "9cd4db60-b5ac-4146-a5e7-8da173366ddb",
+    "849b0b14-bdeb-40da-bb05-7aa153df62be"
+  ]
+}

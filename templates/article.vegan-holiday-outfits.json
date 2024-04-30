@@ -1,0 +1,401 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "b847b523-fdf4-4839-9198-7090e5e92f66": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "VEGAN HOLIDAY OUTFITS",
+        "font_size": 52,
+        "description": "",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    },
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5": {
+      "type": "section-double",
+      "blocks": {
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Jet off in style",
+            "text_size": 8
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Harper 01, the perfect elegant finishing touch to any off-duty outfit. Look effortlessly put together with a matching set and a clean, crisp white trainer. Top it off with a cool oversized shirt to beat the airplane aircon!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop Harper 01",
+            "button_url": "shopify://products/copy-of-westland-harper-01",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/7_39fd4ee2-7dad-43b3-ad9e-f5517423cd1c.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391": {
+      "type": "section-double",
+      "blocks": {
+        "4f129cd8-1357-4666-ac85-4150264186bf": {
+          "type": "heading",
+          "settings": {
+            "title": "Beach please!",
+            "text_size": 8
+          }
+        },
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hit the beach in style with Emma 02. A comfy, yet playful sandal guaranteed to bring you joy! Pair with your favourite denim shorts and a cool linen top. Match your accessories for that extra wow-factor!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "50043de7-8d20-4455-b353-55c213c57c94": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP EMMA 02",
+            "button_url": "shopify://products/westland-emma-02",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "4f129cd8-1357-4666-ac85-4150264186bf",
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e",
+        "50043de7-8d20-4455-b353-55c213c57c94"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/6_bbdf7c0b-44cc-4f97-a7df-69d3acb76e30.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "65b4439d-7378-412f-9d50-e8f1857d8412": {
+      "type": "section-double",
+      "blocks": {
+        "0a4f8a43-9a19-43b8-9879-917058c22973": {
+          "type": "heading",
+          "settings": {
+            "title": "Holi-date!",
+            "text_size": 8
+          }
+        },
+        "64401a12-94e9-435c-a5b3-555a398fcb1a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Win at date night with Avery 01- a beautiful espadrille with a tie at the ankle with plenty of styling options. Let Avery do the talking by pairing with a simple silk dress. Add bold accessories and a bright lip to bring the look together!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "63ed08b3-db3c-4bb7-a9dc-62aaafd06b77": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop avery 01",
+            "button_url": "shopify://products/westland-avery-01",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "0a4f8a43-9a19-43b8-9879-917058c22973",
+        "64401a12-94e9-435c-a5b3-555a398fcb1a",
+        "63ed08b3-db3c-4bb7-a9dc-62aaafd06b77"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/5_b6fd7480-71a7-4297-986e-2c4008326066.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b14b7e61-e7c3-47aa-b889-31de20b6b3e4": {
+      "type": "section-double",
+      "blocks": {
+        "33d0a166-0c3b-44b8-832e-845b936fddab": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday brunchin'",
+            "text_size": 8
+          }
+        },
+        "962b797d-bb9d-4c48-b784-8a8e7dd290c5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Upgrade your look with Avery 02. A fresh take on comfortable footwear, these mid-heel sandals combine an espadrille with a vibrant canvas upper and aztec strap. Add to your bikini with an oversized shirt and plenty of accessories to be brunch ready after tanning on the beach!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "a402e9eb-a68b-40e1-96e5-47d5bbafce1c": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop avery 02",
+            "button_url": "shopify://products/westland-avery-02",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "33d0a166-0c3b-44b8-832e-845b936fddab",
+        "962b797d-bb9d-4c48-b784-8a8e7dd290c5",
+        "a402e9eb-a68b-40e1-96e5-47d5bbafce1c"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/2_d4c627c6-4991-46a9-b577-cc1386307992.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2356ac3c-e7b6-4bff-af32-26beae3d2f3e": {
+      "type": "section-double",
+      "blocks": {
+        "a1821e95-f9fe-47b3-9105-a384e6b2cb6e": {
+          "type": "heading",
+          "settings": {
+            "title": "Pool-side vibes",
+            "text_size": 8
+          }
+        },
+        "56b633cb-7f52-4ad7-a905-ff87498b407d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emma 01 is an absolute poolside essential! Easily slip on these comfy (and stylish!) sandals to grab a cocktail at the all inclusive bar! Finish your look with your favourite sunnies! </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "6dd73b3f-37e1-4829-ba33-a8a13658cf01": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop emma 01",
+            "button_url": "shopify://products/westland-emma-01",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "a1821e95-f9fe-47b3-9105-a384e6b2cb6e",
+        "56b633cb-7f52-4ad7-a905-ff87498b407d",
+        "6dd73b3f-37e1-4829-ba33-a8a13658cf01"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/3_762e07d2-4d43-4a09-9f37-4acd49dd0701.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1701cd8c-27f7-420d-9df8-bb15ca1aef00": {
+      "type": "section-double",
+      "blocks": {
+        "4cf1b845-ab2f-4d4a-a4c4-2e27364dfe66": {
+          "type": "heading",
+          "settings": {
+            "title": "City hopping",
+            "text_size": 8
+          }
+        },
+        "bdaac702-4b5a-4833-b780-d6d155cb7345": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay comfy and cool whilst walking around the city in Madison 02. Composed of two leather straps and one around the ankle, your feet will feel secure with every step. Pair with flowy linen shorts and plenty of accessories, and don't forget your sunnies!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "e4d13ea0-5d45-4eec-ae01-d1bcb2745342": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop madison 02",
+            "button_url": "shopify://products/westland-madison-02",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "4cf1b845-ab2f-4d4a-a4c4-2e27364dfe66",
+        "bdaac702-4b5a-4833-b780-d6d155cb7345",
+        "e4d13ea0-5d45-4eec-ae01-d1bcb2745342"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/4_aa2a69b1-43c3-43cf-9852-2623c065188f.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "493141a0-a4ae-4209-9298-349c9226df68": {
+      "type": "section-double",
+      "blocks": {
+        "a959e712-1876-4128-a2b2-fcebbbcc62ed": {
+          "type": "heading",
+          "settings": {
+            "title": "Transition in style",
+            "text_size": 8
+          }
+        },
+        "6bdf8f65-5efe-40e5-ba06-22529013af83": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transition effortlessly from day to night with Madison 03. Add to your denim shorts during the day to hit the beach or pool and then add to your pretty floral dress to grab dinner in the evening. Madison 03 guarantees comfy feet all day long!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "098e8d3c-873a-4271-9dd9-c842329645bc": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop madison 03",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "a959e712-1876-4128-a2b2-fcebbbcc62ed",
+        "6bdf8f65-5efe-40e5-ba06-22529013af83",
+        "098e8d3c-873a-4271-9dd9-c842329645bc"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/1_51bc695d-edaa-4b84-abaf-fbd48450e99c.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5f75838a-f171-403b-8589-adcb11b15fa4": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP VEGAN SUMMER",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "vegan-sandals",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b847b523-fdf4-4839-9198-7090e5e92f66",
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5",
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391",
+    "65b4439d-7378-412f-9d50-e8f1857d8412",
+    "b14b7e61-e7c3-47aa-b889-31de20b6b3e4",
+    "2356ac3c-e7b6-4bff-af32-26beae3d2f3e",
+    "1701cd8c-27f7-420d-9df8-bb15ca1aef00",
+    "493141a0-a4ae-4209-9298-349c9226df68",
+    "5f75838a-f171-403b-8589-adcb11b15fa4"
+  ]
+}

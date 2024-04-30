@@ -1,0 +1,198 @@
+{%- style -%}
+  #EditorialTabs--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{%- for block in section.blocks -%}
+  {%- capture allTags -%}
+    {{ allTags }}{% unless forloop.index == 1 %}{{ ", " }}{% endunless %}.{{- block.settings.tag | remove: '#' | split: ' ' | first | downcase -}}
+  {% endcapture %}
+{%- endfor -%}
+
+<section id="EditorialTabs--{{ section.id }}" class="bootstrapiso trend_sec section-padding">
+  <div class="gallery-wrap">
+    <ul id="filters" class="clearfix">
+      {% for block in section.blocks %}
+        <li>
+          <span class="filter"
+                data-filter=".{{ block.settings.tag | remove: '#' | split: ' ' | first | downcase }}">
+            {{ block.settings.tag }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div id="gallery">
+      <div class="row g-12px">
+        {% for block in section.blocks %}
+          <div class="col-sm-6 gallery-item {{ block.settings.tag | remove: '#' | split: ' ' | first | downcase }}"
+               style="display: inline-block;" data-bound="">
+            <a href="{{ block.settings.button_link }}" class="style_block" data-cat="trend">
+              {% if block.settings.image %}<img src="{{ block.settings.image | img_url: '1000x' }}" alt="">{% endif %}
+              <div class="cap">
+                <button
+                        class="{{ block.settings.button_style }} {{ block.settings.button_color }}"
+                        data-aos="hero"
+                        data-aos-order="4">
+                  {{ block.settings.button_text }}
+                </button>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $(function () {
+    var filterList = {
+      init: function () {
+        $('#gallery').mixItUp({
+          selectors: {
+            target: '.gallery-item',
+            filter: '.filter'
+          },
+          load: {
+            filter: '{{ allTags }}'
+          }
+        });
+      }
+    };
+    filterList.init();
+  });
+</script>
+
+{% schema %}
+{
+  "name": "JOS Editorial Tabs",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Tab",
+      "type": "tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Tab tag",
+          "info": "First word of the tag should be unique across all the tags"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "label": "Color",
+          "default": "btn--neutral",
+          "options": [
+            {
+              "value": "btn--primary",
+              "label": "Bright accent"
+            },
+            {
+              "value": "btn--secondary",
+              "label": "Secondary accent"
+            },
+            {
+              "value": "btn--link",
+              "label": "Link color"
+            },
+            {
+              "value": "btn--neutral",
+              "label": "Text color"
+            },
+            {
+              "value": "btn--black",
+              "label": "Black"
+            },
+            {
+              "value": "btn--white",
+              "label": "White"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "hero__btn btn btn--large caps",
+          "options": [
+            {
+              "value": "standard__cta caps--large",
+              "label": "Capitalized text"
+            },
+            {
+              "value": "hero__btn btn btn--input caps",
+              "label": "Small button"
+            },
+            {
+              "value": "hero__btn btn btn--large caps",
+              "label": "Large button"
+            },
+            {
+              "value": "hero__btn btn btn--input btn--outline caps",
+              "label": "Small outline button"
+            },
+            {
+              "value": "hero__btn btn btn--large btn--outline caps",
+              "label": "Large outline button"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "JOS Editorial Tabs"
+    }
+  ]
+}
+{% endschema %}

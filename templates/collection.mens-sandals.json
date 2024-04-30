@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0492c636-c437-4272-8412-86020dad2eb0": {
+      "type": "jos-collection-banner",
+      "settings": {
+        "brand_description": "",
+        "bg_position": "left-center",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-center"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1676951153cff47c6e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "main": {
+      "type": "jos-collection",
+      "blocks": {
+        "505c9806-44ef-4d73-8233-b1ab5d876a44": {
+          "type": "inline_block",
+          "settings": {
+            "title": "SUMMER SANDALS",
+            "product_image": "shopify://shop_images/rafe_1.png",
+            "right_image": "shopify://shop_images/mens_sandals.png",
+            "product": "josef-seibel-rafe",
+            "button_text": "SHOP",
+            "button_link": "shopify://products/josef-seibel-rafe"
+          }
+        }
+      },
+      "block_order": [
+        "505c9806-44ef-4d73-8233-b1ab5d876a44"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 32,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5d2b3cac-8b54-4f20-bd09-51c8c4318a6c": {
+      "type": "jos-reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reviewtitle": "What our customers think...",
+        "reviewone": "<p>Josef Seibel make excellent shoes, extremely comfortable and long lasting. I'm on my 4th pair now, having bought my first pair ten years ago.</p>",
+        "reviewtwo": "<p>Love my Josef Seibel shoes. Bought them to replace my last ones which only needed replacing because I had worn down the heels.</p>",
+        "reviewthree": "<p>These shoes fit perfectly. They are some of the most comfortable shoes I have owned. I have received several compliments from friends and strangers about them.</p>",
+        "reviews_color_text": "#000000",
+        "reviews_color_container": "#ffffff",
+        "reviews_logo_select": true
+      }
+    },
+    "d8df26dd-590a-472a-b451-101a104643f3": {
+      "type": "jos-section-newsletter",
+      "settings": {
+        "background_image": "shopify://shop_images/Copy_of_HOME_PAGE_Newsletter_Banner_1916_x_601_px_755f5cbd-91be-4886-a79f-e9ea73e651ac.png",
+        "title": "Stay in the loop",
+        "description": "Subscribe to our mailing list and be the first to hear about the latest arrivals, new collections and promotions",
+        "button_text": "SIGN UP",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "0492c636-c437-4272-8412-86020dad2eb0",
+    "subcollections",
+    "1676951153cff47c6e",
+    "main",
+    "5d2b3cac-8b54-4f20-bd09-51c8c4318a6c",
+    "d8df26dd-590a-472a-b451-101a104643f3"
+  ]
+}

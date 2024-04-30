@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "1e8f6cc6-7783-4191-b855-7479f24f0a5f": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>WESTLAND by Josef Seibel offers a fresh take on the trending gladiator style, guaranteed to make you feel like a goddess this season</p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2ca62d93-8bd8-4be5-8b67-5ae38aadf9ef.png"
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<h2>THE GLADIATOR</h2><p>PEYTON 09. A utilitarian-inspired contemporary sandal, that combines both fashion and function. Featuring a chunky sole and adjustable strap. Perfect for taking on your next holiday or just wearing day to day.</p><p></p><p></p><p></p>"
+          }
+        },
+        "c5aea070-c483-40cd-86e2-afe607f906c2": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "imagegrid_TWRaCj": {
+          "type": "imagegrid",
+          "settings": {
+            "imagegridone": "shopify://shop_images/3_a3a95dae-4d58-4ce5-8444-7f48387c3343.png",
+            "imagegridtwo": "shopify://shop_images/2_5ff945ac-93b7-46f8-8da4-2b48e309f1de.png"
+          }
+        },
+        "c09b3dea-e813-4644-aca8-d46e3259023e": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>PEYTON 08. A certified classic. Featuring a chunky sole and adjustable strap for a bespoke fit and exceptional support.</p><p></p><p></p><p></p>"
+          }
+        },
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WESTLAND_BANNER_2.png"
+          }
+        },
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "text_TD4QAL": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>PEYTON 10. A lace-up classic, that is bang on trend and guaranteed to add some style to your ensemble this season. Built from a smooth look-alike leather with an empowering lug sole and contrast stitching a distinct look.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "1e8f6cc6-7783-4191-b855-7479f24f0a5f",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c5aea070-c483-40cd-86e2-afe607f906c2",
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be",
+        "imagegrid_TWRaCj",
+        "c09b3dea-e813-4644-aca8-d46e3259023e",
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60",
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a",
+        "text_TD4QAL"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

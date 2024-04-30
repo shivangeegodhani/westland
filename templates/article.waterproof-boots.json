@@ -1,0 +1,307 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "b847b523-fdf4-4839-9198-7090e5e92f66": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "waterproof boots",
+        "font_size": 36,
+        "description": "<p>We’ve all been there, the forecast say’s rain but your going to take your chances, then before you know it your feeling that soggy sock! At JOSEF SEIBEL we say there’s no such thing as bad weather, if your wearing reliable footwear.</p><p></p>",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    },
+    "2356ac3c-e7b6-4bff-af32-26beae3d2f3e": {
+      "type": "section-double",
+      "blocks": {
+        "a1821e95-f9fe-47b3-9105-a384e6b2cb6e": {
+          "type": "heading",
+          "settings": {
+            "title": "Footwear that you can depend on!",
+            "text_size": 5
+          }
+        },
+        "56b633cb-7f52-4ad7-a905-ff87498b407d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have many styles to suit your<br/>plans, whether your looking for a shoe to run those everyday errands or something a little bit more robust, for that early morning dog walk, we’ve got your covered.  Think warm velour linings, durable soles and waterproof membrane. </p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "6dd73b3f-37e1-4829-ba33-a8a13658cf01": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop here",
+            "button_url": "shopify://collections/waterproof-shoes",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "a1821e95-f9fe-47b3-9105-a384e6b2cb6e",
+        "56b633cb-7f52-4ad7-a905-ff87498b407d",
+        "6dd73b3f-37e1-4829-ba33-a8a13658cf01"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/2_f0e301a0-af63-4ef9-8be2-b69ea0150410.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391": {
+      "type": "section-double",
+      "blocks": {
+        "4f129cd8-1357-4666-ac85-4150264186bf": {
+          "type": "heading",
+          "settings": {
+            "title": "Wynter's",
+            "text_size": 5
+          }
+        },
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The perfect walking companion. This lace-up walking boot constructed using soft and durable leather. Its padded collar provides cushioning around the ankle and its waterproof membrane means an impenetrable moisture barrier for guaranteed dryness, what ever the weather throws at you.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "50043de7-8d20-4455-b353-55c213c57c94": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP HERE",
+            "button_url": "shopify://products/josef-seibel-wynter-02",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "4f129cd8-1357-4666-ac85-4150264186bf",
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e",
+        "50043de7-8d20-4455-b353-55c213c57c94"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/4_71744a3b-9b07-4786-bef8-714a1d810f89.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5f75838a-f171-403b-8589-adcb11b15fa4": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP WATERPROOF BOOTS",
+        "description": "<p>Don't let the weather dictate your plans!</p>",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/waterproof",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "waterproof",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5": {
+      "type": "section-double",
+      "blocks": {
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Selena's",
+            "text_size": 5
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made from high-quality leather and protected with a Top-Dry Tex membrane for a guaranteed waterproof finish. Selena 52 has a hardwearing and flexible sole and cushioned footbed making this a versatile warm winter boot.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop here",
+            "button_url": "shopify://products/josef-seibel-selena-52",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/7_3ee854b0-a4f5-44d8-a7ec-eb003606f7c4.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "493141a0-a4ae-4209-9298-349c9226df68": {
+      "type": "section-double",
+      "blocks": {
+        "a959e712-1876-4128-a2b2-fcebbbcc62ed": {
+          "type": "heading",
+          "settings": {
+            "title": "Wyndi's",
+            "text_size": 5
+          }
+        },
+        "6bdf8f65-5efe-40e5-ba06-22529013af83": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hop on the adventure trail in style! Look no further than the Wyndi 02 boot for superior quality and ultimate protection - with a tonal look and an integrated knit collar for extra comfort.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "098e8d3c-873a-4271-9dd9-c842329645bc": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop here",
+            "button_url": "shopify://products/westland-wyndi-01",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "a959e712-1876-4128-a2b2-fcebbbcc62ed",
+        "6bdf8f65-5efe-40e5-ba06-22529013af83",
+        "098e8d3c-873a-4271-9dd9-c842329645bc"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/FOOTWEAR_THAT_WON_T_LET_YOU_DOWN_2.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1a695a89-b755-49f9-a704-05e963db729b": {
+      "type": "section-double",
+      "blocks": {
+        "189a27db-ffae-4a3a-a506-0b3d80174736": {
+          "type": "heading",
+          "settings": {
+            "title": "Journey's",
+            "text_size": 5
+          }
+        },
+        "06a693d3-eed4-439a-a701-752b2f65cc3d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made for your most active days with a high-top silhouette and crafted with a waterproof upper-whether your enjoying a local walk or exploring a new city this boot will have you covered. Vegan Friendly.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "b290b812-9e99-45af-a851-532bcab04c42": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop here",
+            "button_url": "shopify://products/westland-journey-01",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "189a27db-ffae-4a3a-a506-0b3d80174736",
+        "06a693d3-eed4-439a-a701-752b2f65cc3d",
+        "b290b812-9e99-45af-a851-532bcab04c42"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/5_6a4f0f0b-739e-4e8e-a883-b125ab957a3f.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b847b523-fdf4-4839-9198-7090e5e92f66",
+    "2356ac3c-e7b6-4bff-af32-26beae3d2f3e",
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391",
+    "5f75838a-f171-403b-8589-adcb11b15fa4",
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5",
+    "493141a0-a4ae-4209-9298-349c9226df68",
+    "1a695a89-b755-49f9-a704-05e963db729b"
+  ]
+}

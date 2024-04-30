@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8": {
+      "type": "jos-editorial-profile",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "profile_image": "shopify://shop_images/my_image_3.jpg"
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>A new season brings not only warm weather, fingers crossed! but the need for a new pair (or two). Let us show you some of our key trends for the SS23 season...</p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_SS23_Trends_part_1.png"
+          }
+        },
+        "ebacf06d-9d9d-48ef-98d7-257828040845": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/803x228_product_image_shots.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Athleisure. A combination of athletic and leisure wear has been a popular trend for a<br/>few years now and it’s showing no signs of slowing down.</p><p>From yoga pants to joggers, laid back denim<br/>paired with a jacket this trend is all about blending athletic and casual wear<br/>for a comfortable and stylish look. </p>"
+          }
+        },
+        "86538393-912a-4bbb-98cf-9944b66c010d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SS23_TRENDS_02.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Espadrilles.  WESTLAND by Josef Seibel, Avery  01. A beautiful espadrille with a tie at the ankle will be your go-to<br/>throughout the sunny season with plenty of styling options, these are modern<br/>and stylish. They’ll add a bit of height to set off dresses, skirts, and more.<br/>Vegan friendly.</p><p></p>"
+          }
+        },
+        "1cae71c2-a5d5-4d8e-8cd2-0f79850011df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SS23_TRENDS_01.png"
+          }
+        },
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>White trainers are perennially desirable and offer a winning touch to almost<br/>every outfit, whether worn with a dress, jeans or a pair of comfy joggers.<br/>We’ve rounded our favourite approved white sneaker styles to shop now.</p><p>Bring new energy this summer with espadrilles made for you. From jute fabric<br/>wedges and sliders to flat-forms and all things buckled, it's time to bring<br/>those sun-kissed pins into a brand new light. Our espadrilles will take you<br/>from the beach to the poolside with an effortless vibe.</p>"
+          }
+        },
+        "eb9993ee-32be-4106-ab96-26b4e4b2b981": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SS23_TRENDS_04.png"
+          }
+        },
+        "69c8655d-39be-432a-a6bb-65504beff002": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Boost your height and style confidence with JOSEF SEIBEL Clea 01. A modern,<br/>open-toe platform sandal. With its two-tone leather design and adjustable strap<br/>you can effortlessly transition from dawn to dusk, looking elegant and in<br/>comfort.</p>"
+          }
+        },
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174": {
+          "type": "imagegrid",
+          "disabled": true,
+          "settings": {
+            "imagegridone": "shopify://shop_images/SS23_TRENDS_01.png",
+            "imagegridtwo": "shopify://shop_images/SS23_TRENDS_02.png"
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "ebacf06d-9d9d-48ef-98d7-257828040845",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "86538393-912a-4bbb-98cf-9944b66c010d",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "1cae71c2-a5d5-4d8e-8cd2-0f79850011df",
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67",
+        "eb9993ee-32be-4106-ab96-26b4e4b2b981",
+        "69c8655d-39be-432a-a6bb-65504beff002",
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

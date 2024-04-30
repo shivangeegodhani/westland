@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8": {
+      "type": "jos-editorial-profile",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "profile_image": "shopify://shop_images/my_image_3.jpg"
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Is it just us or did Autumn arrive over-night?  We absolutely love this season, abundant with beautiful seasonal tones and as we shift away from the bright bustle of summer it makes us all want to seek comfort and re-boot our wardrobes!</p><p><strong>Discover JOSEF SEIBEL's new Autumn/ Winter Collection...</strong></p><p></p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_d1548259-98c5-4b15-9bc2-7a8820d36446.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "97e994a1-1a1c-484b-b036-0f8a2174df64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_51daba5e-da1a-4d19-994d-6e8b102bdf9d.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p></p><p></p>"
+          }
+        },
+        "86538393-912a-4bbb-98cf-9944b66c010d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_579427de-4c1b-4d60-9e47-6ae8e55720a6.png"
+          }
+        },
+        "ec188abd-1a5e-4ff6-b07e-b34cb2bec34b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_fb1b415c-aa22-4404-b552-5fb547ad2a29.png"
+          }
+        },
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "97e994a1-1a1c-484b-b036-0f8a2174df64",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "86538393-912a-4bbb-98cf-9944b66c010d",
+        "ec188abd-1a5e-4ff6-b07e-b34cb2bec34b",
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "c99f2242-7b50-4c89-a6b0-e54a39e50f07": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Womens Autumn Boots",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/ladies-boots",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "ladies-boots",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231",
+    "c99f2242-7b50-4c89-a6b0-e54a39e50f07"
+  ]
+}

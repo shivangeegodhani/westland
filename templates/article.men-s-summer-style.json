@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_cd712389-e221-44f5-8721-19d45d298f10.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Weekend Adventure </strong></p><p>JOSEF SEIBEL Noah 02. The Noah trainer-style leather shoe is perfect for everyday wear. With a lightweight and flexible EVA white sole unit the Noah 02 has the springy feeling of a new sports shoe but with the high-quality features of a well manufactured leather shoe from Josef Seibel. Featuring a perforated design and a padded contrasting ankle for added comfort and support.</p><p>Perfect for anything you have planned this weekend. Style with some comfy shorts and a grey tee and you're good to go!</p>"
+          }
+        },
+        "07784164-8141-4467-a7ce-7cb1c8038de3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_4be4d9f4-2a62-44df-bbe2-66935dc6d61e.png"
+          }
+        },
+        "e6a22efc-08c3-4949-adb5-a4019e8a3279": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Beach day</strong></p><p>JOSEF SEIBEL Maverick 05. Men's lightweight, toe post, slip- on sandal sat on a lightweight, flexible and highly durable PU sole. The Maverick 05 men's sandal has a perforated hole design and stitch features throughout, with a cushioned leather footbed for all day comfort.</p><p>Great to easily slip on at the beach! Pair with a button down and shorts for an effortless summers day look. Accessorize with a lightweight hat and your favourite sunglasses. Remember to pack the suncream!</p>"
+          }
+        },
+        "496a2d74-4e1c-4361-a797-6a89ec086333": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_2248fad5-0976-4eac-acd7-0fb8e65ce77e.png"
+          }
+        },
+        "96d83047-04c1-49da-9b62-d4ee45121231": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Hiking in the sun</strong></p><p>JOSEF SEIBEL Philipp 53 . Made with a water resistant upper and sturdy soles with a deep tread for extra grip and stability. Breathable mesh lining helps keep feet fresh and a cushioned footbed offers support and comfort when out hiking or as an everyday walking shoe.</p><p>Style with your favourite walking shorts and a breathable long sleve top to keep the sun off your back. Add a cap and your sports watch and you're ready to hit the trails! </p>"
+          }
+        },
+        "aff6d60d-198e-4a4f-8196-e7234500b063": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_784942e5-8a3f-4a50-b90b-2b64916409b8.png"
+          }
+        },
+        "c7e01289-fec0-44f8-85c7-35fce7c7b0c5": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Summers evening</strong></p><p>JOSEF SEIBEL Maverick 03. Men's slip on leather mule with a handstitched sole and contrasting stitching throughout. The Maverick 03 has a cushioned leather footbed and leather inner linings ensuring all day comfortable wear underfoot. The flexible and hardwearing PU sole provides support and the unique contrasting stitch detail gives these every-day slip on shoes extra style.</p><p>Throw on with a white linen shirt and some smart shorts for the perfect evening look. Grab your camera and you're ready to capture the sunset.</p>"
+          }
+        },
+        "c83f36d4-4b97-4987-9b2d-c7038c3ed812": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_39bcb459-cd71-46f8-9939-d6ac10c07915.png"
+          }
+        },
+        "a0037b15-075c-42b8-8ca9-adc37ff2331f": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Running errands</strong></p><p>JOSEF SEIBEL vincent 08. A men's casual summer sandal with three adjustable straps for a tailored fit. Crafted using soft leathers with leather and textile linings. Sitting atop a hardwearing and flexible PU sole unit for all-day comfort and support.</p><p>Style with any everyday outfit for an effortless look. Add some sunglasses and a denim jacket for some added interest.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "07784164-8141-4467-a7ce-7cb1c8038de3",
+        "e6a22efc-08c3-4949-adb5-a4019e8a3279",
+        "496a2d74-4e1c-4361-a797-6a89ec086333",
+        "96d83047-04c1-49da-9b62-d4ee45121231",
+        "aff6d60d-198e-4a4f-8196-e7234500b063",
+        "c7e01289-fec0-44f8-85c7-35fce7c7b0c5",
+        "c83f36d4-4b97-4987-9b2d-c7038c3ed812",
+        "a0037b15-075c-42b8-8ca9-adc37ff2331f"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "8791836d-80d7-4854-a74a-755130c66a36": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/1_13dc14d5-32e1-4d0a-a12f-9b581dc6f316.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "46156bf9-d1d3-4a33-8209-1271fbea42e1": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/2_d150762e-2030-4ac7-a06e-257f4872ef04.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "06b90650-cb48-423e-aded-8a6f1e3b3f38": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/3_a299aeca-8a99-4d03-97f4-71cba702d7aa.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "ccaca114-68fd-4f88-80a8-f59a0457bca3": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/4_a6e366cb-361b-40e7-8669-24d382581c70.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "a5cb12bd-5693-45fd-9927-f20a6e387b18": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP VEGAN TRAINERS",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/vegan-shoes",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "vegan-shoes",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8791836d-80d7-4854-a74a-755130c66a36",
+    "46156bf9-d1d3-4a33-8209-1271fbea42e1",
+    "06b90650-cb48-423e-aded-8a6f1e3b3f38",
+    "ccaca114-68fd-4f88-80a8-f59a0457bca3",
+    "a5cb12bd-5693-45fd-9927-f20a6e387b18"
+  ]
+}

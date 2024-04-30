@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "925df3e4-6e63-4986-b837-1dfbbdcf5055": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "CELEBRATION STYLES",
+            "heading_size": 13
+          }
+        },
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-1": {
+          "type": "text",
+          "settings": {
+            "description": "FOR THE KINGS CORONATION",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-0",
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-1",
+        "template--16796092039411__925df3e4-6e63-4986-b837-1dfbbdcf5055-1684242383b031723f-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Style_for_celebration_Kings_Coronation.png",
+        "bg_position": "center-center",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "be6938a8-addc-4dce-abb1-4423032168d8": {
+      "type": "section-double",
+      "blocks": {
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Caren 01",
+            "text_size": 8
+          }
+        },
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The perfect trainer paired with whatever dress you have picked out to wear this weekend to celebrate the new king! This leather sneaker will keep you comfortable with its cushioned insole and soft leather linings. Finished with high quality, soft supple leather with a unique perforated side panel and contrasting white sole for a contemporary look. </p><p>You are guaranteed to turn heads at your tea party!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop",
+            "button_url": "shopify://products/josef-seibel-caren-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-0",
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-1",
+        "template--16796092039411__be6938a8-addc-4dce-abb1-4423032168d8-16842430350378d86e-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters-min--desktop",
+        "mobile_height": "screen-height-one-half-min--mobile",
+        "image": "shopify://shop_images/Style_for_celebration_Kings_Coronation_3.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4952dbcd-6724-4541-b25a-81dc194b6190": {
+      "type": "section-double",
+      "blocks": {
+        "1a33f802-7c99-474f-b79a-e236f7cd8038": {
+          "type": "heading",
+          "settings": {
+            "title": "Lucie 03",
+            "text_size": 8
+          }
+        },
+        "22b3da81-23ee-49f3-a828-e7c5390d12b8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Guarenteed to bring comfort and practicality to your weekend outfit. Featuring a multi-strap over design and adjustable strap for a secure fit. Finished with dual density sole, that'll provide lasting underfoot cushioning all weekend. The perfect summer staple to add a pop of royal colour to your attire this weekend.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "b5109bab-e7f2-4488-86c5-a4e0ca5aa354": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop",
+            "button_url": "shopify://products/josef-seibel-lucie-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "1a33f802-7c99-474f-b79a-e236f7cd8038",
+        "22b3da81-23ee-49f3-a828-e7c5390d12b8",
+        "b5109bab-e7f2-4488-86c5-a4e0ca5aa354"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters-min--desktop",
+        "mobile_height": "screen-height-one-half-min--mobile",
+        "image": "shopify://shop_images/Style_for_celebration_Kings_Coronation_2.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aee6196e-7b34-4ffa-927d-44fbca6ac99f": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/5_8f694372-4832-479d-92e3-8ab7313096d9.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "35c1b7e8-7930-4ec3-993e-17d9cfee9702": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/6_dbe6850d-3c19-45a3-b6b4-ce2d8d1f8785.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "c8be5288-6c9e-41e7-89b9-c533ca07dc53": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Style_for_celebration_Kings_Coronation_2_94cde277-47d9-4865-95ca-4d251d3dfda3.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "925df3e4-6e63-4986-b837-1dfbbdcf5055",
+    "be6938a8-addc-4dce-abb1-4423032168d8",
+    "4952dbcd-6724-4541-b25a-81dc194b6190",
+    "aee6196e-7b34-4ffa-927d-44fbca6ac99f",
+    "35c1b7e8-7930-4ec3-993e-17d9cfee9702",
+    "c8be5288-6c9e-41e7-89b9-c533ca07dc53"
+  ]
+}

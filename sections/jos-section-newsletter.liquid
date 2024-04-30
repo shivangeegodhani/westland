@@ -1,0 +1,162 @@
+{% form 'customer' %}
+  <section id="Newsletter--{{ section.id }}" class="bootstrapiso stay_sec" {% if section.settings.background_image %}
+    style="background:url({{ section.settings.background_image | img_url:  '3000x'}}) no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;"
+          {% endif %}>
+      {% if form.posted_successfully? %}
+        <p class="form-success">
+          {{ 'contact.form.post_success' | t }}
+        </p>
+      {% endif %}
+
+      {% for error in form.errors %}
+        <ul class="errors">
+          {{ error }}
+        </ul>
+      {% endfor %}
+
+    <div class="container" style="background-color: transparent;font-family: 'Lato', sans-serif;">
+        <h2>{{ section.settings.title }}</h2>
+        <p style="margin-bottom: 20px;">{{ section.settings.description }}</p>
+        <div class="stay_detail_2">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="women" id="men1" name="contact[note][women]">
+            <label class="form-check-label" for="men1">Women’s</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="men" id="men2" name="contact[note][men]">
+            <label class="form-check-label" for="men2">Men’s</label>
+          </div>
+        </div>
+
+        <div class="stay_form">
+          <div class="input-group" style="border: none;gap: 10px 0px;">
+            <input class="form-control" placeholder="Email Address" type="email" name="contact[email]" required>
+            <button id="btnSubmit" type="submit" class="{{ section.settings.button_style }} {{ section.settings.button_color }}"/>{{ section.settings.button_text }}</button>
+          </div>
+        </div>
+
+        <div class="receive_email">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="chkConfirm" required>
+            <label class="form-check-label" for="chkConfirm">I’d like to receive emails from Westland. For details on how we use your information, please read our <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a></label>
+          </div>
+        </div>
+
+      </div>
+    <div class="form-item form__legal">
+      {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+    </div>
+
+  </section>
+    {% endform %}
+
+
+  <script>
+    // const checkbox = document.getElementById('chkConfirm')
+    //
+    // checkbox.addEventListener('change', (event) => {
+    //   if (event.currentTarget.checked) {
+    //     document.getElementById("btnSubmit").disabled = false;
+    //   } else {
+    //     document.getElementById("btnSubmit").disabled = true;
+    //   }
+    // })
+  </script>
+
+  {% schema %}
+  {
+    "name": "JOS Newsletter",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description"
+      }, {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Sign Up"
+    },
+    {
+      "type": "select",
+      "id": "button_color",
+      "label": "Button Color",
+      "default": "btn--neutral",
+      "options": [
+        {
+          "value": "btn--primary",
+          "label": "Bright accent"
+        },
+        {
+          "value": "btn--secondary",
+          "label": "Secondary accent"
+        },
+        {
+          "value": "btn--link",
+          "label": "Link color"
+        },
+        {
+          "value": "btn--neutral",
+          "label": "Text color"
+        },
+        {
+          "value": "btn--black",
+          "label": "Black"
+        },
+        {
+          "value": "btn--white",
+          "label": "White"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "default": "hero__btn btn btn--large caps",
+      "options": [
+        {
+          "value": "standard__cta caps--large",
+          "label": "Capitalized text"
+        },
+        {
+          "value": "hero__btn btn btn--input caps",
+          "label": "Small button"
+        },
+        {
+          "value": "hero__btn btn btn--large caps",
+          "label": "Large button"
+        },
+        {
+          "value": "hero__btn btn btn--input btn--outline caps",
+          "label": "Small outline button"
+        },
+        {
+          "value": "hero__btn btn btn--large btn--outline caps",
+          "label": "Large outline button"
+        }
+      ]
+    }
+    ],
+    "presets": [
+      {
+        "category": "Text",
+        "name": "JOS Newsletter"
+      }
+    ]
+  }
+  {% endschema %}

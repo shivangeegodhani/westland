@@ -1,0 +1,357 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        },
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        }
+      },
+      "block_order": [
+        "recent-articles",
+        "related-products"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "849ffb48-5ce5-482e-94dc-0f3f41b84db3": {
+      "type": "section-split-hero",
+      "settings": {
+        "image_height": "image-height-hero",
+        "mobile_image_height": "image-height-hero--mobile",
+        "mobile_layout": "inline",
+        "image_desktop_left": "shopify://shop_images/IMG_3547.jpg",
+        "bg_position_left": "center-center",
+        "image_desktop_right": "shopify://shop_images/IMG_3526.jpg",
+        "bg_position_right": "right-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "title": "Vegan Kicks",
+        "heading_size": 11,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#212121",
+        "link_text": "Shop",
+        "link": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "e4b2982e-2630-480a-a3e8-30227c3b1859": {
+      "type": "section-double",
+      "blocks": {
+        "template--16787585204467__e4b2982e-2630-480a-a3e8-30227c3b1859-1682601945b42330d5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Harpers",
+            "text_size": 8
+          }
+        },
+        "template--16787585204467__e4b2982e-2630-480a-a3e8-30227c3b1859-1682601945b42330d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Harper 01 is the perfect finishing touch to any look. Guaranteed to keep your feet comfortable all day.These chic vegan trainers have a soft and smooth upper, layered across a thick outsole and finished with chunky laces for a modern finishing touch. Bring out your wild side with leopard print or keep it classic with the crisp white canvas.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__e4b2982e-2630-480a-a3e8-30227c3b1859-1682601945b42330d5-0",
+        "template--16787585204467__e4b2982e-2630-480a-a3e8-30227c3b1859-1682601945b42330d5-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/IMG_3398_e91eb102-da73-42a5-8bfc-6dea6aa02b82.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4a29d4bb-e74f-4259-a412-6a0b9e6b1929": {
+      "type": "section-double",
+      "blocks": {
+        "template--16787585204467__4a29d4bb-e74f-4259-a412-6a0b9e6b1929-1682601945b42330d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leopard print is a neutral right? Pair with your favourite denim for a comfy and cool, laid back look.</p><p>Harper 02 is designed in a low-cut silhouette, this lace-up trainer is effortlessly lightweight and will provide a comfortable and flexible base for your active days adding a bit of excitement with a metallic finish.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16787585204467__4a29d4bb-e74f-4259-a412-6a0b9e6b1929-1682601945b42330d5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/westland-harper-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__4a29d4bb-e74f-4259-a412-6a0b9e6b1929-1682601945b42330d5-1",
+        "template--16787585204467__4a29d4bb-e74f-4259-a412-6a0b9e6b1929-1682601945b42330d5-2"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/IMG_3420.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16442200-2763-4370-8e9b-28cda7fe406f": {
+      "type": "section-double",
+      "blocks": {
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Wellesley",
+            "text_size": 8
+          }
+        },
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A thick platform trainer, made from vegan-friendly textiles and layered on top of a chunky outer sole for exceptional comfort underfoot. In these stunning Pastels- they'll be your spring go-tos!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/westland-wellesley-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-0",
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-1",
+        "template--16787585204467__16442200-2763-4370-8e9b-28cda7fe406f-1682601945b42330d5-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/IMG_3483.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "57c60227-3b12-43bb-b95f-e5855d8cae43": {
+      "type": "section-double",
+      "blocks": {
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Ella",
+            "text_size": 8
+          }
+        },
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A chunky trainer with a small hidden heel to take your look to new heights. Choose from bright contrasting hues or softer pastels. Both guaranteed to make a statement! </p><p>Style with your favourite denim or some spring time florals for the ultimate weekend outfit. Throw on your sunglasses and you're good to go! Who said comfort had to be boring?</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/westland-ella-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-0",
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-1",
+        "template--16787585204467__57c60227-3b12-43bb-b95f-e5855d8cae43-1682601945b42330d5-2"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/IMG_3389.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff263df-d9eb-4657-82ed-c01cfd85b3bf": {
+      "type": "section-double",
+      "blocks": {
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Elenor",
+            "text_size": 8
+          }
+        },
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A chunky trainer crafted from textile panels of contrasting tones and leopard print finish, ensured to give your style the edge this season. Style with denim for an effortless look, or add to a floral dress for some added edge.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/westland-elenor-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-0",
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-1",
+        "template--16787585204467__5ff263df-d9eb-4657-82ed-c01cfd85b3bf-1682601945b42330d5-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/IMG_3756.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6d56d7ac-f706-437a-96f5-4e70bb368d8f": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3583.jpg",
+            "bg_position": "center-center",
+            "title": "The Harper",
+            "text": "",
+            "button_text": "Shop here",
+            "button_url": "shopify://products/westland-harper-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3431.jpg",
+            "bg_position": "center-center",
+            "title": "The Wellesley",
+            "text": "",
+            "button_text": "shop here",
+            "button_url": "shopify://products/westland-wellesley-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3392.jpg",
+            "bg_position": "center-center",
+            "title": "The Ella",
+            "text": "",
+            "button_text": "shop here",
+            "button_url": "shopify://products/westland-ella-01",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-0",
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-1",
+        "template--16787585204467__6d56d7ac-f706-437a-96f5-4e70bb368d8f-16826033323791a96d-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.7,
+        "enable_image": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "849ffb48-5ce5-482e-94dc-0f3f41b84db3",
+    "e4b2982e-2630-480a-a3e8-30227c3b1859",
+    "4a29d4bb-e74f-4259-a412-6a0b9e6b1929",
+    "16442200-2763-4370-8e9b-28cda7fe406f",
+    "57c60227-3b12-43bb-b95f-e5855d8cae43",
+    "5ff263df-d9eb-4657-82ed-c01cfd85b3bf",
+    "6d56d7ac-f706-437a-96f5-4e70bb368d8f"
+  ]
+}

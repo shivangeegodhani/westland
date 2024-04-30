@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "586bfc3d-a7ac-4ce1-a026-9fca80860b53": {
+      "type": "jos-title-with-description",
+      "custom_css": [
+        "h2 {font-weight: 800; text-transform: none; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "title": "Privacy Policy",
+        "font_size": 34,
+        "description": "",
+        "padding_top": 51,
+        "padding_bottom": 0
+      }
+    },
+    "d2bdbebb-533f-4a5f-9135-d73a0ea7935b": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "INTRODUCTION",
+        "font_size": 20,
+        "description": "<p>This privacy notice provides you with details of how we collect and process your personal data through your use of our site www.josefseibel.co.uk This includes any information you may provide through our site when you purchase a product or service, sign up to our newsletter or take part in a prize draw or competition. JOSEF SEIBEL UK Ltd is the data controller and we are responsible for your personal data (referred to as “we”, “us” or “our” in this privacy notice). We have appointed a Data Protection Officer who is in charge of privacy related matters for us. If you have any questions about this privacy notice, please contact the Data Protection Officer using the details set out below.</p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "29f8a313-d1ab-4a12-b61d-1ec8082a423a": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "CONTACT DETAILS",
+        "font_size": 20,
+        "description": "<p>Full name of legal entity: JOSEF SEIBEL UK Ltd<br/>Name of Data Protection Officer: Jennie Petchey<br/>Email address: data@josefseibel.co.uk<br/>Postal address: JOSEF SEIBEL UK Ltd, Unit 2, Wylam Court, Off Telford Way, Coalville LE67 3HP</p><p></p><p>If you are not happy with any aspect of how we collect and use your data, you have the right to complain to the Information Commissioner’s Office (ICO), the UK supervisory authority for data protection issues (www.ico.org.uk). We should be grateful if you would contact us first if you do have a complaint so that we can try to resolve it for you. It is very important that the information we hold about you is accurate and up to date. Please let us know if at any time your personal information changes by emailing us at data@josefseibel.co.uk If you are not happy with any aspect of how we collect and use your data, you have the right to complain to the Information Commissioner’s Office (ICO), the UK supervisory authority for data protection issues (www.ico.org.uk). We should be grateful if you would contact us first if you do have a complaint so that we can try to resolve it for you. It is very important that the information we hold about you is accurate and up to date. Please let us know if at any time your personal information changes by emailing us at data@josefseibel.co.uk.</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "49fb067f-12e4-431a-a755-fc9aceab3c17": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "WHAT DATA DO WE COLLECT ABOUT YOU",
+        "font_size": 20,
+        "description": "<p><strong>Personal data </strong>means any information capable of identifying an individual. It does not include anonymised data.<br/>We may process certain types of personal data about you as follows:<br/><strong>Identity Data </strong>may include your first name, maiden name, last name, username, marital status, title, date of birth and gender.<br/><strong>Contact Data </strong>may include your billing address, delivery address, email address and telephone numbers.<br/><strong>Financial Data </strong>may include your bank account and payment card details.<br/><strong>Transaction Data </strong>may include details about payments between us and other details of purchases made by you.<strong><br/>Technical Data</strong> may include your login data, internet protocol addresses, browser type and version, browser plug-in types and versions, time zone setting and location, operating system and platform and other technology on the devices you use to access this site.<br/><strong>Profile Data</strong> may include your username and password, purchases or orders, your interests, preferences, feedback and survey responses.<br/><strong>Usage Data </strong>may include information about how you use our website, products and services.<br/><strong>Marketing and Communications Data </strong>may include your preferences in receiving marketing communications from us and our third parties and your communication preferences.</p><p></p><p>We may also process <strong>Aggregated Data </strong>from your personal data but this data does not reveal your identity and as such in itself is not personal data. An example of this is where we review your Usage Data to work out the percentage of website users using a specific feature of our site. If we link the Aggregated Data with your personal data so that you can be identified from it, then it is treated as personal data.</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "e83cbe09-25ea-4b7c-90da-b08b9215860f": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "SENSITIVE DATA",
+        "font_size": 20,
+        "description": "<p>We do not collect any Sensitive Data about you. Sensitive data refers to data that includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data. We do not collect any information about criminal convictions and offences.</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "d84f8930-9aaf-41cf-b6ea-760abe3b9c18": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "HOW WE COLLECT YOUR PERSONAL DATA",
+        "font_size": 20,
+        "description": "<p>We collect data about you through a variety of different methods including:</p><p>Direct interactions: You may provide data by filling in forms on our site (or otherwise) or by communicating with us by post, phone, email or otherwise, including when you:</p><p><strong>Order our products or services<br/>Create an account on our site<br/>Create an account on our site<br/>Request resources or marketing be sent to you<br/>Enter a competition, prize draw, promotion or survey<br/>Give us feedback.<br/></strong>Automated technologies or interactions: As you use our site, we may automatically collect Technical Data about your equipment, browsing actions and usage patterns. We collect this data by using cookies, server logs and similar technologies. We may also receive Technical Data about you if you visit other websites that use our cookies. Please see our cookie policy for further details.</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "3a1ad44b-bf7d-43ee-8a06-597d182d3c8b": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "HOW WE USE YOUR PERSONAL DATA",
+        "font_size": 20,
+        "description": "<p>We will only use your personal data when legally permitted. The most common uses of your personal data are: Where we need to perform the contract between us. Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests. Where we need to comply with a legal or regulatory obligation. Generally, we do not rely on consent as a legal ground for processing your personal data, other than in relation to sending marketing communications to you via email. You have the right to withdraw consent to marketing at any time by emailing us at data@josefseibel.co.uk</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "b7e3e86e-2362-4c63-80df-d598c1e89e5a": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "PURPOSES FOR PROCESSING YOUR PERSONAL DATA",
+        "font_size": 20,
+        "description": "<p>Set out below is a description of the ways we intend to use your personal data and the legal grounds on which we will process such data. We have also explained what our legitimate interests are where relevant. We may process your personal data for more than one lawful ground, depending on the specific purpose for which we are using your data. Please email us at data@josefseibel.co.uk if you need details about the specific legal ground we are relying on to process your personal data where more than one ground has been set out in the table below.</p>",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "586bfc3d-a7ac-4ce1-a026-9fca80860b53",
+    "d2bdbebb-533f-4a5f-9135-d73a0ea7935b",
+    "29f8a313-d1ab-4a12-b61d-1ec8082a423a",
+    "49fb067f-12e4-431a-a755-fc9aceab3c17",
+    "e83cbe09-25ea-4b7c-90da-b08b9215860f",
+    "d84f8930-9aaf-41cf-b6ea-760abe3b9c18",
+    "3a1ad44b-bf7d-43ee-8a06-597d182d3c8b",
+    "b7e3e86e-2362-4c63-80df-d598c1e89e5a"
+  ]
+}

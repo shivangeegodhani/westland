@@ -1,0 +1,170 @@
+{%- style -%}
+  #JOSReviews--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+<style>
+  @media (max-width:767px) {
+    #logoImageOne{
+      display:none;
+    }
+    #logoImageTwo{
+      display:inline !important;
+    }
+  }
+</style>
+
+{%- liquid
+    assign reviews_logo_select = section.settings.reviews_logo_select
+-%}
+
+<section id="JOSReviews--{{ section.id }}" class="bootstrapiso section-padding">
+  <div class="customer_sec" style="background-color: {{ section.settings.reviews_color_container }};">
+  <div class="container" style="color: {{ section.settings.reviews_color_text }};background-color: {{ section.settings.reviews_color_container }};">
+    <h2 style="color: {{ section.settings.reviews_color_text }}">{{section.settings.reviewtitle}}</h2>
+    <div class="row g-170px">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="cus_block">
+          <div class="star_detail">
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+          </div>
+          <div class="reviews-comments" style="color: {{ section.settings.reviews_color_text }};">
+          {{section.settings.reviewone}}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="cus_block">
+          <div class="star_detail">
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+          </div>
+          <div class="reviews-comments" style="color: {{ section.settings.reviews_color_text }};">
+          {{section.settings.reviewtwo}}
+          </div>
+            {%- if reviews_logo_select == true -%}
+              <figure id="logoImageOne"><img style="width:150px;" src="https://www.powerreviews.com/wp-content/uploads/2017/02/PWR-Logo-1536x606.png" alt="">
+              </figure>
+            {%- endif -%}
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="cus_block">
+          <div class="star_detail">
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+            <i><img src="{{ 'star_white.png' | asset_img_url: '100x' }}" alt=""></i>
+          </div>
+          <div class="reviews-comments" style="color: {{ section.settings.reviews_color_text }};">
+         {{section.settings.reviewthree}}
+         </div>
+          {%- if reviews_logo_select == true -%}
+            <figure id="logoImageTwo" style="display:none"><img style="width:150px;" src="https://www.powerreviews.com/wp-content/uploads/2017/02/PWR-Logo-1536x606.png" alt="">
+            </figure>
+          {%- endif -%}
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Jos Reviews",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },{
+       "type": "text",
+       "id":"reviewtitle",
+       "label": "Title",
+       "default": "What our customers think..."
+    },
+    {
+      "type": "richtext",
+      "id":"reviewone",
+      "label": "Review One",
+      "default": "<p>Josef Seibel make excellent shoes, extremely comfortable and long lasting. I'm on my 4th pair now, having bought my first pair ten years ago.</p>"
+    },
+    {
+      "type": "richtext",
+      "id":"reviewtwo",
+      "label": "Review Two",
+      "default": "<p>Love my Josef Seibel shoes. Bought them to replace my last ones which only needed replacing because I had worn down the heels.</p>"
+    }, {
+      "type": "richtext",
+      "id":"reviewthree",
+      "label": "Review Three",
+      "default": " <p>These shoes fit perfectly. They are some of the most comfortable shoes I have owned. I have received several compliments from friends and strangers about them.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "reviews_color_text",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "reviews_color_container",
+      "label": "Container",
+      "default": "#ffffff"
+    },
+     {
+      "type": "header",
+      "content": "Display Logo"
+    },
+     {
+      "type": "checkbox",
+      "id": "reviews_logo_select",
+      "label": "Yes/No",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Jos Reviews"
+    }
+  ]
+}
+{% endschema %}

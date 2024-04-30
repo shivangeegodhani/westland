@@ -1,0 +1,23 @@
+<div class="vegan_info {% if product.tags contains 'FeatureWP'%}FeatureWP{%- endif -%}" >
+    {% if product.tags contains 'FeatureVGA' %}
+        <img
+                src="{{ 'VEGApproved.svg' | asset_url }}"
+                alt="Vegan Approved"
+                data-tooltip="Vegan Approved"
+        >
+    {% elsif product.tags contains 'FeatureVGF'%}
+        <img
+                src="{{ 'VEGFriendly.svg' | asset_url }}"
+                alt="Vegan Friendly"
+                data-tooltip="Vegan Friendly"
+        >
+
+    {% elsif product.tags contains 'FeatureWP'%}
+            <img
+                    src="{{ 'Waterproof.svg' | asset_url }}"
+                    alt="Waterproof"
+                    data-tooltip="Waterproof"
+            >
+
+    {% endif %}
+</div>

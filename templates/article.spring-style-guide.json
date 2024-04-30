@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Picnic.png"
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Picnic In The Park</strong></p><p>Step out in style with JOSEF SEIBEL Claire 03, a modern everyday trainer with a thick white chunky sole and offering plenty of internal cushioning to give supportive and lasting comfort. Crafted with high-quality nubuck leather, finished with casual lace-up fastening and side zip. The perfect trainer to smarten up your casual look.</p><p></p><p>Pair with a flowy skirt, your favourite tee and a cosy cardigan for the perfect picnic outfit!</p><p></p>"
+          }
+        },
+        "c5aea070-c483-40cd-86e2-afe607f906c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bike_ride.png"
+          }
+        },
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Bike Ride</strong></p><p>Get that spring feeling and slip into a pair of JOSEF SEIBEL Rosalie 42. Made from soft high-quality leather with handstitched sole and upper. Decorative features for increased flexibility and effortless styling. Featured in amber - brand new for SS23!</p>"
+          }
+        },
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Running_errands.png"
+          }
+        },
+        "c09b3dea-e813-4644-aca8-d46e3259023e": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Running Errands </strong></p><p>Ladies lightweight closed toe sandal with cross strap design. Crafted from soft leathers with a cushioned leather lining, sitting atop a flexible and durable sole. The perfect pair for keeping your feet comfy all day.</p><p>Style with some spring floral jeans, a cosy jumper for an effortless look. Throw on your favourite sunnies and you're good to go!</p>"
+          }
+        },
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Coffee_Lunch_date.png"
+          }
+        },
+        "0fceafb1-2801-4163-912e-d6172b650ac0": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Brunch Date</strong></p><p>Leather trainers are the mainstay for all seasons and all rotations. JOSEF SEIBEL Caren 01 is no exception! This leather sneaker will transition you through the season with its comfortable cushioned insole and soft leather linings. Finished in high-quality, soft supple leather with a unique perforated side panel and contrasting white sole for a contemporary look. </p><p>Start with a simple white tee and blue jeans base and add a matching jacket for an easy put together look.</p>"
+          }
+        },
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dog_walk.png"
+          }
+        },
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Dog Walk</strong></p><p>JOSEF SEIBEL, Fergey 56. Understated, versatile, and cool are just some words to describe this everyday style. Made from high-quality, soft leather with hand-stitch detailing and signature motif.</p><p>Perfect for the daily dog walk. Style with your favouite jeans and a chunky knitted cardigan. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c5aea070-c483-40cd-86e2-afe607f906c2",
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be",
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5",
+        "c09b3dea-e813-4644-aca8-d46e3259023e",
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60",
+        "0fceafb1-2801-4163-912e-d6172b650ac0",
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a",
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "sections": {
+    "b7637abb-e009-45fd-b9fe-946ad533b9af": {
+      "type": "jos-collection-carousel",
+      "blocks": {
+        "91c391e1-5ddc-4f01-9f32-2d66b0393ef5": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/CATEGORY_GROUPS_COLLECTIONS_-2.jpg",
+            "title": "",
+            "collection_link": "shopify://collections/vegan-sandals"
+          }
+        },
+        "collection_block_twWDM6": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/Charper.png",
+            "title": "",
+            "collection_link": "shopify://collections/vegan-trainers"
+          }
+        },
+        "2fccf247-fba6-4926-ad50-b9c778845e67": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/boots_collection_shot.png",
+            "title": "",
+            "collection_link": "shopify://collections/vegan-boots"
+          }
+        }
+      },
+      "block_order": [
+        "91c391e1-5ddc-4f01-9f32-2d66b0393ef5",
+        "collection_block_twWDM6",
+        "2fccf247-fba6-4926-ad50-b9c778845e67"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "blocks": 3,
+        "title": ""
+      }
+    },
+    "section_rich_text_wRzDfp": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_3dbGCJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dbGCJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "9d714ccf-9967-4706-a02c-f784d4fd393c": {
+      "type": "section-video",
+      "settings": {
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/977fd312e5de4522bc89a4fb0fe3045f.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "",
+        "heading_size": 8,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--bottom-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "shop here",
+        "link": "shopify://collections/vegan-trainers",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    },
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_giB4Uy": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Image slide",
+            "heading_size": 11,
+            "description": "Tell your brand's story through images.",
+            "text_size": 5,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "b69bfa11-0ee6-422a-aa88-65c98f19adb4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-top",
+            "image": "shopify://shop_images/moving_banner_Westland_website-3.jpg",
+            "mobile_image": "shopify://shop_images/769529_Peyton09_780100_black_womens_ss24_rrp_0.00_09.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 6,
+            "description": "",
+            "text_size": 5,
+            "flex_align": "align--bottom-right",
+            "bg_color": "",
+            "color": "#c4caba",
+            "link_text": "View Collection",
+            "link": "shopify://collections/vegan-trainers",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        }
+      },
+      "block_order": [
+        "image_giB4Uy",
+        "b69bfa11-0ee6-422a-aa88-65c98f19adb4"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "section_rich_text_QaE46p": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_UjqLWq": {
+          "type": "heading",
+          "settings": {
+            "title": "Live life on the wedge with our chunky sandal styles.",
+            "text_size": 6,
+            "text_weight": 100,
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UjqLWq"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "84073baa-f500-4f50-afd4-e1de2eaea311": {
+      "type": "jos-my-sec",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding": 0,
+        "padding_bottom": 0,
+        "title": "",
+        "mainheading": "",
+        "h_position": "left",
+        "heading": "WINTER SAVINGS",
+        "bg_position": "left",
+        "description": "On the hunt for an enviable saving? Explore Westland's winter sale and stock up on your staple footwear styles for this season and next",
+        "description_position": "left",
+        "link_text": "DISCOVER STYLES",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps",
+        "link": "shopify://collections/clearance"
+      }
+    },
+    "bd70a7a1-970e-4edc-befc-7d5e79cc2710": {
+      "type": "jos-card-above-large-image",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 49,
+        "my_collection": "vegan-sandals",
+        "product-number": 4,
+        "title": "",
+        "description": "",
+        "background": "image",
+        "background_color": "#fafafa",
+        "background_image": "shopify://shop_images/moving_banner_Westland_website_3452_x_1304_px_9c531980-5249-445f-a899-f3ddaa0ac0d9.png",
+        "button_text": "Explore",
+        "button_url": "shopify://collections/warm-lined-boots",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    },
+    "a4fe80e1-02c5-4863-987a-4d569303edcc": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "HIGHLIGHTS",
+        "show_line": true,
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "EXPLORE MORE",
+        "link_url": "shopify://collections/vegan-trainers",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "vegan-trainers",
+        "grid": 5,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#000000",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "027d2ef5-b5f7-4af2-849b-98bd5abbc4f0": {
+      "type": "jos-my-sec",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding": 15,
+        "padding_bottom": 0,
+        "title": "",
+        "left_image": "shopify://shop_images/Untitled_design.png",
+        "mainheading": "Inspiration",
+        "h_position": "left",
+        "heading": "HOW TO STYLE CHUNKY SANDALS",
+        "bg_position": "left",
+        "description": "For a fresh and feminine look, pair your chunky sandals with a flowy white dress. Enhance the overall look by adding statement jewellery, with statement earrings or a bold necklace. This combination creates a chic style suitable for multiple occasions.",
+        "description_position": "left",
+        "link_text": "READ MORE",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--input caps",
+        "link": "shopify://blogs/blogs/chunky-sandals"
+      }
+    },
+    "section_custom_content_dBtzDa": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_CQrMVi": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "EDITORIAL",
+            "heading_size": 7,
+            "width": "wrapper--full",
+            "text": "<p>The place to find a little inspiration - from new product  to all the latest lifestyle and fashion trends. </p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "text_CQrMVi"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "jos_blog_post_cards_Ed6tGE": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "READ OUR LATEST BLOGS",
+        "show_title": true,
+        "blog": "blogs",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "69337045-544a-44fe-a1e5-eb91841490da": {
+      "type": "jos-my-sec",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding": 0,
+        "padding_bottom": 0,
+        "title": "#myjosefseibeluk",
+        "left_image": "shopify://shop_images/PAGE_BREAKERS_960_x_778px_14.png",
+        "mainheading": "",
+        "h_position": "left",
+        "heading": "SHARE YOUR STYLE",
+        "bg_position": "left",
+        "description": "At Westland we want everyone to enjoy a life paved with joyful moments and it is our ambition to make each and every step as comfortable as it can be.",
+        "description_position": "left",
+        "link_text": "read",
+        "button_color": "btn--secondary",
+        "button_style": "hero__btn btn btn--large caps",
+        "link": "shopify://pages/myjosefseibel-competition"
+      }
+    },
+    "7eeae611-107b-4112-8e0e-9b83a00ed9bc": {
+      "type": "jos-policy",
+      "blocks": {
+        "9dee3947-e888-45bc-bade-855ac4073737": {
+          "type": "policy-block",
+          "settings": {
+            "title": "Delivery",
+            "description": "FREE UK delivery on orders over £40",
+            "link": "shopify://pages/delivery-information"
+          }
+        },
+        "9ae6dc51-f743-4c6e-ae02-5ff8c4fd0bfa": {
+          "type": "policy-block",
+          "settings": {
+            "title": "Returns & Exchanges",
+            "description": "35 Days returns policy",
+            "link": "shopify://pages/returns"
+          }
+        },
+        "92ce95b0-74fa-455e-8c62-da867d81e4dd": {
+          "type": "policy-block",
+          "settings": {
+            "title": "Get in touch",
+            "description": "Have questions? We’d love to help.",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "9dee3947-e888-45bc-bade-855ac4073737",
+        "9ae6dc51-f743-4c6e-ae02-5ff8c4fd0bfa",
+        "92ce95b0-74fa-455e-8c62-da867d81e4dd"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 17,
+        "padding_bottom": 26
+      }
+    },
+    "section_video_GRRcY8": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/ec26e2b6370047edbfb1da6c6a046e07.mp4",
+        "video_link": "",
+        "bg_position": "center-center",
+        "desktop_height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "",
+        "heading_size": 8,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "section_hero_UBkwkw": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_JJw8ek": {
+          "type": "heading",
+          "settings": {
+            "title": "I love Westland shoes",
+            "heading_size": 4
+          }
+        },
+        "heading_TzGQQW": {
+          "type": "heading",
+          "settings": {
+            "title": "Mrs DB",
+            "heading_size": 4
+          }
+        },
+        "text_Kqfx3J": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JJw8ek",
+        "heading_TzGQQW",
+        "text_Kqfx3J"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Review_banner_3.png",
+        "mobile_image": "shopify://shop_images/Review_banner_3.png",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#333d22"
+      }
+    },
+    "section_reviews_Q3aqdb": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_wF8ycB": {
+          "type": "review",
+          "settings": {
+            "title": "Mrs DB",
+            "subheading": "Customer purchase from Josefseibel.co.uk",
+            "review_text": "I really like the chunky heel with these as they're not completely flat like some trainers. I love the side zip for getting them on and off, plus the laces are great for adjusting the width.",
+            "review_url": ""
+          }
+        },
+        "review_yqBDF6": {
+          "type": "review",
+          "settings": {
+            "title": "Sally",
+            "subheading": "Customer purchase from Josefseibel.co.uk",
+            "review_text": "Perfect boots. Very comfy straight away. True to size. No issue with zips, despite having wide feet.",
+            "review_url": ""
+          }
+        },
+        "review_g8MPKP": {
+          "type": "review",
+          "settings": {
+            "title": "Linda",
+            "subheading": "Customer purchase from Josefseibel.co.uk",
+            "review_text": "I noticed this range in a department store that had sold out of the black option in-store and online, nevertheless, I was so impressed with the comfort and fit that I purchased the black floral yesterday and ordered the red Peyton online which came today. Cannot fault the quality of these boots",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_wF8ycB",
+        "review_yqBDF6",
+        "review_g8MPKP"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-center",
+        "text_size": 4,
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#0e2d08",
+        "card_bg_color": "#e7eae1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "b7637abb-e009-45fd-b9fe-946ad533b9af",
+    "section_rich_text_wRzDfp",
+    "9d714ccf-9967-4706-a02c-f784d4fd393c",
+    "slideshow",
+    "section_rich_text_QaE46p",
+    "84073baa-f500-4f50-afd4-e1de2eaea311",
+    "bd70a7a1-970e-4edc-befc-7d5e79cc2710",
+    "a4fe80e1-02c5-4863-987a-4d569303edcc",
+    "027d2ef5-b5f7-4af2-849b-98bd5abbc4f0",
+    "section_custom_content_dBtzDa",
+    "jos_blog_post_cards_Ed6tGE",
+    "69337045-544a-44fe-a1e5-eb91841490da",
+    "7eeae611-107b-4112-8e0e-9b83a00ed9bc",
+    "section_video_GRRcY8",
+    "section_hero_UBkwkw",
+    "section_reviews_Q3aqdb"
+  ]
+}

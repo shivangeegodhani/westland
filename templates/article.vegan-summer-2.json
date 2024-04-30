@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vegan_summer.png"
+          }
+        },
+        "e3bbc9af-caf2-4d4b-8435-a5159f5db542": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>WESTLAND by Josef Seibel's collection of vegan friendly styles will bring optimism and joy to your seasonal look. With mood boosting rainbow hues in abundance and versatile styling you'll be spoilt for choice.</p>"
+          }
+        },
+        "7cc6cf4c-6d90-4f3d-8c0f-bc3aee01bc14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/100_vegan.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Add a pop of colour to your spring wardrobe with Welleseley 01. A thick platform trainer, made from vegan-friendly textiles and layered on top of a chunky outer sole for exceptional comfort underfoot. In these beautiful pastel shades, Welleseley 01 will be the must have trainer this spring.</p>"
+          }
+        },
+        "509356a2-cd53-455e-9a1b-99bb6e196878": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/strawberry_bannana_smoothie.png"
+          }
+        },
+        "0f7251af-facf-41c3-ade8-f8e870cb07b8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Harper 01 is the perfect spring trainer for every style- bring out your wild side with leopard print or keep it classic with the crisp white. Its soft and smooth upper is layered across a thick outsole and finished with chunky laces for a modern finishing touch.</p>"
+          }
+        },
+        "3ddde4b6-f3bf-484c-8a34-af6b09e02533": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/strawberry_bannana_smoothie2_fccd19dd-08be-4d5e-9b02-097cd9f25291.png"
+          }
+        },
+        "4ee8029c-7e65-4566-bd05-1cdf07c0d2e9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Perfect for pairing with street-ready athleisure, Ella 01 is a chunky trainer crafted from textile panels of contrasting tones , ensured to give your style the edge this season. With a hidden wedge, Ella 01 is guaranteed to take your style to new heights this spring.</p>"
+          }
+        },
+        "a3f9116a-b2ba-44f2-aa03-0b6e25586586": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sunshine_smoothie.png"
+          }
+        },
+        "5d20bb8e-27c2-4e78-b5ae-4e61bde703a7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Stand out in a pair of Harper 02, with 3 different colour options you'll be spoilt for choice. Designed in a low-cut silhouette, this lace-up trainer is effortlessly lightweight and will provide a comfortable and flexible base for your active days.</p>"
+          }
+        },
+        "632bc0ae-99d8-45d4-abf8-1ef8a054c59d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/peanut_butter_smoothie.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Elenor 03 is a chunky trainer crafted from textile panels of contrasting tones and leopard print finish, ensured to give your style the edge this season. Pair with athleisure to run errands or throw on with a floaty dress for the perfect daytime outfit, this trainer will be your go-to this spring.</p>"
+          }
+        },
+        "d1ddccdd-3c4b-4a5d-aaf2-d0c956c1507a": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<h5>Tried one of these recipies and want to share with us?</h5><h5>Use the hashtag #myjosefseibeluk for your chance to be featured on our socials! </h5>"
+          }
+        },
+        "00ce37f4-35ce-4c5e-92a8-9f34e105caf2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_e4b01539-d254-4106-9ad0-3a4c2bb2b476.png"
+          }
+        },
+        "32970f32-483b-41e5-bb3b-dad3238b4d41": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Westland-blk_99d4b535-bc66-4ad7-a03a-bf01a8d5fd48.png"
+          }
+        }
+      },
+      "block_order": [
+        "c251ce99-7126-4742-8361-945d55207959",
+        "e3bbc9af-caf2-4d4b-8435-a5159f5db542",
+        "7cc6cf4c-6d90-4f3d-8c0f-bc3aee01bc14",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "509356a2-cd53-455e-9a1b-99bb6e196878",
+        "0f7251af-facf-41c3-ade8-f8e870cb07b8",
+        "3ddde4b6-f3bf-484c-8a34-af6b09e02533",
+        "4ee8029c-7e65-4566-bd05-1cdf07c0d2e9",
+        "a3f9116a-b2ba-44f2-aa03-0b6e25586586",
+        "5d20bb8e-27c2-4e78-b5ae-4e61bde703a7",
+        "632bc0ae-99d8-45d4-abf8-1ef8a054c59d",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "d1ddccdd-3c4b-4a5d-aaf2-d0c956c1507a",
+        "00ce37f4-35ce-4c5e-92a8-9f34e105caf2",
+        "32970f32-483b-41e5-bb3b-dad3238b4d41"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

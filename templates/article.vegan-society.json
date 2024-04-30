@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8": {
+      "type": "jos-editorial-profile",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "profile_image": "shopify://shop_images/my_image_3.jpg"
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>WESTLAND by Josef Seibel’s curated collection of vegan footwear offers a wardrobe essential whatever your style preference. The range effortlessly fuses together detailing with the latest style trends, offering comfort without compromising on style. </p>"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<h3><strong>Don’t just take our word for it: </strong></h3><p>We are on board with the Vegan<br/>Verification programme developed by Eurofins | Chem-MAP which gives manufacturers the assurance that raw materials used in the production of materials and – ultimately the finished product, have not been derived from animal origin or contain any animal by-products.</p><p></p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chemicals_used_in_fabrics_1.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Our vegan verified styles are tested by Eurofins | Chem-MAP for animal derived ingredients using a combination of FTIR analysis, and Fibre ID, DNA analysis for the presence of mammal, bird, fish, insect, crustacean, and mollusc DNA. Focusing on the following production areas...</p>"
+          }
+        },
+        "17981eeb-958e-498c-87c3-b78e953f16c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chemicals_used_in_fabrics.png"
+          }
+        },
+        "d06e4e94-9e59-417c-9ae4-ccededc8e814": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>All vegan styles awarded by the Eurofins certification carry the Vegan Trade Mark, registered by The Vegan Society, the oldest vegan organisation in the world. Founded in 1944 the Vegan Society is a world leader in its field and JOSEF SEIBEL continues to work with Eurofins and the Vegan Society to give our customers additional reassurances.</strong></p>"
+          }
+        },
+        "5e419019-8e7d-4852-973c-2106c86dea5a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chemicals_used_in_fabrics_2.png"
+          }
+        },
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174": {
+          "type": "imagegrid",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "17981eeb-958e-498c-87c3-b78e953f16c1",
+        "d06e4e94-9e59-417c-9ae4-ccededc8e814",
+        "5e419019-8e7d-4852-973c-2106c86dea5a",
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

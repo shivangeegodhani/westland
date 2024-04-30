@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Elevated_1.png"
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p><strong>Want to give your work and weekend ensembles a luxe finish with some box fresh kicks? As dress codes have softened in recent seasons the athleisure section of our wardrobe has extended. </strong></p><h2><strong>Here’s a round-up of our favourite vegan friendly styles that are sure to be a solid foundation for the season. </strong></h2>"
+          }
+        },
+        "imagegrid_iLi9fw": {
+          "type": "imagegrid",
+          "settings": {
+            "imagegridone": "shopify://shop_images/Untitled_design_-_2024-03-05T110826.136.png",
+            "imagegridtwo": "shopify://shop_images/Untitled_design_-_2024-03-05T110843.589.png"
+          }
+        },
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "0fceafb1-2801-4163-912e-d6172b650ac0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Offering a palette that nods to Spring-time hues, with plentiful shades of lush greens and light pastels to add style and sophistication to your everyday</p>"
+          }
+        },
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "imagegrid_YRnjMi": {
+          "type": "imagegrid",
+          "settings": {
+            "imagegridone": "shopify://shop_images/Untitled_design_-_2024-03-05T110901.145.png",
+            "imagegridtwo": "shopify://shop_images/Untitled_design_-_2024-03-05T113936.424.png"
+          }
+        }
+      },
+      "block_order": [
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "imagegrid_iLi9fw",
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "0fceafb1-2801-4163-912e-d6172b650ac0",
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb",
+        "imagegrid_YRnjMi"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "section_collection_carousel_HED6jR": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP MORE STYLES",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/vegan-trainers",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "vegan-trainers",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231",
+    "section_collection_carousel_HED6jR"
+  ]
+}

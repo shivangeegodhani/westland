@@ -1,0 +1,362 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3c745700-17ec-4873-a17b-c3496b0a627c": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "fc8e79fd-0adc-4897-80dd-c82ba5466275": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The sun is officially out! So if your prepping your wardrobe for the hotter days and style and comfort is at the top of your agenda then look no further. JOSEF SEIBEL’s collection of summer footwear offers everything you need to give you that summer feeling.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-1",
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-2",
+        "template--16799198675187__fc8e79fd-0adc-4897-80dd-c82ba5466275-1684837392e92b775a-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 2,
+        "padding_bottom": 16
+      }
+    },
+    "619f1064-7943-44b1-8c53-9a41f4034b06": {
+      "type": "section-double",
+      "blocks": {
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-0": {
+          "type": "heading",
+          "settings": {
+            "title": "LUCIE 03",
+            "text_size": 3
+          }
+        },
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JOSEF SEIBEL Lucie 03 will bring comfort and practicality to your summer styling. Featuring a multi-strap over design and adjustable strap for a secure fit. Finished with dual density sole, that'll provide lasting underfoot cushioning as you step through the season.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-0",
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-1",
+        "template--16799198675187__619f1064-7943-44b1-8c53-9a41f4034b06-1684833569b4b8b7ce-2"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters-min--desktop",
+        "mobile_height": "screen-height-one-half-min--mobile",
+        "image": "shopify://shop_images/5_c335bb96-3c11-4ff8-87c6-69b89d24873f.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 54,
+        "padding_bottom": 0
+      }
+    },
+    "63f4a39c-bc7c-4591-ab3d-bb922fb487de": {
+      "type": "section-look",
+      "blocks": {
+        "template--16799198675187__63f4a39c-bc7c-4591-ab3d-bb922fb487de-1684836509a89480dc-0": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-tonga-77",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16799198675187__63f4a39c-bc7c-4591-ab3d-bb922fb487de-1684836509a89480dc-1": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-tonga-25",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--16799198675187__63f4a39c-bc7c-4591-ab3d-bb922fb487de-1684836509a89480dc-0",
+        "template--16799198675187__63f4a39c-bc7c-4591-ab3d-bb922fb487de-1684836509a89480dc-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_22.gif",
+        "bg_position": "center-center",
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 16,
+        "padding_bottom": 15
+      }
+    },
+    "e2fe7c66-6338-4984-83d5-c0bec26a11ed": {
+      "type": "section-double",
+      "blocks": {
+        "d599ba20-9781-422f-8db2-53b73ca9526f": {
+          "type": "heading",
+          "settings": {
+            "title": "HENRIETTE 03",
+            "text_size": 3
+          }
+        },
+        "c8ed4c27-2b87-4cb5-bce5-f0f201636e36": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JOSEF SEIBEL Henriette 03 is a real corker! This colourful sling back not only offers a stylish look but is also constructed on a naturally breathable cork foot bed, which is not only lightweight but contours to the foot beautifully. Cork is a great shock absorber too, for complete cushioned</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "08a13806-8609-4f57-963b-967c1dc2859c": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP",
+            "button_url": "shopify://products/josef-seibel-henriette-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "d599ba20-9781-422f-8db2-53b73ca9526f",
+        "c8ed4c27-2b87-4cb5-bce5-f0f201636e36",
+        "08a13806-8609-4f57-963b-967c1dc2859c"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters-min--desktop",
+        "mobile_height": "screen-height-one-half-min--mobile",
+        "image": "shopify://shop_images/7_dcc1be96-b9c7-4d76-b010-9e7a1fc6f589.png",
+        "bg_position": "center-top",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 46
+      }
+    },
+    "5db3ea3a-25ba-481f-b5e7-f3fb65ee114d": {
+      "type": "section-look",
+      "blocks": {
+        "c775c2f7-3b74-4bbd-bb0b-decf7b6cbce8": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-michelle-06",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "9416b145-8587-4652-883f-c67f3f1b20e2": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-michelle-06",
+            "position_x": 14,
+            "position_y": 37
+          }
+        }
+      },
+      "block_order": [
+        "c775c2f7-3b74-4bbd-bb0b-decf7b6cbce8",
+        "9416b145-8587-4652-883f-c67f3f1b20e2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Holiday_shop-_tile_3.png",
+        "bg_position": "center-top",
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-0": {
+          "type": "heading",
+          "settings": {
+            "title": "THE  VEGAN COLLECTION",
+            "heading_size": 11
+          }
+        },
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-1": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify://collections/vegan-sandals",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-0",
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-1",
+        "template--16799198675187__26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2-16848336781a176eb0-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Holiday_Shop-_PART_2_4.png",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-full--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--top-left",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "1a242080-f03b-4d70-8cc6-49b5ff2a6abd": {
+      "type": "jos-collection-carousel",
+      "blocks": {
+        "a8150028-86ef-4f81-9d05-676b0ff391de": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/9_836437c2-42bb-4da4-b214-c0e1a082f7d4.png",
+            "title": "HEELS & WEDGES",
+            "collection_link": "shopify://collections/heeled-sandals"
+          }
+        },
+        "2f18549e-9c7f-4aa7-90b6-06ed5799c87e": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/10_8afbe687-1973-4b85-91b8-45401f092e88.png",
+            "title": "SLIP-ONS",
+            "collection_link": "shopify://collections/ladies-mule-sandals"
+          }
+        },
+        "cc7cfeab-3b71-4792-b802-c032b1ab0520": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/11_834ff3f0-b2de-46ba-bb97-cbfafd0431c1.png",
+            "title": "ESPADRILLES",
+            "collection_link": "shopify://products/westland-avery-02"
+          }
+        },
+        "97dd3ac6-b0fa-4e74-a707-04d813f1a71c": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/13_5c2bf0c2-609f-4f0e-aeee-563cd345ddfc.png",
+            "title": "CLOGS & MULES",
+            "collection_link": "shopify://collections/womens-clogs"
+          }
+        },
+        "426ca7bb-a71a-4403-b589-3d538da17988": {
+          "type": "collection-block",
+          "settings": {
+            "image": "shopify://shop_images/Holiday_shop-_tile_4.png",
+            "title": "MENS SANDALS",
+            "collection_link": "shopify://collections/mens-sandals"
+          }
+        }
+      },
+      "block_order": [
+        "a8150028-86ef-4f81-9d05-676b0ff391de",
+        "2f18549e-9c7f-4aa7-90b6-06ed5799c87e",
+        "cc7cfeab-3b71-4792-b802-c032b1ab0520",
+        "97dd3ac6-b0fa-4e74-a707-04d813f1a71c",
+        "426ca7bb-a71a-4403-b589-3d538da17988"
+      ],
+      "settings": {
+        "padding_top": 15,
+        "padding_bottom": 4,
+        "title": "SUMMER COLLECTIONS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c745700-17ec-4873-a17b-c3496b0a627c",
+    "fc8e79fd-0adc-4897-80dd-c82ba5466275",
+    "619f1064-7943-44b1-8c53-9a41f4034b06",
+    "63f4a39c-bc7c-4591-ab3d-bb922fb487de",
+    "e2fe7c66-6338-4984-83d5-c0bec26a11ed",
+    "5db3ea3a-25ba-481f-b5e7-f3fb65ee114d",
+    "26dc9ba4-0c3f-4f4a-984c-9e88c696e7a2",
+    "1a242080-f03b-4d70-8cc6-49b5ff2a6abd"
+  ]
+}

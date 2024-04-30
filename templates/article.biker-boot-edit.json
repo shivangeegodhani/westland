@@ -1,0 +1,254 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8": {
+      "type": "jos-editorial-profile",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "profile_image": "shopify://shop_images/my_image_3.jpg"
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Along with leather jackets and a few silver stud accents, biker boots are the next step to embodying a true moto vibe and should be your go-to boot for transitioning your wardrobe into the cooler months. <strong>Don't just take our word for it. Take some style cues from our run-way ready boots for your day-day styling.</strong></p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_d193ad9f-edc3-4d32-9278-50ea373f3639.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Although biker boots are known for being a little avant-garde, JOSEF SEIBEL’s on-trend collection are also practical and easy to style.</p>"
+          }
+        },
+        "ebacf06d-9d9d-48ef-98d7-257828040845": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_fb989d67-d4e2-4336-90e8-dcb313381594.png"
+          }
+        },
+        "b458afc4-5938-4346-86bb-d8b515330ce8": {
+          "type": "imagegrid",
+          "disabled": true,
+          "settings": {
+            "imagegridone": "shopify://shop_images/4_161586e5-a0e2-43a6-b191-f3094e4790c9.png",
+            "imagegridtwo": "shopify://shop_images/11_7a04673a-4a75-4839-86ff-b1bf8b28d1e5.png"
+          }
+        },
+        "1cae71c2-a5d5-4d8e-8cd2-0f79850011df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_THE_BIKER_BOOT_EDIT_2.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p></p><p></p>"
+          }
+        },
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>While it might not seem like the most obvious choice, dresses and biker boots are an excellent combination. To achieve an on trend look, the best style of dress to choose is a midi dress, creating a more dressed-down aesthetic. Wear with tights and a warm jacket in the winter, this outfit is both fashionable and functional, so you’re guaranteed to make it a go-to.</p>"
+          }
+        },
+        "86538393-912a-4bbb-98cf-9944b66c010d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Leather_Jacket_Comfy_Tee_Midi_Skirt.png"
+          }
+        },
+        "69c8655d-39be-432a-a6bb-65504beff002": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174": {
+          "type": "imagegrid",
+          "settings": {
+            "imagegridone": "shopify://shop_images/4_161586e5-a0e2-43a6-b191-f3094e4790c9.png",
+            "imagegridtwo": "shopify://shop_images/11_7a04673a-4a75-4839-86ff-b1bf8b28d1e5.png"
+          }
+        },
+        "eb9993ee-32be-4106-ab96-26b4e4b2b981": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "ebacf06d-9d9d-48ef-98d7-257828040845",
+        "b458afc4-5938-4346-86bb-d8b515330ce8",
+        "1cae71c2-a5d5-4d8e-8cd2-0f79850011df",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "c09ce103-4c3d-4c0e-9756-6c2b05c6fe67",
+        "86538393-912a-4bbb-98cf-9944b66c010d",
+        "69c8655d-39be-432a-a6bb-65504beff002",
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174",
+        "eb9993ee-32be-4106-ab96-26b4e4b2b981"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a7f34ca8-b404-422e-a549-59eb5401ef14": {
+      "type": "section-product",
+      "blocks": {
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-price_and_title-1": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "none",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-form-1": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_quantity": true,
+            "show_payment_button": true,
+            "subscriptions_enable_selectors": true
+          }
+        },
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-tab_richtext-1": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "tabs",
+            "title_1": "Tab",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-price_and_title-1",
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-form-1",
+        "template--16847119483123__a7f34ca8-b404-422e-a549-59eb5401ef14-tab_richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "home_product": "josef-seibel-waylynn-11",
+        "image_layout": "thumbnails",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "block_padding": 20,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "27d63001-97b1-4ca5-ae80-c8bd6ea853f4": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "a7f34ca8-b404-422e-a549-59eb5401ef14",
+    "27d63001-97b1-4ca5-ae80-c8bd6ea853f4",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

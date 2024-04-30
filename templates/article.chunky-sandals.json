@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "b847b523-fdf4-4839-9198-7090e5e92f66": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "How to style chunky sandals",
+        "font_size": 52,
+        "description": "<p>As the flowers bloom, it's time to<br/>refresh your wardrobe with the latest trends for SS24. This season, fashion<br/>takes a bold turn with vibrant colours, oversized silhouettes, and a touch of<br/>metallic magic.</p>",
+        "padding_top": 50,
+        "padding_bottom": 15
+      }
+    },
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5": {
+      "type": "section-double",
+      "blocks": {
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Oversized Dressing",
+            "text_size": 8
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Immerse yourself in laid-back and oversized attires. Embracing staple pieces such as jackets and blazers to keep outfits comfy and casual, while also looking chic and put together. Pair an oversized blazer with your favourite denim and a smart shoe. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Peyton 09",
+            "button_url": "shopify://products/westland-peyton-09",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-0",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-1",
+        "template--16812824887539__934e0cef-20ec-40d1-83a4-626d7a4afbc5-1687355254ef8fba88-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/jeansBlazer.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391": {
+      "type": "section-double",
+      "blocks": {
+        "4f129cd8-1357-4666-ac85-4150264186bf": {
+          "type": "heading",
+          "settings": {
+            "title": "White",
+            "text_size": 8
+          }
+        },
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In contrast to vibrant red, the timeless white returns to SS24. Clean, crisp and perfect to pair with anything, white clothing dominates both casual and formal wear. Whether it is flowy summer dress or a tailored jacket, it brings sophistication to your SS24 wardrobe. Add an edgy spin to the white outfits and pair with chunky black sandals. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "50043de7-8d20-4455-b353-55c213c57c94": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "PEYTON 08",
+            "button_url": "shopify://products/westland-peyton-08",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "4f129cd8-1357-4666-ac85-4150264186bf",
+        "f1762419-675b-4efe-a6a8-6c436bbf7b0e",
+        "50043de7-8d20-4455-b353-55c213c57c94"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Chunky_Sandal_-_White_Dress_1.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_dYcP6J": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_Vp6nWy": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_size": 11
+          }
+        },
+        "text_NxK93e": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_tTWPN7": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vp6nWy",
+        "text_NxK93e",
+        "button_tTWPN7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_Copy_of_MAIN_BANNER_1.png",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "65b4439d-7378-412f-9d50-e8f1857d8412": {
+      "type": "section-double",
+      "blocks": {
+        "0a4f8a43-9a19-43b8-9879-917058c22973": {
+          "type": "heading",
+          "settings": {
+            "title": "Metallics",
+            "text_size": 8
+          }
+        },
+        "64401a12-94e9-435c-a5b3-555a398fcb1a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Metallics continue to shine into this season. With gold and silver<br/>hues dominating runways, featured in dresses, accessories, and even footwear. Paired with classic outfits, metallics add a hint of sparkle to the spring-summer seasons. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "63ed08b3-db3c-4bb7-a9dc-62aaafd06b77": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Madison 02",
+            "button_url": "shopify://products/westland-madison-02",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "0a4f8a43-9a19-43b8-9879-917058c22973",
+        "64401a12-94e9-435c-a5b3-555a398fcb1a",
+        "63ed08b3-db3c-4bb7-a9dc-62aaafd06b77"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/Metallics.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_deEdQ8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_NPmafe": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "heading_AaEU6E": {
+          "type": "heading",
+          "settings": {
+            "title": "This eclectic mix of trends offers excitement to wardrobes and reflects the diversity of the ever-evolving fashion landscapes. Don’t miss out on our latest takes on these trends by signing up for our newsletter and following us on social media @westlandbyjosefseibel.",
+            "text_size": 5,
+            "text_weight": 300,
+            "show_line": false
+          }
+        },
+        "buttons_wUNQCq": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NPmafe",
+        "heading_AaEU6E",
+        "buttons_wUNQCq"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "5f75838a-f171-403b-8589-adcb11b15fa4": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP CHUNKY SANDALS",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "vegan-sandals",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b847b523-fdf4-4839-9198-7090e5e92f66",
+    "934e0cef-20ec-40d1-83a4-626d7a4afbc5",
+    "94ca692e-50cc-4f25-a9cd-26d13e7ac391",
+    "section_hero_dYcP6J",
+    "65b4439d-7378-412f-9d50-e8f1857d8412",
+    "section_rich_text_deEdQ8",
+    "5f75838a-f171-403b-8589-adcb11b15fa4"
+  ]
+}

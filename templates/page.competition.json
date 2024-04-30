@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "e594f164-8320-4c48-abcd-db1d54a8d7a7": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "COMPETITION CORNER",
+        "font_size": 28,
+        "description": "<p>Feeling lucky? For your chance of winning a fabulous prize, enter below. Good Luck!</p>",
+        "padding_top": 47,
+        "padding_bottom": 44
+      }
+    },
+    "c02273b9-bff7-4b06-8538-0aca108c6e58": {
+      "type": "section-double",
+      "blocks": {
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "VEGAN GIVEAWAY",
+            "text_size": 8
+          }
+        },
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're giving 5 lucky winners the chance of winning a FREE pair of WESTLAND by Josef Seibel AW23 footwear, simply sign up to Josef Seibel's UK newsletter via the link below.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "ENTER  HERE",
+            "button_url": "shopify://pages/vegan-footwear-giveaway-end",
+            "button_color": "btn--black",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-heading-1",
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-text-1",
+        "template--16749020020979__c02273b9-bff7-4b06-8538-0aca108c6e58-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters-min--desktop",
+        "mobile_height": "screen-height-one-half-min--mobile",
+        "image": "shopify://shop_images/header_5.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "202dc97b-d63d-4b14-8415-778cfb9efc7c": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "",
+        "font_size": 20,
+        "description": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "30a14ba9-c768-405e-86ea-9e613df6be5b": {
+      "type": "section-double",
+      "blocks": {
+        "758e6b94-17ac-48b3-84c1-7fd86970ae7b": {
+          "type": "heading",
+          "settings": {
+            "title": "SHARE YOUR STYLE",
+            "text_size": 8
+          }
+        },
+        "b70023f4-0695-41b8-af07-58e33eb7dad9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The prize is a pair of JOSEF SEIBEL footwear , available from the website at the time of winning. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "94cb493d-5de0-4be3-8164-0833694fd2ce": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "DETAILS",
+            "button_url": "shopify://pages/myjosefseibel-end-comp",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        }
+      },
+      "block_order": [
+        "758e6b94-17ac-48b3-84c1-7fd86970ae7b",
+        "b70023f4-0695-41b8-af07-58e33eb7dad9",
+        "94cb493d-5de0-4be3-8164-0833694fd2ce"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/MYJOSEFSEIBELTILE.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "55f20bc4-eff7-4072-a562-4d921efb89ac": {
+      "type": "jos-side-image-with-text",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 12,
+        "red_title": "",
+        "title": "",
+        "content": "",
+        "link": "shopify://pages/myjosefseibel-end-comp",
+        "button_text": "DETAILS",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps",
+        "left_image": "shopify://shop_images/myjosefseibel_comp_LONG_BANNER_1.png",
+        "mobile_image": "shopify://shop_images/Copy_of_myjosefseibel_comp_LONG_BANNER.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e594f164-8320-4c48-abcd-db1d54a8d7a7",
+    "c02273b9-bff7-4b06-8538-0aca108c6e58",
+    "202dc97b-d63d-4b14-8415-778cfb9efc7c",
+    "30a14ba9-c768-405e-86ea-9e613df6be5b",
+    "55f20bc4-eff7-4072-a562-4d921efb89ac"
+  ]
+}

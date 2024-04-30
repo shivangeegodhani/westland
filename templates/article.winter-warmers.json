@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_-_2023-11-03T125617.612.png",
+        "mobile_image": "shopify://shop_images/Untitled_design_-_2023-11-03T125617.612_1.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "be58df23-585c-4372-a717-0b191a57c5c9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "c662f47b-38c2-485c-8f71-d2df4d588d2a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Get your cosiness on outdoors this season! JOSEF SEIBEL have a versatile and stylish offering of warm-lined boots with plenty of options to keep your feet warm and comfortable when the temperature starts to plummet! Regardless of whether you're hitting the hills or just need to combat a flurry we have just the styles for you.</strong></p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "c662f47b-38c2-485c-8f71-d2df4d588d2a"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba": {
+      "type": "section-double",
+      "blocks": {
+        "a37a36e7-86f1-4e23-a921-375440221a99": {
+          "type": "heading",
+          "settings": {
+            "title": "ALINA 53",
+            "text_size": 8
+          }
+        },
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A new addition to the boot family. JOSEF SEIBEL Alina 53 is crafted from a soft high quality leather with a complimentary outer knit collar. This chunky and contemporary ankle boot is perfect for bracing the colder weather.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "df50c6be-e197-4de8-bc2e-9c8170987990": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a37a36e7-86f1-4e23-a921-375440221a99",
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d",
+        "df50c6be-e197-4de8-bc2e-9c8170987990"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/2_3748d26f-e727-4ff8-9aba-8d3d06abde93.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8c7613c7-879c-4fe6-b826-65c012298b51": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16979181601011__8c7613c7-879c-4fe6-b826-65c012298b51-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Get off the beaten track....",
+            "heading_size": 8
+          }
+        },
+        "template--16979181601011__8c7613c7-879c-4fe6-b826-65c012298b51-text-1": {
+          "type": "text",
+          "settings": {
+            "description": "Hit your fitness goals and take yourself outdoors with JOSEF SEIBEL's outdoor collection.",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16979181601011__8c7613c7-879c-4fe6-b826-65c012298b51-heading-1",
+        "template--16979181601011__8c7613c7-879c-4fe6-b826-65c012298b51-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_-_2023-11-03T135702.651.png",
+        "bg_position": "center-top",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--bottom-right",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "649a53a2-369d-44bd-82d5-4392ce8932fd": {
+      "type": "section-double",
+      "blocks": {
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "MAREN 17",
+            "text_size": 8
+          }
+        },
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Playful and practical, JOSEF SEIBEL Maren’s offer a modern and practical chunky sole unit featuring a textured base for grip and support underfoot. Complete with warm and soft plush linings and cushioned insoles to keep your feet comfortable and cosy all day long.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0",
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/4_b5726d2d-ba73-473d-a85c-c77f7acad8e5.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "70bdada7-515b-4f41-8e53-37a51a27d9a0": {
+      "type": "section-look",
+      "blocks": {
+        "f3f3f9c0-5a31-43a3-ba77-dc76d2804c5e": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wynter-02",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "17e62abc-5082-43fd-aeea-99a2b75c5c02": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wonder-02",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "f3f3f9c0-5a31-43a3-ba77-dc76d2804c5e",
+        "17e62abc-5082-43fd-aeea-99a2b75c5c02"
+      ],
+      "settings": {
+        "bg_position": "right-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "5a20a513-f1fc-4d8f-b835-80c6c312745c": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Discover our warm-lined boots collection here...",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/warm-lined-boots",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "warm-lined-boots",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "99bd4f5d-1baa-409c-8a2b-1f61c16f6799",
+    "be58df23-585c-4372-a717-0b191a57c5c9",
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba",
+    "8c7613c7-879c-4fe6-b826-65c012298b51",
+    "649a53a2-369d-44bd-82d5-4392ce8932fd",
+    "70bdada7-515b-4f41-8e53-37a51a27d9a0",
+    "5a20a513-f1fc-4d8f-b835-80c6c312745c"
+  ]
+}

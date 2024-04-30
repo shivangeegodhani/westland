@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8": {
+      "type": "jos-editorial-profile",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "profile_image": "shopify://shop_images/my_image_3.jpg"
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>You can’t beat a white trainer when<br/>it comes to versatility and simplicity. This season, there’s a white trainer<br/>for everyone and perfect for a capsule wardrobe.</p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brown_Elegant_Minimal_Fashion_Newsletter_2.png"
+          }
+        },
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>JOSEF SEIBEL's collection of white<br/>trainers offer discreet styling, that'll underpin your wardrobe with ease. Adding<br/>a subtly athletic style, that works with both casual and a more tailored look.</p>"
+          }
+        },
+        "ebacf06d-9d9d-48ef-98d7-257828040845": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/leisure-caren.png"
+          }
+        },
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174": {
+          "type": "imagegrid",
+          "settings": {
+            "imagegridone": "shopify://shop_images/1_5336c56d-a8e5-4aa9-a151-7a5daa0b6f90.png",
+            "imagegridtwo": "shopify://shop_images/3_ea84d11c-de5b-4cea-945e-89197a429970.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "03426ff6-7832-4ffa-9aac-6b1ae4bccaf8",
+        "ebacf06d-9d9d-48ef-98d7-257828040845",
+        "9d00e692-977d-4bc9-95a7-db91cdc8b174",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aa67cf0e-00e9-4148-b5cc-9390b45c19c8",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

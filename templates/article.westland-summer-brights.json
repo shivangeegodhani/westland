@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/summer_brights_4.png"
+          }
+        },
+        "7cc6cf4c-6d90-4f3d-8c0f-bc3aee01bc14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/avery_02_pink.png"
+          }
+        },
+        "e3bbc9af-caf2-4d4b-8435-a5159f5db542": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Whatever you’re making a bee line for this summer season be sure to add a pop of colour for a standout look. That’s right colourful sandals are a must, and we have some joyful shades to tempt you!</p>"
+          }
+        },
+        "509356a2-cd53-455e-9a1b-99bb6e196878": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/avery_02_yellow.png"
+          }
+        },
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Espadrilles are the ultimate summer shoe. These woven sandals are all about sophistication with ease. Style  with a dress or cropped trousers, they're so versatile.  </p>"
+          }
+        },
+        "3ddde4b6-f3bf-484c-8a34-af6b09e02533": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/emma_01_pink.png"
+          }
+        },
+        "4ee8029c-7e65-4566-bd05-1cdf07c0d2e9": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Get that summer feeling and boost your style confidence by slipping into a pair of Emma 01 sandals. For guaranteed effortless comfort so you can carry on and enjoy the sunshine.</p>"
+          }
+        },
+        "a3f9116a-b2ba-44f2-aa03-0b6e25586586": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/emma_02_green.png"
+          }
+        },
+        "5d20bb8e-27c2-4e78-b5ae-4e61bde703a7": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>Emma 02. A Playful sandal with its multiple strap design and molded footbed, your feet will feel secure and comfortable all day long.</p>"
+          }
+        },
+        "632bc0ae-99d8-45d4-abf8-1ef8a054c59d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/emma_02_white.png"
+          }
+        },
+        "a368fc66-6e8f-4674-be4b-8df10325109b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VEGAN_YELLOW_get_inspired.png"
+          }
+        },
+        "3fa63223-2613-4b6d-a0f0-56abd8de53db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sunshine_smoothie_1.png"
+          }
+        },
+        "597348d8-9fce-429a-9ff7-fb0405e2bd85": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_9173ab24-d10c-4165-b883-572b078fefa8.png"
+          }
+        }
+      },
+      "block_order": [
+        "c251ce99-7126-4742-8361-945d55207959",
+        "7cc6cf4c-6d90-4f3d-8c0f-bc3aee01bc14",
+        "e3bbc9af-caf2-4d4b-8435-a5159f5db542",
+        "509356a2-cd53-455e-9a1b-99bb6e196878",
+        "5e859b2f-4f39-460e-a4f0-ea011f865d83",
+        "3ddde4b6-f3bf-484c-8a34-af6b09e02533",
+        "4ee8029c-7e65-4566-bd05-1cdf07c0d2e9",
+        "a3f9116a-b2ba-44f2-aa03-0b6e25586586",
+        "5d20bb8e-27c2-4e78-b5ae-4e61bde703a7",
+        "632bc0ae-99d8-45d4-abf8-1ef8a054c59d",
+        "a368fc66-6e8f-4674-be4b-8df10325109b",
+        "3fa63223-2613-4b6d-a0f0-56abd8de53db",
+        "597348d8-9fce-429a-9ff7-fb0405e2bd85"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

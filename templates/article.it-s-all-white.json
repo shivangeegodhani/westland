@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57": {
+          "type": "blogtitle",
+          "settings": {
+          }
+        },
+        "1e8f6cc6-7783-4191-b855-7479f24f0a5f": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>The monochrome silhouette is becoming a fashion statement and with summer now in full swing, it’s officially time to swap our darker shades for this season’s<strong> all white trend.</strong></p>"
+          }
+        },
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tonga_25.png"
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>White dresses come in myriad of designs for summer and beyond. We love this maxi dress paired with Tonga 25 for an all-white look that brings a fresh vibe to your ensemble. </p><p></p><p></p><p></p>"
+          }
+        },
+        "c5aea070-c483-40cd-86e2-afe607f906c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tonga_77.png"
+          }
+        },
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Caren_01.png"
+          }
+        },
+        "c09b3dea-e813-4644-aca8-d46e3259023e": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": "<p>The humble white shirt never goes out of trend. nothing beats a classic silhouette in cotton poplin or silk. White shirting stands out for its powerful simplicity. Go casual with your favourite pair of denim or go solo with a long shirt, a belt and a pair of trainers.</p><p>Shop Caren 01 or Claire 01 for your next pair of all-white comfort.</p>"
+          }
+        },
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/claire_01.png"
+          }
+        },
+        "0fceafb1-2801-4163-912e-d6172b650ac0": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dog_walk.png"
+          }
+        },
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        }
+      },
+      "block_order": [
+        "a4c3beb9-bf60-42a8-b6d5-2ee234a10b57",
+        "1e8f6cc6-7783-4191-b855-7479f24f0a5f",
+        "c251ce99-7126-4742-8361-945d55207959",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c5aea070-c483-40cd-86e2-afe607f906c2",
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be",
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5",
+        "c09b3dea-e813-4644-aca8-d46e3259023e",
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60",
+        "0fceafb1-2801-4163-912e-d6172b650ac0",
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a",
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

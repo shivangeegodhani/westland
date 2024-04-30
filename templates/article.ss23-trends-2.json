@@ -1,0 +1,378 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "7371908b-cb15-4367-8925-4ce88dd524a8": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "The ss23 trends you need to know about",
+        "font_size": 35,
+        "description": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba": {
+      "type": "section-double",
+      "blocks": {
+        "a37a36e7-86f1-4e23-a921-375440221a99": {
+          "type": "heading",
+          "settings": {
+            "title": "SILVER",
+            "text_size": 8
+          }
+        },
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Silver isn't just for your jewellery this season. Nod to the trend with your shoes and accessories or jump in the deep end and dig out your Christmas party pieces and go for a full silver outfit! This trend is great for getting wear out of those pieces that only see the festive season! </p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "df50c6be-e197-4de8-bc2e-9c8170987990": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "a37a36e7-86f1-4e23-a921-375440221a99",
+        "6d7b48e6-f0ca-494f-a9b6-ef8dc6ca871d",
+        "df50c6be-e197-4de8-bc2e-9c8170987990"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/SILVER_b3b3e8ed-e654-4e7b-8a32-1ac046976deb.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87": {
+      "type": "section-look",
+      "blocks": {
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wonder-01",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-1": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-wonder-02",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-0",
+        "template--16804743971059__3b6a87a3-0518-460e-ad0f-b6a6704aac87-1685969424d8d08192-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/7_83a57601-6efe-4217-b660-0d2fea499044.png",
+        "bg_position": "left-center",
+        "title": "Shop the Trend",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "649a53a2-369d-44bd-82d5-4392ce8932fd": {
+      "type": "section-double",
+      "blocks": {
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0": {
+          "type": "heading",
+          "settings": {
+            "title": "ALL THE DENIM",
+            "text_size": 8
+          }
+        },
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Denim is an absolute staple but this season it is one of the biggest trends. You can achieve this with pieces you already have in your wardrobe- simply throw on a denim jacket with your favourite jeans for an effortless vibe. Accessorise with some laid back slip ons or for the more is more vibe, pair with blue 'denim' hues.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-0",
+        "template--16804743971059__649a53a2-369d-44bd-82d5-4392ce8932fd-1685967862f019c5b1-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/ALL_THE_DENIM_5bde7229-256e-4c56-b122-076a9ba55778.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "7b01d69b-d860-498a-be95-73e950328a20": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "To pair with your denim look",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop the",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "ladies-mule-sandals",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "b7d7d930-fee0-4af8-894f-a0ea13e3f9d9": {
+      "type": "section-double",
+      "blocks": {
+        "014baef6-746f-47da-a688-68a3fa356e08": {
+          "type": "heading",
+          "settings": {
+            "title": "CRISP WHITES",
+            "text_size": 8
+          }
+        },
+        "d742ce76-9775-4798-acbb-055b8ed2d94a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Another summer staple that is bang on trend this season. Whites and creams are so easy to style and look great on everyone! Linens are great for looking and feeling cool or crochets are fab for adding that extra bit of excitement to your look.</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "014baef6-746f-47da-a688-68a3fa356e08",
+        "d742ce76-9775-4798-acbb-055b8ed2d94a"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/WHITE_LINEN_AND_CROCHET_d2da30bc-e053-4270-92f4-5588d9804b41.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e26c95b8-978f-4b4c-8ed6-779738224365": {
+      "type": "section-look",
+      "blocks": {
+        "template--16804743971059__e26c95b8-978f-4b4c-8ed6-779738224365-1685969424d8d08192-0": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-tonga-77",
+            "position_x": 14,
+            "position_y": 37
+          }
+        },
+        "template--16804743971059__e26c95b8-978f-4b4c-8ed6-779738224365-1685969424d8d08192-1": {
+          "type": "product",
+          "settings": {
+            "product": "josef-seibel-michelle-03",
+            "position_x": 45,
+            "position_y": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--16804743971059__e26c95b8-978f-4b4c-8ed6-779738224365-1685969424d8d08192-0",
+        "template--16804743971059__e26c95b8-978f-4b4c-8ed6-779738224365-1685969424d8d08192-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6_c1517c8e-19b9-4a6b-b20b-8b46da285e65.png",
+        "bg_position": "right-center",
+        "title": "Shop the look",
+        "bg_color": "",
+        "color": "",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e1f4b66d-1ca3-421c-8e57-d9f1bc94c90a": {
+      "type": "section-double",
+      "blocks": {
+        "b067f6c8-8dfb-458b-a50f-6e7b428d6d3c": {
+          "type": "heading",
+          "settings": {
+            "title": "WEDGES",
+            "text_size": 8
+          }
+        },
+        "d28f5a1d-5574-4a87-8659-98aa02defaa5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wedges and back and better than ever this summer! Perfect for all occasions, wedges are our summer go-to! Pair with dresses, flowy wide leg trousers or denim - they are so versatile. And with our collection of heels and wedges, comfort doesn't have to be compromised to look fab!</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "b067f6c8-8dfb-458b-a50f-6e7b428d6d3c",
+        "d28f5a1d-5574-4a87-8659-98aa02defaa5"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/wedges_30d35beb-c362-4276-b4ff-7722d43deaec.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "039b306e-5447-4b84-88c2-e48627a151aa": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "HEELS AND WEDGES",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "heeled-sandals",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "2a7887a0-908f-46aa-9497-5bbfb6c69cb5": {
+      "type": "section-double",
+      "blocks": {
+        "47f17ccd-eb43-411d-a7f9-f4e78cb9f5e6": {
+          "type": "heading",
+          "settings": {
+            "title": "CLOGS & MULES",
+            "text_size": 8
+          }
+        },
+        "dc62b3af-4222-4abb-979d-cf9602232bf7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Another big trend we are so on board with this summer is clogs and mules. So comfy and easy to slip on and look put together! The perfect elevation to any summer outfit. Also great for adding a pop of colour to your outfit if you choose our bright summer styles!</p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "47f17ccd-eb43-411d-a7f9-f4e78cb9f5e6",
+        "dc62b3af-4222-4abb-979d-cf9602232bf7"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/clogs_fae95da8-1243-413b-8c5b-4396524e0492.png",
+        "bg_position": "center-center",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "78f890ae-71db-411c-aa29-8aea51edde13": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Shop the Trend",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "womens-clogs",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7371908b-cb15-4367-8925-4ce88dd524a8",
+    "f2fc7718-1e43-4b0c-aeb2-74b4ef58a0ba",
+    "3b6a87a3-0518-460e-ad0f-b6a6704aac87",
+    "649a53a2-369d-44bd-82d5-4392ce8932fd",
+    "7b01d69b-d860-498a-be95-73e950328a20",
+    "b7d7d930-fee0-4af8-894f-a0ea13e3f9d9",
+    "e26c95b8-978f-4b4c-8ed6-779738224365",
+    "e1f4b66d-1ca3-421c-8e57-d9f1bc94c90a",
+    "039b306e-5447-4b84-88c2-e48627a151aa",
+    "2a7887a0-908f-46aa-9497-5bbfb6c69cb5",
+    "78f890ae-71db-411c-aa29-8aea51edde13"
+  ]
+}

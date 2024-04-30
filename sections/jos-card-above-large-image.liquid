@@ -1,0 +1,267 @@
+{%- style -%}
+  #CardAboveImage--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{% assign animation_anchor = '#CardAboveImage--' | append: section.id %}
+  {%- liquid
+          assign my_collection = collections[section.settings.my_collection]
+     
+          assign grid_strings = 'one-quarter small--one-whole square'
+        -%}
+<section id="CardAboveImage--{{ section.id }}" class=" season_sec section-padding" 
+
+  {% if section.settings.background == 'image'%}
+  style="padding-left:5%;padding-right:5%;text-align:center;padding-bottom:50px;background-image: url('{{ section.settings.background_image | img_url: '5000x' }}');background-size:cover"
+
+    {% elsif section.settings.background == 'color' %}
+      style="padding-left:5%;padding-right:5%;text-align:center;background-color: {{  section.settings.background_color }}"
+ {% endif %} 
+  >
+
+  <!-- <div class="container">
+    <div class="inner"> -->
+      <!-- <h2 data-aos="hero"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-order="2">{{ section.settings.title }}</h2>
+      <p data-aos="hero"
+         data-aos-anchor="{{ animation_anchor }}"
+         data-aos-order="3">{{ section.settings.description }}</p> -->
+                  <div class="grid-container" style="display:flex">
+
+       {%- if my_collection != blank -%}
+                    {%- if my_collection.products_count > 0 -%}
+                      {%- for product in my_collection.products limit: section.settings.product-number -%}
+                        {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
+                        {%- assign animation_index = forloop.index0 | modulo: 4 -%}
+                        {%- render 'product-grid-item', product: product, animation_delay: animation_index, additional_attributes: layout_slide_attributes, index: forloop.index, grid_strings: grid_strings -%}
+                      {%- endfor -%}
+                    {%- else -%}
+                      <div class="no-results">
+                        <p><strong>{{ 'collections.general.no_matches' | t }}</strong></p>
+                      </div>
+                    {%- endif -%}
+                  {%- endif -%}
+                  </div>
+      {%- if section.settings.button_text != blank -%}
+        <a href="{%- if section.settings.button_url contains '/collections' -%}
+                      {{- section.settings.button_url | append: '?filter.v.availability=1' -}}
+                    {%- else -%}                                
+                      {{- section.settings.button_url -}}
+                    {%- endif -%}"
+           class="{{ section.settings.button_style }} {{ section.settings.button_color }}"
+           data-aos="hero"
+           data-aos-anchor="{{ animation_anchor }}"
+           data-aos-order="4">
+          {{ section.settings.button_text }}
+        </a>
+      {%- endif -%}
+
+      <div class="curve1" data-aos="hero"
+           data-aos-anchor="{{ animation_anchor }}"
+           data-aos-order=5>
+        {% if section.settings.top_left_petal %}
+          <img src="{{ section.settings.top_left_petal | img_url: '400x' }}" alt="">
+        {% endif %}
+      </div>
+      <div class="curve2" data-aos="hero"
+           data-aos-anchor="{{ animation_anchor }}"
+           data-aos-order="5">
+        {% if section.settings.top_right_petal %}
+          <img src="{{ section.settings.top_right_petal | img_url: '400x' }}" alt="">
+        {% endif %}</div>
+      <div class="curve3" data-aos="hero"
+           data-aos-anchor="{{ animation_anchor }}"
+           data-aos-order="5">
+        {% if section.settings.bottom_right_petal %}
+          <img src="{{ section.settings.bottom_right_petal | img_url: '400x' }}" alt="">
+        {% endif %}</div>
+    <!-- </div> -->
+  <!-- </div> -->
+</section>
+
+<script>
+
+</script>
+
+
+{% schema %}
+{
+  "name": "JOS Card Above Image",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+       "type": "collection",
+       "id": "my_collection",
+       "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "product-number",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "label": "Products to Show",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+          "type": "select",
+          "id": "background",
+          "label": "Position",
+          "default": "image",
+          "options": [
+            {
+              "label": "Image",
+              "value": "image"
+            },
+            {
+              "label": "Color",
+              "value": "color"
+            }
+          ]
+        },
+    {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background color",
+          "default": "#000"
+        },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_left_petal",
+      "label": "Top Left Patel"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_right_petal",
+      "label": "Top Right Petal"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottom_right_petal",
+      "label": "Bottom Right Petal"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Text",
+      "default": "Learn more"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Link"
+    },
+    {
+      "type": "select",
+      "id": "button_color",
+      "label": "Color",
+      "default": "btn--neutral",
+      "options": [
+        {
+          "value": "btn--primary",
+          "label": "Bright accent"
+        },
+        {
+          "value": "btn--secondary",
+          "label": "Secondary accent"
+        },
+        {
+          "value": "btn--link",
+          "label": "Link color"
+        },
+        {
+          "value": "btn--neutral",
+          "label": "Text color"
+        },
+        {
+          "value": "btn--black",
+          "label": "Black"
+        },
+        {
+          "value": "btn--white",
+          "label": "White"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Style",
+      "default": "hero__btn btn btn--large btn--outline caps",
+      "options": [
+        {
+          "value": "standard__cta caps--large",
+          "label": "Capitalized text"
+        },
+        {
+          "value": "hero__btn btn btn--input caps",
+          "label": "Small button"
+        },
+        {
+          "value": "hero__btn btn btn--large caps",
+          "label": "Large button"
+        },
+        {
+          "value": "hero__btn btn btn--input btn--outline caps",
+          "label": "Small outline button"
+        },
+        {
+          "value": "hero__btn btn btn--large btn--outline caps",
+          "label": "Large outline button"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "JOS Card Above Image"
+    }
+  ]
+}
+{% endschema %}

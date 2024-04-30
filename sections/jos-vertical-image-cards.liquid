@@ -1,0 +1,95 @@
+{%- style -%}
+  #VerticalImageCards--{{ section.id }} {
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section id="VerticalImageCards--{{ section.id }}" class="brand_sec section-padding">
+  <div class="bootstrapiso">
+
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for block in section.blocks %}
+        <div class="col-lg-4 col-md-4">
+          <div class="brand_block">
+            <figure>
+              {% if block.settings.image %}
+                <img src="{{ block.settings.image | img_url: "450x450" }}" alt="">
+              {% endif %}
+            </figure>
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "JOS Vertical image cards",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "name": "Card",
+      "type": "card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Josef seibel"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "JOSEF SEIBEL footwar is created using a combination of high quality materials and hand-crafted elements, designed with sustainability and ..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "JOS Vertical image cards"
+    }
+  ]
+}
+{% endschema %}

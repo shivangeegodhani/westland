@@ -1,0 +1,170 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "disabled": true,
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "four-fifty-height-hero",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "social": false,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8": {
+      "type": "jos-article",
+      "blocks": {
+        "c251ce99-7126-4742-8361-945d55207959": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p></p><p></p><p></p>"
+          }
+        },
+        "c5aea070-c483-40cd-86e2-afe607f906c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_f2b501a7-4ca4-4a95-8a0a-3b9719dff814.png"
+          }
+        },
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<h2>Experience the comfort and durability of our vegan boot collection, made with ethically sourced materials.</h2>"
+          }
+        },
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_d644928d-7456-4d60-a852-b285af3ad3d5.png"
+          }
+        },
+        "c09b3dea-e813-4644-aca8-d46e3259023e": {
+          "type": "text",
+          "settings": {
+            "blogTextOne": ""
+          }
+        },
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_d5f3c876-8fd2-4c92-b39c-a4a380732f6e.png"
+          }
+        },
+        "8398695f-a555-4230-9908-821d6f24da54": {
+          "type": "imagegrid",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "0fceafb1-2801-4163-912e-d6172b650ac0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": "<p>Offering a palette that nods to Spring-time hues, with plentiful shades of lush greens and light pastels to add style and sophistication to your everyday</p>"
+          }
+        },
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "blogTextOne": ""
+          }
+        }
+      },
+      "block_order": [
+        "c251ce99-7126-4742-8361-945d55207959",
+        "6ee4937d-dd62-4aa7-b076-f4b00ed92576",
+        "c5aea070-c483-40cd-86e2-afe607f906c2",
+        "fc591d9b-088c-4226-bf3f-ae434fa0e4be",
+        "06f18fec-8b71-4670-b2db-8b57d15ce5f5",
+        "c09b3dea-e813-4644-aca8-d46e3259023e",
+        "3aedd63d-ac0a-4293-a8a2-82b77312aa60",
+        "8398695f-a555-4230-9908-821d6f24da54",
+        "0fceafb1-2801-4163-912e-d6172b650ac0",
+        "8f15b2e7-7687-4def-b6ec-0bce446f8a4a",
+        "e8585d9a-2845-4c21-b162-d2d5326c42fb"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16fb4627-6993-4592-86a2-5485c2511d3c": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "View Our Range",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify://collections/the-peyton-collection",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "the-peyton-collection",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "2340fef6-59c4-48c7-8cff-4939716eb231": {
+      "type": "jos-blog-post-cards",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36,
+        "title": "More #myjosefseibel stories",
+        "show_title": true,
+        "blog": "news",
+        "button_text": "Show More",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c63aa977-020b-4e4e-a533-fc0fa1d29ff8",
+    "16fb4627-6993-4592-86a2-5485c2511d3c",
+    "2340fef6-59c4-48c7-8cff-4939716eb231"
+  ]
+}

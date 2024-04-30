@@ -1,0 +1,134 @@
+{%- style -%}
+  #EndEditorial--{{ section.id }}{
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section id="EndEditorial--{{ section.id }}" class="bootstrapiso section-padding">
+  <div class="explore_sec">
+    <div class="container" style="width: 90%; max-width: 1785px;margin: 0 auto;padding: 0;">
+      {%- for block in section.blocks -%}
+      {%- case block.type -%}
+      {%- when 'blogtitle' -%}<div style="padding: 0" class="detail">
+        <h3>{{ article.title }}</h3>
+        </div>
+      {%- when 'description' -%}<div style="padding: 0" class="detail"><p>{{article.content}}</p></div>
+      {%- when 'featureimage' -%}<div style="padding: 0" class="detail"><figure><img src="{{ article.image| img_url: '4472x' }}" alt=""></figure></div>
+      {%- when 'text' -%}<div style="padding: 0" class="detail">
+        <p>{{ block.settings.blogTextOne }}</p>
+        </div>
+      {% when 'image' %}
+        <div style="padding: 0" class="detail">
+          {% if block.settings.image %}
+            <figure><img src="{{ block.settings.image| img_url: '4472x' }}" alt=""></figure>
+          {% endif %}
+        </div>
+      {% when 'imagegrid' %}
+      <div style="padding-top:35px;padding-bottom:35px" class="row g-12px">
+        <div class="col-md-6" style="padding-left: 6px; padding-right: 6px;">
+          {% if block.settings.imagegridone %}
+            <figure class="gallery_img"><img src="{{ block.settings.imagegridone| img_url: '4472x' }}" alt=""></figure>
+          {% endif %}
+        </div>
+        <div class="col-md-6" style="padding-left: 6px; padding-right: 6px;>
+          {% if block.settings.imagegridtwo %}
+            <figure class="gallery_img"><img src="{{ block.settings.imagegridtwo| img_url: '4472x' }}" alt=""></figure>
+          {% endif %}
+      </div>
+    </div>
+    {%- endcase -%}
+    {%- endfor -%}
+  </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "JOS Article",
+  "templates": ["article"],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section padding"
+    }, {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    }, {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Blog Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "blogTextOne",
+          "label": "Enter Blog Text"
+        }
+      ]
+    }, {
+      "type": "blogtitle",
+      "name": "Blog Title",
+      "settings": []
+    },
+    {
+      "type": "featureimage",
+      "name": "Feature Image",
+      "settings": []
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "settings": []
+    },
+    {
+      "type": "image",
+      "name": "Single Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }, {
+      "type": "imagegrid",
+      "name": "Horizontally Images",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "imagegridone",
+          "label": "Image One"
+        }, {
+          "type": "image_picker",
+          "id": "imagegridtwo",
+          "label": "Image Two"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "JOS Article"
+    }
+  ]
+}
+{% endschema %}

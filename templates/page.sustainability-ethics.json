@@ -1,0 +1,405 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "54753946-7077-4698-8509-ad6a1188d9ea": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "OUR RESPONSIBILITIES",
+        "font_size": 34,
+        "description": "<p>Whilst we are aware of the compounding effect the retail industry has on our planet including our own impact we want to work towards off-setting some of our carbon emissions by ensuring we use the best materials and always strive for better environmental processes in our production methods. </p>",
+        "padding_top": 7,
+        "padding_bottom": 20
+      }
+    },
+    "7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "OUR LEATHERS",
+            "heading_size": 5,
+            "text": "<p>We have been working to reduce the environmental impact of leather production and aim for greater supply chain transparency and minimal environmental impact when manufacturing our footwear. </p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "Find Out MORE",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        },
+        "template--17821358719287__7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/stand_img1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2-1676864547518fb7eb-1",
+        "template--17821358719287__7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b54080f4-7c36-4a59-90dd-fc23fb4cea27": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/creating_protecting_and_restoring_the_rain_forest_and_it_s_nature_conservation._2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "OUR MANUFACTURING",
+            "heading_size": 5,
+            "text": "<p>Using traditional craftmanship and working with manufacturers that mitigate waste and pollution.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "FIND OUT MORE",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-0",
+        "template--17821358719287__b54080f4-7c36-4a59-90dd-fc23fb4cea27-1676864547518fb7eb-1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fc94734b-8a40-48d7-b8f6-c530ddde8c2a": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "OUR MATERIALS",
+            "heading_size": 5,
+            "text": "",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        },
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-1",
+        "template--17821358719287__fc94734b-8a40-48d7-b8f6-c530ddde8c2a-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cb0cb284-fa3d-4430-b0e6-c5944b76c771": {
+      "type": "jos-title-with-description",
+      "settings": {
+        "title": "PARTNERS WE WORK WITH",
+        "font_size": 20,
+        "description": "<p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>",
+        "padding_top": 7,
+        "padding_bottom": 20
+      }
+    },
+    "421f28f2-3c06-4a8b-834b-c72ef038f017": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "MORE INFORMATION",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__421f28f2-3c06-4a8b-834b-c72ef038f017-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ce609fcd-9499-49e9-a956-d1b28277bfc4": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__ce609fcd-9499-49e9-a956-d1b28277bfc4-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/OIP.jpg",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "LEARN MORE",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large caps",
+            "show_social_links": false
+          }
+        },
+        "template--17821358719287__ce609fcd-9499-49e9-a956-d1b28277bfc4-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/creating_protecting_and_restoring_the_rain_forest_and_it_s_nature_conservation._1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__ce609fcd-9499-49e9-a956-d1b28277bfc4-1676864547518fb7eb-1",
+        "template--17821358719287__ce609fcd-9499-49e9-a956-d1b28277bfc4-1676864547518fb7eb-0"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "437182d8-3317-4dc9-a83a-27f32fdb6066": {
+      "type": "jos-image-custom-content",
+      "blocks": {
+        "template--17821358719287__437182d8-3317-4dc9-a83a-27f32fdb6066-1676864547518fb7eb-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "LEARN MORE",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "template--17821358719287__437182d8-3317-4dc9-a83a-27f32fdb6066-1676864547518fb7eb-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/55c05c82-a616-408f-97b7-24626d54c84b.png",
+            "show_shadow": false,
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input caps",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17821358719287__437182d8-3317-4dc9-a83a-27f32fdb6066-1676864547518fb7eb-0",
+        "template--17821358719287__437182d8-3317-4dc9-a83a-27f32fdb6066-1676864547518fb7eb-1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "padding": false,
+        "borders": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1225304e-ab78-4bcd-ab5a-287bd4445e13": {
+      "type": "jos-card-above-large-image",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 20,
+        "title": "Ethical footwear",
+        "description": "With an array of different styles to choose from, make an ethical choice with your footwear and select your next pair of  comfort from our WESTLAND by Josef Seibel's vegan range.",
+        "background_image": "shopify://shop_images/Untitled_design_-_2023-10-13T145503.429.png",
+        "button_text": "shop here",
+        "button_url": "shopify://collections/vegan-range-1",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "54753946-7077-4698-8509-ad6a1188d9ea",
+    "7d7c1548-d0d2-455f-a4d8-a9cc137b9dc2",
+    "b54080f4-7c36-4a59-90dd-fc23fb4cea27",
+    "fc94734b-8a40-48d7-b8f6-c530ddde8c2a",
+    "cb0cb284-fa3d-4430-b0e6-c5944b76c771",
+    "421f28f2-3c06-4a8b-834b-c72ef038f017",
+    "ce609fcd-9499-49e9-a956-d1b28277bfc4",
+    "437182d8-3317-4dc9-a83a-27f32fdb6066",
+    "1225304e-ab78-4bcd-ab5a-287bd4445e13"
+  ]
+}

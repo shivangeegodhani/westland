@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_FUAUKC": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design-15.png",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xjNR44": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qxJVjf": {
+          "type": "heading",
+          "settings": {
+            "title": "VEGAN BOOTS",
+            "text_size": 8,
+            "text_weight": 300,
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qxJVjf"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#f7f7f7",
+        "color": "#313c20",
+        "padding_top": 8,
+        "padding_bottom": 26
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "jos-collection",
+      "blocks": {
+        "505c9806-44ef-4d73-8233-b1ab5d876a44": {
+          "type": "inline_block",
+          "settings": {
+            "title": "",
+            "product_image": "shopify://shop_images/Copy_of_PG_Breaker_Product_Images_803_x_228_px-3.png",
+            "right_image": "shopify://shop_images/PAGE_BREAKERS_960_x_778px_42.png",
+            "product": "copy-of-westland-peyton-01",
+            "button_text": "SHOP",
+            "button_link": "shopify://products/copy-of-westland-peyton-01"
+          }
+        }
+      },
+      "block_order": [
+        "505c9806-44ef-4d73-8233-b1ab5d876a44"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "tt_color": "",
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 32,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_j4EKbH": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_8Qagtb": {
+          "type": "review",
+          "settings": {
+            "title": "Maxime",
+            "subheading": "customer purchase from josefseibel.co.uk",
+            "review_text": "These are the best boots I've ever had. They felt like I had worn them in the very first time I put them on. They are warm, very comfortable and of course waterproof! I have them in Red, Green and Floral because they are so comfy.",
+            "review_url": ""
+          }
+        },
+        "review_Kj4Bhk": {
+          "type": "review",
+          "settings": {
+            "title": "Kathlene",
+            "subheading": "CUSTOMER PURCHASE FROM JOSEFSEIBEL.UK",
+            "review_text": "Loved these the moment I got them ' managed to do a full day's work on my feet all day in these beautiful green well admired boots 👍 well worth buying 👏❤️",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_8Qagtb",
+        "review_Kj4Bhk"
+      ],
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.2,
+        "show_quotation_marks": true,
+        "text_align": "text-center",
+        "text_size": 4,
+        "bg_color": "",
+        "color": "#0e2d08",
+        "card_bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_hero_FUAUKC",
+    "section_rich_text_xjNR44",
+    "subcollections",
+    "main",
+    "section_reviews_j4EKbH"
+  ]
+}

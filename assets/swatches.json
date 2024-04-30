@@ -1,0 +1,1102 @@
+{
+  "colors": [
+    {
+      "Demo Image": "blank.svg"
+    },
+    {
+      "ash": "#a3a3a3"
+    },
+    {
+      "sky": "#4cbbb8"
+    },
+    {
+      "pop": "#e43e23"
+    },
+    {
+      "red": "#e52824"
+    },
+    {
+      "jet": "#000000"
+    },
+    {
+      "gum": "#eb5799"
+    },
+    {
+      "hot": "#ff0073"
+    },
+    {
+      "mud": "#4a342c"
+    },
+    {
+      "tan": "#d2b48c"
+    },
+    {
+      "ruby": "#e32040"
+    },
+    {
+      "jade": "#1b5c1d"
+    },
+    {
+      "vert": "#489c4a"
+    },
+    {
+      "bone": "#dedbbf"
+    },
+    {
+      "aqua": "#00ffff"
+    },
+    {
+      "blue": "#1d5caa"
+    },
+    {
+      "cyan": "#00ffff"
+    },
+    {
+      "dirt": "#a54400"
+    },
+    {
+      "gold": "#D4AF37"
+    },
+    {
+      "gray": "#808080"
+    },
+    {
+      "grey": "#808080"
+    },
+    {
+      "lime": "#00ff00"
+    },
+    {
+      "navy": "#000080"
+    },
+    {
+      "nude": "#E3BC9A"
+    },
+    {
+      "mint": "#b6e4d0"
+    },
+    {
+      "milk": "#f6f2e8"
+    },
+    {
+      "wine": "#533230"
+    },
+    {
+      "coal": "#060d11"
+    },
+    {
+      "snow": "#dddddd"
+    },
+    {
+      "dash": "#234d90"
+    },
+    {
+      "moss": "#40592f"
+    },
+    {
+      "peel": "#ffd322"
+    },
+    {
+      "sand": "#e0c389"
+    },
+    {
+      "onyx": "#323737"
+    },
+    {
+      "silk": "#d1c4bb"
+    },
+    {
+      "peru": "#cd853f"
+    },
+    {
+      "pink": "#ffc0cb"
+    },
+    {
+      "plum": "#8a3340"
+    },
+    {
+      "rust": "#b7410e"
+    },
+    {
+      "teal": "#008080"
+    },
+    {
+      "tile": "#b9b6a1"
+    },
+    {
+      "azure": "#f0ffff"
+    },
+    {
+      "beige": "#f5f5dc"
+    },
+    {
+      "black": "#000000"
+    },
+    {
+      "brown": "#804020"
+    },
+    {
+      "cream": "#ddd7cb"
+    },
+    {
+      "terra": "#b7a282"
+    },
+    {
+      "slate": "#4f4f4f"
+    },
+    {
+      "olive": "#40483f"
+    },
+    {
+      "coral": "#ff7f50"
+    },
+    {
+      "green": "#008000"
+    },
+    {
+      "ivory": "#f5ecda"
+    },
+    {
+      "khaki": "#f0e68c"
+    },
+    {
+      "linen": "#faf0e6"
+    },
+    {
+      "mauve": "#e0b0ff"
+    },
+    {
+      "wheat": "#f5deb3"
+    },
+    {
+      "white": "#ffffff"
+    },
+    {
+      "sienna": "#9f6a51"
+    },
+    {
+      "bisque": "#ffe4c4"
+    },
+    {
+      "indigo": "#4b0082"
+    },
+    {
+      "maroon": "#800000"
+    },
+    {
+      "orange": "#ffa500"
+    },
+    {
+      "orchid": "#da70d6"
+    },
+    {
+      "purple": "#800080"
+    },
+    {
+      "salmon": "#fa8072"
+    },
+    {
+      "silver": "#c0c0c0"
+    },
+    {
+      "shadow": "#5c534f"
+    },
+    {
+      "tomato": "#ff6347"
+    },
+    {
+      "violet": "#ee82ee"
+    },
+    {
+      "yellow": "#ffff00"
+    },
+    {
+      "natural": "#b7ac9a"
+    },
+    {
+      "crimson": "#dc143c"
+    },
+    {
+      "fuchsia": "#ff00ff"
+    },
+    {
+      "magenta": "#ff00ff"
+    },
+    {
+      "thistle": "#d8bfd8"
+    },
+    {
+      "hot pink": "#ff69b4"
+    },
+    {
+      "sky blue": "#87ceeb"
+    },
+    {
+      "dark red": "#8b0000"
+    },
+    {
+      "cornsilk": "#fff8dc"
+    },
+    {
+      "honeydew": "#f0fff0"
+    },
+    {
+      "lavender": "#e6e6fa"
+    },
+    {
+      "moccasin": "#ffe4b5"
+    },
+    {
+      "midnight": "#383863"
+    },
+    {
+      "seashell": "#fff5ee"
+    },
+    {
+      "sea green": "#2e8b57"
+    },
+    {
+      "rose gold": "#cf9fa6"
+    },
+    {
+      "dark blue": "#00008b"
+    },
+    {
+      "dark cyan": "#008b8b"
+    },
+    {
+      "cool grey": "#b9c1c9"
+    },
+    {
+      "dark gray": "#a9a9a9"
+    },
+    {
+      "dark grey": "#a9a9a9"
+    },
+    {
+      "deep pink": "#ff1493"
+    },
+    {
+      "chocolate": "#d2691e"
+    },
+    {
+      "gainsboro": "#dcdcdc"
+    },
+    {
+      "steelblue": "#4682b4"
+    },
+    {
+      "turquoise": "#40e0d0"
+    },
+    {
+      "alabaster": "#e8e7df"
+    },
+    {
+      "dark green": "#006400"
+    },
+    {
+      "dark khaki": "#bdb76b"
+    },
+    {
+      "light blue": "#add8e6"
+    },
+    {
+      "light cyan": "#e0ffff"
+    },
+    {
+      "light gray": "#d3d3d3"
+    },
+    {
+      "light grey": "#d3d3d3"
+    },
+    {
+      "light pink": "#ffb6c1"
+    },
+    {
+      "lime green": "#32cd32"
+    },
+    {
+      "mint cream": "#f5fffa"
+    },
+    {
+      "royal blue": "#4169e1"
+    },
+    {
+      "slate blue": "#6a5acd"
+    },
+    {
+      "slate gray": "#708090"
+    },
+    {
+      "slate grey": "#708090"
+    },
+    {
+      "aquamarine": "#7fffd4"
+    },
+    {
+      "chartreuse": "#7fff00"
+    },
+    {
+      "dark orange": "#ff8c00"
+    },
+    {
+      "dark salmon": "#e9967a"
+    },
+    {
+      "dark violet": "#9400d3"
+    },
+    {
+      "light coral": "#f08080"
+    },
+    {
+      "light green": "#90ee90"
+    },
+    {
+      "neutral": "Unknown_x1024_1.jpg"
+    },
+    {
+      "Neutral - Neutral": "swatch_5bfc5b8f-4c7e-436d-a76b-19f1f82893cf.jpg"
+    },
+    {
+      "Black - Black": "swatch_1e3b0648-683c-42d5-88ba-228cd30bb2b2.jpg"
+    },
+    {
+      "Brown - Medium Brown": "swatch_0a0f60b2-7522-4364-85b8-407ffa05b874.jpg"
+    },
+    {
+      "Brown - Dark Brown": "swatch_746ee84a-8536-45ac-9774-3c630d796e1b.jpg"
+    },
+    {
+      "Brown - Brown": "swatch_Brown-Brown_025c86e1-39cb-4a87-bada-f4af24409296.jpg"
+    },
+    {
+      "Blue - Blue": "swatch_Blue-Blue.jpg"
+    },
+    {
+      "Brown - Cognac-Kombi": "swatch_Brown-Cognac-Kombi_eab29f49-4ab0-4309-b533-920f140a0f3d.jpg"
+    },
+    {
+      "Black - Schwarz": "swatch_Black-Schwarz_afcc48eb-62ea-497a-ac43-7377ff691731.jpg"
+    },
+    {
+      "Red - Bordeaux - Combi": "swatch_Red-Bordeaux-Combi_6c2e088e-c77e-46a2-bcc8-c170ce33818f.jpg"
+    },
+    {
+      "Brown - Moro": "swatch_Brown-Moro-Kombi_bb77588a-4392-43f1-8506-5c038fc65a6d.jpg"
+    },
+    {
+      "Brown - Brandy": "swatch_Brown-Brandy_bcbc7df4-15fb-42c0-9134-4766e8a65500.jpg"
+    },
+    {
+      "Brown - Brasil": "swatch_Brown-Brasil_14cba03f-1b06-420a-aa2e-3096ba222c32.jpg"
+    },
+    {
+      "Brown - Castagne": "swatch_Brown-Castagne_65dd5615-7825-442e-a6e4-756fcbdb0463.jpg"
+    },
+    {
+      "Grey - Vulcano 1": "swatch_Grey-Vulcano1.jpg"
+    },
+    {
+      "Blue - Ocean": "swatch_Blue-Ocean_e0cdfad7-f851-4519-b19b-34e33e4ab4f9.jpg"
+    },
+    {
+      "Yellow - Safran": "swatch_c1308bf1-4d4d-4a03-aee0-5f17c0999d77.jpg"
+    },
+    {
+      "Red - Rot": "swatch_Red-Rot_89311b03-01e7-447b-891d-d60e5e636e53.jpg"
+    },
+    {
+      "Brown - Tabak - Kombi": "swatch_Brown-Tabak-Kombi_578769f1-1ca4-43c9-9f56-7ed13f229b83.jpg"
+    },
+    {
+      "Blue - Blau - Kombi": "swatch_Blue-Blau-Kombi_24ddb5fc-e288-4bd7-b221-29dfad35061d.jpg"
+    },
+    {
+      "Brown - Vulcano Kombi": "swatch_Brown-VulcanoKombi.jpg"
+    },
+    {
+      "Blue - Azur Kombi": "68901_21_516-1swatch.jpg"
+    },
+    {
+      "Red - Rot-Kombi": "68901_21_401-1swatch.jpg"
+    },
+    {
+      "Beige - Beige-Kombi": "68904_annie04_21201_beigekombi_womens_ss22_rrp_C2_A30.00_1.jpg"
+    },
+    {
+      "Blue - Ocean-Kombi": "68904_21_531-1_909e1cd7-9de2-413f-97cf-614bc6eace0b.jpg"
+    },
+    {
+      "Green - Oliv-Kombi": "68904_annie04_21631_oliv-kombi_womens_ss22_rrp_C2_A30.00_1_f6220e6c-86b2-41a2-841b-0391719eaf56.jpg"
+    },
+    {
+      "Blue - Dunkel blau-kombi TE266 506": "swatch_3b59c841-b373-4ca9-8ba9-a2d30451ecce.jpg"
+    },
+    {
+      "Black - Schwarz TE266 101": "swatch_f0b3202b-16bf-44cf-b162-03cb7901ca4a.jpg"
+    },
+    {
+      "Brown - Braun": "swatch_Brown-Braun_a7fe7577-8878-4b99-88c2-d92cd2ca2f9b.jpg"
+    },
+    {
+      "Black - Schwarz - Titan": "swatch_Black-Schwarz-Titan.jpg"
+    },
+    {
+      "Beige - Fango": "swatch_Beige-Fango.jpg"
+    },
+    {
+      "Black - Schwarz - Multi": "swatch_Black-Schwarz-Multi.jpg"
+    },
+    {
+      "Brown - Taupe": "swatch_Brown-Taupe_68952611-326f-4d24-ad7b-5702c61c5877.jpg"
+    },
+    {
+      "Grey - Grau": "swatch_Grey-Grau_5ad5d5c7-6e90-4d26-9298-c322889ca37b.jpg"
+    },
+    {
+      "Brown - Moro - Kombi": "swatch_cce05b78-9fd6-4425-b141-6c4a2176174e.jpg"
+    },
+    {
+      "Black - Schwarz 1": "swatch_Black-Schwarz1_72c999b7-7457-4c53-a27d-95af28059482.jpg"
+    },
+    {
+      "Grey - Anthrazit-Kombi": "swatch_Grey-Anthrazit-Kombi.jpg"
+    },
+    {
+      "Blue - Dunkel - Blau": "swatch_Blue-Dunkel-Blau_34f8f02e-50f0-4032-980c-d2ef648ccb79.jpg"
+    },
+    {
+      "Blue - Indigo": "swatch_b9f3ddcf-457e-41f1-b25e-37b28733679b.jpg"
+    },
+    {
+      "Brown - Anthrazit": "swatch_Brown-Anthrazit.jpg"
+    },
+    {
+      "Brown - Grau - Kombi": "swatch_3efeacdf-4824-48ab-bffc-b7af39c6b427.jpg"
+    },
+    {
+      "Blue - Ocean - Kombi": "swatch_Blue-Ocean-Kombi_35c14c78-4076-46c1-9d63-11b8c0da7392.jpg"
+    },
+    {
+      "Brown - Tabak-Kombi": "swatch_ed4d8139-d005-4d16-99d5-24f97874e447.jpg"
+    },
+    {
+      "Grey - Granit-Kombi": "swatch_064dcae4-dbed-4c3e-9df7-02912e1664fa.jpg"
+    },
+    {
+      "Black - Schwarz 2": "17122_arthur_786100_schwarz_mens_aw22_rrp_0.00_1_4259c8e9-34d0-4fa3-ab25-305cf3ea1390.jpg"
+    },
+    {
+      "Brown - Cognac": "swatch_Brown-Cognac_aed71e9b-9318-4969-bcf7-c91090ede604.jpg"
+    },
+    {
+      "Blue - Abisso": "swatch_Blue-Abisso_a7332158-6028-4f89-b03a-5a468d088c55.jpg"
+    },
+    {
+      "Red - Hibiscus": "swatch_Red-Hibiscus_59f20f5a-2038-4007-b92a-1e76a65c3e3c.jpg"
+    },
+    {
+      "Green - Olive": "swatch_Green-Olive_acb87207-d3db-4bd4-b06b-0eb1fd2d27a6.jpg"
+    },
+    {
+      "Green - Mint": "swatch67701-133-610_1_x1024_f9b44031-037a-4dee-a383-346c8cacbe14.jpg"
+    },
+    {
+      "Blue - Azur": "swatch_Blue-Azur_468c6678-dc18-4d3e-8f7b-03e6315f6ffd.jpg"
+    },
+    {
+      "Orange - Lachs": "swatch_67701_caren01_133485_lachs_womens_ss22_rrp_C2_A30.00_1_x1024_eb855407-0bc5-466f-abca-58e17bead444.jpg"
+    },
+    {
+      "Yellow - Gelb": "swatch_Yellow-Gelb_7c78c822-cf77-4876-bb0f-e68e8affd3ea.jpg"
+    },
+    {
+      "Brown - Camel": "swatch_Brown-Camel_2c45bbf4-72ce-4a4e-a6e3-3786d1a03c26.jpg"
+    },
+    {
+      "White - Weiss": "swatch_White-Weiss_e95ed3b2-540a-4106-b711-c906a2a8daba.jpg"
+    },
+    {
+      "Metallic - Platin": "swatch_Metallic-Platin_4c1df96a-3ff8-491a-8f6b-48ea23cb4899.jpg"
+    },
+    {
+      "Brown - Camel - Kombi": "swatch_Brown-Camel-Kombi_0ecada30-e1ac-41b1-83f4-6b0fcbcb444a.jpg"
+    },
+    {
+      "White - Weiss - Kombi": "swatch_White-Weiss-Kombi_2956f7c4-d619-49b5-bc1f-42f1361ea211.jpg"
+    },
+    {
+      "Grey - Basalt": "swatch_Grey-Basalt.jpg"
+    },
+    {
+      "Red - Bordo": "swatch_Red-Bordo.jpg"
+    },
+    {
+      "Blue - Dunkel-Blau": "swatch_6f564b0b-425b-411e-8f71-d8410383bda8.jpg"
+    },
+    {
+      "Blue - Dunkel Kombi": "swatch_dc1389c5-f39c-4e62-b195-594e1a508366.jpg"
+    },
+    {
+      "Orange - Orange": "swatch_8dc16513-9533-484a-a136-bce2a6be255f.jpg"
+    },
+    {
+      "Blue - Ocean 1": "swatch_Blue-Ocean1.jpg"
+    },
+    {
+      "Green - Tanne": "swatch_56496_catalonia32_932650_tanne_womens_ss23_rrp_C2_A30.00_1.jpg"
+    },
+    {
+      "Beige - Creme": "swatch_Beige-Creme_b5fe85d4-17a4-41e3-a26e-f3f513db82c6.jpg"
+    },
+    {
+      "Pink - Rose": "swatch_Pink-Rose_bd6dda6f-296d-474d-a088-6a96fb11a8b1.jpg"
+    },
+    {
+      "Red - Red": "swatch_Red-Red_588e3a19-4512-41dc-a29e-0be7003fb9b4.jpg"
+    },
+    {
+      "Blue - Blau": "swatch_Blue-Blau_e7839424-e8d4-4d67-855e-8c1bfae312b2.jpg"
+    },
+    {
+      "Blue - Hell Blau": "swatch_Blue-HellBlau_2d60985c-b853-4967-9f19-0dd76c589a13.jpg"
+    },
+    {
+      "Multi - Carmin": "swatch_Multi-Carmine_240ce359-1ce3-4fc7-bb6c-df2094f2fb2f.jpg"
+    },
+    {
+      "Multi - Jeans": "swatch_Multi-Jeans_aab8164b-3557-4a85-920b-02285bdf4850.jpg"
+    },
+    {
+      "Blue - Skyblue": "swatch_e69439be-50fd-4da8-81ad-9c1de108273b.jpg"
+    },
+    {
+      "Red - Hibiscus - Multi": "swatch_Red-Hibiscus-Kombi_3b8fd726-6348-475a-9a21-85481255408d.jpg"
+    },
+    {
+      "Red - Hibiscus - Kombi": "swatch_Red-Rot-Multi_6617afd8-01c5-42f4-a2fc-8d1df5e6adc3.jpg"
+    },
+    {
+      "Brown - Brandy - Kombi": "swatch_Brown-Brandy-Kombi_4cd87be9-b2e5-4b75-b0f4-e9a853145b2f.jpg"
+    },
+    {
+      "Multi - Creme - Kombi": "swatch_Multi-Creme-Kombi_16b87468-e2ee-4dfc-ad07-9cd1893c9d62.jpg"
+    },
+    {
+      "Blue - Kobalt - Multi": "swatch_Blue-Kobalt-Multi_bc3dd5ac-7b69-442e-a389-8c0d7165138e.jpg"
+    },
+    {
+      "Brown - Vulcano": "swatch_54e8670a-66f2-4a8e-b391-66fec4e5e96b.jpg"
+    },
+    {
+      "Blue - Jeans - Kombi": "Swatch_Blue-Jeans-Kombi_97d72cad-44c4-4cb8-a4d4-9dc2c9b6829c.jpg"
+    },
+    {
+      "Metallic - Platin - Kombi": "Swatch_Metallic-Platin-Kombi_733fdeea-dfe7-4eb4-9209-f6d68dacabbd.jpg"
+    },
+    {
+      "Black - Schwarz - Kombi": "Swatch_Black-Schwarz-Kombi_dd900769-edd2-404d-b263-ad2141936fe8.jpg"
+    },
+    {
+      "Red - Rot - Kombi": "Swatch_Red-Rot-Kombi_ab8393e6-7b87-4164-8142-0cd66a1a832e.jpg"
+    },
+    {
+      "Blue - Jeans": "swatch_Blue_-_Jeans.jpg"
+    },
+    {
+      "White - White - Kombi": "swatch_White_-_White_-_Kombi_93a0db8b-69e0-47a9-9b96-78e4d52a8bfc.jpg"
+    },
+    {
+      "Yellow - Gelb - Kombi": "swatch_Yellow_-_Gelb_-_Kombi_5a3bcd03-1d84-4903-9df5-b97cf0de1f38.jpg"
+    },
+    {
+      "Blue - Jeans-Kombi": "swatch_72816_clea16_128541_jeans-kombi_womens_ss23_rrp_C2_A30.00_2.jpg"
+    },
+    {
+      "Metallic - Platin-Kombi": "swatch_72816_clea16_33731_platin-kombi_womens_ss23_rrp_C2_A30.00_2.jpg"
+    },
+    {
+      "White - Weiss-Kombi": "swatch_72816_clea16_swatch_42001_weiss-kombi_womens_ss23_rrp_C2_A30.00_2_522efe47-c4aa-4a6c-b91b-4ddd792e196f.jpg"
+    },
+    {
+      "Green - Moos Kombi": "91701_conny01_pl949681_moos-kombi_womens_aw22_rrp_C2_A30.00_1_0daad1f3-0fb5-440b-b46a-e53e28c3a853.jpg"
+    },
+    {
+      "Grey - Light - Grey - Kombi": "swatch_Grey-Light-Grey-Kombi.jpg"
+    },
+    {
+      "Brown - Nut": "swatch_Brown-Nut_36e3239e-b51d-4685-8fc3-e9b8ff1e46c7.jpg"
+    },
+    {
+      "Green - Olive - Kombi": "swatch_Green-Olive-Kombi.jpg"
+    },
+    {
+      "Purple - Bordo": "swatch_2fc5abae-494a-4663-a6cf-417f3c4cb036.jpg"
+    },
+    {
+      "Green - Moos": "swatch_eba2844d-c2b5-40bf-89cb-234bd0759e4f.jpg"
+    },
+    {
+      "Beige - Natur - Multi": "swatch_Beige-Natur-Multi.jpg"
+    },
+    {
+      "Beige - Beige": "Swatch_Beige-Sand_45a97ec0-1f83-42f1-b6d1-40e1d7e4862e.jpg"
+    },
+    {
+      "Beige - Beige 1": "Swatch_Beige-Beige_f865e59c-0a0d-480b-8c0b-cb542cb7191c.jpg"
+    },
+    {
+      "Blue - Denim - Kombi": "Swatch_Blue-Denim-Kombi_9d0d5289-aa51-4632-956b-7a222a609a96.jpg"
+    },
+    {
+      "Red - Rot Kombi": "Swatch_Red-RotKombi_e7f964ea-28fa-4066-b2b6-29b8fd437cea.jpg"
+    },
+    {
+      "Green - Oliv": "Swatch_Green-Oliv_dd58e898-2bea-4496-89dc-78fe50ce6501.jpg"
+    },
+    {
+      "Black - Schwarz-multi": "swatch_Black-Black-Kombi_15c988d6-71b9-472f-84dc-cf4ccb1d2480.jpg"
+    },
+    {
+      "Blue - Denim Kombi": "swatch_Blue-DenimKombi_4ca012b4-1936-424b-a237-8a2909695fe1.jpg"
+    },
+    {
+      "Beige - Sand": "Swatch_Beige-Sand_ca2aa97b-75aa-46c5-b962-ebc672974f6d.jpg"
+    },
+    {
+      "Green - Aqua": "swatch_a6045e08-e216-4a54-99e6-258f83ab034f.jpg"
+    },
+    {
+      "Blue - Indigo - Multi": "swatch_Blue-Indigo-Multi.jpg"
+    },
+    {
+      "Beige - Beige - Multi": "swatch_Beige-Beige-Multi.jpg"
+    },
+    {
+      "Blue - Ocean Kombi": "swatch_Blue-Blue-Kombi_a2fdae7a-c9cc-4cdb-8768-4e2b7576d7f6.jpg"
+    },
+    {
+      "Brown - Taupe Kombi": "swatch_Brown-TaupeKombi_cba887b5-f708-4b17-ad3d-266e744a78f0.jpg"
+    },
+    {
+      "Grey - Asphalt-Kombi": "swatch_ca985c5e-1cf2-47fe-9a46-a6765820447b.jpg"
+    },
+    {
+      "Grey - Vulcano - Kombi": "swatch_Grey-Vulcano-Kombi_c53852d8-8e65-47a2-923d-62f35f843c73.jpg"
+    },
+    {
+      "Brown - Brandy-Kombi": "swatch_25328_enrico28_te21321_brandy-kombi_mens_ss23_rrp_C2_A30.00_1.jpg"
+    },
+    {
+      "Blue - Indigo-Kombi": "swatch_25328_enrico28_te21526_indigo-kombi_mens_ss23_rrp_C2_A30.00_1.jpg"
+    },
+    {
+      "Blue - Ocean-Multi": "swatch_Blue-Ocean-Multi_32aca9cc-be48-436b-aaf5-f3d5c5617de3.jpg"
+    },
+    {
+      "Multi - Moro": "swatch_f1c122f5-7dbc-4aff-8b52-0fc79bc4642d.jpg"
+    },
+    {
+      "Red - Carmin": "59697-VL271-460_2_5762d5e8-216e-4ea1-91d4-668c7cee7c46.jpg"
+    },
+    {
+      "Pink - Pink": "swatch_f4657f18-b7d0-42f1-bb86-abbca6c48867.jpg"
+    },
+    {
+      "Taupe - Creme": "swatch_07bd409a-96ae-4c52-a67d-6a54c9e34060.jpg"
+    },
+    {
+      "Blue - Azur - Kombi": "swatch_Blue-Azur-Kombi_c858fba0-b0a6-4e9d-ad51-95a698cfd0cd.jpg"
+    },
+    {
+      "Green - Green - Kombi": "swatch_Green-Green-Kombi_f7b72b9e-e2ed-4c71-a597-1e6303d23042.jpg"
+    },
+    {
+      "Yellow - Saffron - kombi": "swatch_Yellow-Saffron-kombi_4faa3762-cde6-48c1-9531-23c69032a4c0.jpg"
+    },
+    {
+      "Brown - Safran": "swatch_59689_fergey89_258835_amber_womens_ss22_rrp_0.00_1.jpg"
+    },
+    {
+      "Green - India": "swatch_Green-India_4b8d4fdb-1e30-4324-8a0a-271621fc9bf0.jpg"
+    },
+    {
+      "Blue - Fathom": "swatch_Blue-Fathom.jpg"
+    },
+    {
+      "Red - Rubin": "swatch_Red-Rubin_b6328193-54e5-429c-a7f8-92979b5ebd28.jpg"
+    },
+    {
+      "Brown - Brasil Schwarz": "Swatch_Brown-BrasilSchwarz.jpg"
+    },
+    {
+      "Blue - Ocean Schwarz": "Swatch_Blue-OceanSchwarz.jpg"
+    },
+    {
+      "Schwarz - Schwarz": "10236-11-101_1_bd4f5820-671d-4cce-bd47-a71c33a2f95f.jpg"
+    },
+    {
+      "Yellow - Gelb-Multi": "gelbswatch.png"
+    },
+    {
+      "Blue - Jeans-Multi": "azureswatch.png"
+    },
+    {
+      "Multi - Multicolor": "swatch_24b1dcc7-61cf-4db3-87db-c2a9e50e0ae0.jpg"
+    },
+    {
+      "White - White": "swatch_786951-720-800_1_deff89f0-ad7e-4d87-9860-ddd973c19b41.jpg"
+    },
+    {
+      "Multi - Multi": "swatch_786951-988-100_1.jpg"
+    },
+    {
+      "Brown - Mocca": "swatch_29710438-f84d-411a-b17e-61d5031c9d1c.jpg"
+    },
+    {
+      "Grey - Asphalt": "swatch_27803_janosch03_66780_asphalt_mens_ss23_rrp_0.00_1.jpg"
+    },
+    {
+      "Brown - Camel-Kombi": "swatch_Brown-Camel-Kombi_2aea04b9-e3a0-484c-b0a3-f56901d46c4a.jpg"
+    },
+    {
+      "Brown - Moro-Kombi": "swatch_Brown-Moro-Kombi_928688e2-0799-4c77-9dd8-bbbe6629c465.jpg"
+    },
+    {
+      "Brown - Castagne - Kombi": "Swatch_Brown-Castagne-Kombi.jpg"
+    },
+    {
+      "White - Weiss-Coral": "swatch_566c3841-ff1b-449f-bf8e-541915203198.jpg"
+    },
+    {
+      "White - Beige-Multi": "swatch_f24a83ab-d201-4430-972c-9a7f02280d3a.jpg"
+    },
+    {
+      "White - Weiss-Blau": "swatch_25421572-e63a-4ba2-88de-fe692261c0d0.jpg"
+    },
+    {
+      "Brown - Castagne-kombi": "85252_marta52_vl86351_castagne-kombi_womens_aw21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Brown - Brasil - Kombi": "swatch_Brown-Brasil-Kombi_911f6a93-d977-4c1b-b397-aafd4bcd3ab4.jpg"
+    },
+    {
+      "Black - Schwarz Cognac": "swatch_Black-SchwarzCognac_caa0fcad-364a-4ee4-9834-a6497a73994c.jpg"
+    },
+    {
+      "Green - Oliv - Kombi": "KlausOliv1_x1024_bae65ff4-9054-460d-812c-7a126115bf42.jpg"
+    },
+    {
+      "Black - Black nubuck": "swatch_6894d841-e814-4492-911b-23994379820b.jpg"
+    },
+    {
+      "Brown - Braun-Kombi": "swatch_Brown-Braun-Kombi.jpg"
+    },
+    {
+      "Brown - Anthrazit-Kombi": "swatch_Brown-Anthrazit-Kombi.jpg"
+    },
+    {
+      "Brown - Tanne": "swatch_Brown-Tanne.jpg"
+    },
+    {
+      "Green - Azur Kombi": "swatch_056a141a-1e35-4f99-b150-5bcf61d670a6.jpg"
+    },
+    {
+      "Black - Schwarz Kombi": "swatch_fac31681-9f10-4b43-aeee-08100db47683.jpg"
+    },
+    {
+      "Red - Bordo - Kombi": "swatch_d7ef18a9-378d-4c34-9a13-c8ed1ef67e35.jpg"
+    },
+    {
+      "Brown - Nuss": "Swatch_Brown-Nuss.jpg"
+    },
+    {
+      "Green - Moos - Kombi": "swatch_Green-Moos-Kombi.jpg"
+    },
+    {
+      "Blue - Dunkelblau - Kombi": "swatch_Blue-Dunkelblau-Kombi_5f592212-fade-4210-8be1-fc842c02b9ce.jpg"
+    },
+    {
+      "Yellow - Lemon - Kombi": "swatch_Yellow-Lemon-Kombi_806d9d7b-6d33-41d5-916f-3366b7398f70.jpg"
+    },
+    {
+      "Yellow - Safran - Kombi": "Louisa03Saffronswatch.jpg"
+    },
+    {
+      "Blue - Ocean - Multi": "swatch_280fcf58-1d95-46ea-8ebf-ce02b464dd70.jpg"
+    },
+    {
+      "Red - Carmin Kombi": "swatch_Red-CarminKombi.jpg"
+    },
+    {
+      "Brown - Brasil-Kombi": "swatch_Brown-Brasil-Kombi_717899fa-6eed-41ab-967c-90ceb8353ec2.jpg"
+    },
+    {
+      "Black - Schwarz-Kombi": "swatch_Black-Schwarz-Kombi_334049b2-7190-41a9-9148-0edcc26e7ff0.jpg"
+    },
+    {
+      "Metallic - Bronze-Kombi": "swatch_85212_marta12_mi686776_bronze-kombi_womens_aw22_rrp_C2_A30.00_2.jpg"
+    },
+    {
+      "Grey - Vulcano-Kombi": "swatch_Grey-Vulcano-Kombi_1ca6e93d-5213-4073-acae-620137721949.jpg"
+    },
+    {
+      "Grey - Asphalt - Kombi": "swatch_Grey-Asphalt-Kombi_1e359f03-5d37-4969-afe2-e362cda34bc6.jpg"
+    },
+    {
+      "Ocean - Blau": "swatch_9a688cdc-d1c2-41ee-ae9a-ffceee0dea23.jpg"
+    },
+    {
+      "Orange - Mango": "swatch465225-Mango_1.jpg"
+    },
+    {
+      "Blue - Petrol": "swatch_60b3ed40-d8ab-49fb-a589-e3ca1693cbcc.jpg"
+    },
+    {
+      "Green - Grun": "swatch_Green-Grun_f4c23111-fb17-483c-96d7-026c7a9d1398.jpg"
+    },
+    {
+      "Red - Rot 1": "swatch_Red-Rot1_3ff6bd75-86cf-4ff5-8f90-e39eed1c80a5.jpg"
+    },
+    {
+      "Red - Carmin Moro": "swatch_Red-CarminMoro.jpg"
+    },
+    {
+      "Brown - Taupe 1": "swatch_ba044d90-6043-4dc6-bf86-45b5483432b4.jpg"
+    },
+    {
+      "Green - Khaki": "swatch_Green-Khaki.jpg"
+    },
+    {
+      "Green - Moss": "raymondswatch_8b28f913-3b71-4c9e-b4fb-4a22abe7ce1c.jpg"
+    },
+    {
+      "Grey - Grey": "swatch_Grey-Grey_5441afd1-a3d3-4b15-bc7f-6cbd7e477ad3.jpg"
+    },
+    {
+      "Grey - anthrazit": "37605-MA430-700_1greyswatch.jpg"
+    },
+    {
+      "Blue - Dark Blue": "swatch_Blue-DarkBlue.jpg"
+    },
+    {
+      "Purple - Purple": "97605_noih05_ma430560_purple_womens_aw21_rrp_C2_A3110.00_1_x1024_8347c6c5-2f03-44c1-963d-3eb206755f7d.jpg"
+    },
+    {
+      "Grey - Grau-Kombi": "97653_noih53_te21711_grau-kombi_womens_aw22_rrp_C2_A30.00_2_fbea035e-b957-42ec-ac20-99e47325ce2e.jpg"
+    },
+    {
+      "Brown - Brandy Kombi": "swatch_Brown-BrandyKombi.jpg"
+    },
+    {
+      "Blue - Moro - Kombi": "swatch_Blue-Moro-Kombi.jpg"
+    },
+    {
+      "Brown - Moro Schwarz": "Swatch_Brown-MoroSchwarz_4344a3a6-ceeb-46bf-80a8-1bcee5b6ec64.jpg"
+    },
+    {
+      "Black - Schwarz Brasil": "Swatch_Black-SchwarzBrasil_92dec2e2-f56f-4da3-be79-2143f7fef0c3.jpg"
+    },
+    {
+      "Beige - Stone Schwarz": "swatch_Beige-StoneSchwarz.jpg"
+    },
+    {
+      "Grey - Graphit - Kombi": "Swatch_Grey-Graphit-Kombi.jpg"
+    },
+    {
+      "Brown - Castagne Brasil": "Swatch_Brown-CastagneBrasil.jpg"
+    },
+    {
+      "Grey - Vulcano - Multi": "swatch_c47bb40b-8540-438b-a0f2-208717ad2675.jpg"
+    },
+    {
+      "Brown - Espresso": "swatch_Brown-Espresso-Kombi.jpg"
+    },
+    {
+      "Brown - Tabak": "32351_raymond51_te21391_tabak-kombi_mens_aw21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Multi - White": "swatch_Multi_-_White_f5a2bfda-2130-4def-9cff-387070a779d7.jpg"
+    },
+    {
+      "Brown - Brasil SMU": "swatch_Brown-BrasilSMU_9c3ec6a0-c065-457f-bfa6-38817b4eb7c2.jpg"
+    },
+    {
+      "Multi - Beige-Multi": "swatch_79513_rosalie13_370202_beige-multi_womens_ss23_rrp_C2_A30.00_2.jpg"
+    },
+    {
+      "Multi - White - Multi": "swatch_Multi-White-Multi_ea8d35ea-0d6b-410e-af86-15f5c99f4fdc.jpg"
+    },
+    {
+      "Multi - Graphite": "swatch_Multi-Graphite.jpg"
+    },
+    {
+      "Yellow - Gelb 1": "swatch_Yellow-Gelb1.jpg"
+    },
+    {
+      "Brown - Cognac - Multi": "Swatch_Brown-Cognac-Multi.jpg"
+    },
+    {
+      "Red - Rot - Multi": "Swatch_Red-Rot-Multi.jpg"
+    },
+    {
+      "Blue - Aqua - Kombi": "swatch_Blue-Aqua-Kombi.jpg"
+    },
+    {
+      "Beige - Taupe Kombi": "swatch_Beige-TaupeKombi.jpg"
+    },
+    {
+      "Grey - Hell Grau - Kombi": "swatch_Grey-HellGrau-Kombi.jpg"
+    },
+    {
+      "Brown - Moro brown": "swatch.jpg"
+    },
+    {
+      "Green - Bosco": "swatch_Green-Bosco.jpg"
+    },
+    {
+      "Black - Titan": "swatch_Black-Titan.jpg"
+    },
+    {
+      "Red - Bordo-Kombi": "swatch_Red-Bordo-Kombi_4ce4ac44-eec0-4e96-b774-8f9da2fdaf26.jpg"
+    },
+    {
+      "Grey - Graphit": "swatch_Grey-Graphit_f88aca1f-f051-4f25-8729-97db832c460d.jpg"
+    },
+    {
+      "Green - Kobalt": "swatch_Green-Kobalt.jpg"
+    },
+    {
+      "Beige - Safran": "swatch_Beige-Safran_11823b2f-967f-4d8b-9bcf-63a285293735.jpg"
+    },
+    {
+      "Green - Schilf": "swatch_d538f83d-09b8-4dd1-9044-c9ea9ca4f9a6.jpg"
+    },
+    {
+      "Yellow - Saffron": "swatch_Yellow-Saffron_d8942981-ad64-4da5-9107-c4c399368b98.jpg"
+    },
+    {
+      "Green - Light Green": "swatch_Green-LightGreen_a0c06b1b-8ed4-46f6-bc39-7003fc4e7718.jpg"
+    },
+    {
+      "Pink - Rosa": "swatch_Pink-Rosa_e5cfb6be-7544-40d4-8136-04116240cc4d.jpg"
+    },
+    {
+      "Multi - Graphite - Kombi": "swatch_Multi-Graphite-Kombi.jpg"
+    },
+    {
+      "Green - Hellgrun": "swatch_95f5a313-2e9b-4381-84ce-0a1daa0f443f.jpg"
+    },
+    {
+      "Black - Schwarz Leather": "swatch_dc4fa368-cf28-48e7-b25e-21467758163e.jpg"
+    },
+    {
+      "Black - Schwarz Nubuck": "swatch_463ab131-e73c-42da-809d-b3f41449d6a9.jpg"
+    },
+    {
+      "Brown - Cognac - Kombi": "swatch_Brown-Cognac-Kombi_2e2b0e1d-d412-4c1b-8b82-c4d9076ed762.jpg"
+    },
+    {
+      "Beige - Sand - Kombi": "swatch_Beige-Sand-Kombi_565c935f-e089-45d7-b9d6-0ebcc425881b.jpg"
+    },
+    {
+      "Beige - Nude": "swatch_Beige-Nude_ad10f687-99bb-41e8-8290-497975f8ce8a.jpg"
+    },
+    {
+      "Brown - Creme": "swatch_Brown-Creme_544084b0-7a47-4ed4-ac1b-c212de4751ff.jpg"
+    },
+    {
+      "Metallic - Cristal": "swatch_4a80f83e-0644-405b-8b07-305cf035ccaa.jpg"
+    },
+    {
+      "Multi - Beige": "swatch_Multi_-_Beige_0932f6ce-caf3-4b7d-a57c-5cce0ec08d44.jpg"
+    },
+    {
+      "Multi - Graphit": "Swatch_Multi-Multicolor_1d1abf91-720a-43e2-8f49-36c61d92fb8e.jpg"
+    },
+    {
+      "Multi - Weiss - Multi": "Swatch_Multi-Weiss-Multi_7b8ef04e-d9ac-4ba0-a4ac-b19737434da6.jpg"
+    },
+    {
+      "Multi - Rose": "swatch_Multi_-_Rose_641def7c-4164-4948-a121-7aab4495fe2a.jpg"
+    },
+    {
+      "Grey - Anthracite": "swatch_Grey_-_Anthracite.jpg"
+    },
+    {
+      "Multi - Mint": "swatch_Multi_-_Mint.jpg"
+    },
+    {
+      "Yellow - Safran-Kombi": "swatch_c6da94ba-f9b4-44a3-bb43-1964a5eb9fc1.jpg"
+    },
+    {
+      "Metallic - Gold": "swatch_575939_950_937-1.jpg"
+    },
+    {
+      "Blue - Navy": "BensonNazy_1_Edit_x1024swatch.jpg"
+    },
+    {
+      "Multi - Grey-Multi": "swatch_Multi-Grey-Multi.jpg"
+    },
+    {
+      "White - Offwhite": "swatch_25407-410-010_1L.jpg"
+    },
+    {
+      "Blue - Dunkelblau": "swatch_Blue-Dunkelblau_8888a86c-3d19-40fb-9585-ea10ee817500.jpg"
+    },
+    {
+      "Grun - Green": "grun30x30.jpg"
+    },
+    {
+      "Ocean - Blue": "blue30x30.jpg"
+    },
+    {
+      "blue - marine-combi": "swatch_blue-marine-combi.jpg"
+    },
+    {
+      "Blue - Dunkel blau": "10720_cholet20_28506_dunkelblau-kombi_womens_ss21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Brown - Bronze": "swatch_18818_grenoble118_76775_bronze_womens_aw22_rrp_C2_A30.00_1_9d0ae953-24e1-48f0-a8d1-ac30a5fff6ba.jpg"
+    },
+    {
+      "Grey - Graphite": "swatch_16706_ibiza106_381761_graphit-combi_womens_ss21_rrp_0.00_1.jpg"
+    },
+    {
+      "Red - Koralle": "16770_ibiza70_387481_koralle-kombi_womens_ss21_rrp_C2_A30.00_2_x1024swatch.jpg"
+    },
+    {
+      "White - Weiss Kombi": "16786_ibiza86_96000_weiss_womens_ss21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Grey - Platin": "16786_ibiza86_49730_platin_womens_ss21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Brown - Beige": "28104_lille104_td432202_beige-multi_ladies_aw21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "altrosa-pink": "28108-PL713-061_swatch.jpg"
+    },
+    {
+      "Multi - Blau-Multi": "18705_roubaix05_463502_blau-multi_ladies_aw22_rrp_C2_A30.00_1_e1cb6531-bbaf-4840-a98d-42d268c427df.jpg"
+    },
+    {
+      "Green - Petrol": "10411_montrealw11_27640_petrol_ladies_aw21_rrp_C2_A30.00_1_x1024swatch.jpg"
+    },
+    {
+      "Multi - Black Floral": "769521-989-101_swatch_6e9837de-2549-44ca-a00c-c2441475d4da.jpg"
+    },
+    {
+      "Green - Green": "769521-782-600_swatch.jpg"
+    },
+    {
+      "Multi - Oliv-Multi": "18705_roubaix05_463632_oliv-multi_ladies_aw22_rrp_C2_A30.00_1_6758a133-2a86-40e0-b60e-9ccfaf45e4ba.jpg"
+    },
+    {
+      "grey - grau-multi": "swatch_grey-grau-multi.jpg"
+    },
+    {
+      "Red - Wine": "swatch_08b8771a-ee75-49c7-a549-a95ec814e7aa.jpg"
+    }
+  ]
+}

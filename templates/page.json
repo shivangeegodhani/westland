@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3c745700-17ec-4873-a17b-c3496b0a627c": {
+      "type": "section-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "3372bea2-b543-4de2-a7e0-db69501fe91c": {
+      "type": "section-collections-list",
+      "blocks": {
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual-trainers",
+            "title": "CASUAL TRAINERS"
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "holiday-sandals",
+            "title": ""
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-shoes-1",
+            "title": ""
+          }
+        },
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-range-1",
+            "title": "VEGAN RANGE"
+          }
+        },
+        "fb214762-9f1b-47d6-94d2-fb470f077565": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-clogs",
+            "title": ""
+          }
+        },
+        "ce4555d9-78f2-432e-8cac-dd7e26334805": {
+          "type": "collection",
+          "settings": {
+            "collection": "heeled-sandals",
+            "title": ""
+          }
+        },
+        "5f6c42a4-af38-465a-aecd-639bbe3a8f4d": {
+          "type": "collection",
+          "settings": {
+            "collection": "ladies-boots",
+            "title": ""
+          }
+        },
+        "db43cee7-791a-4ae7-9e73-d4b811f15f4f": {
+          "type": "collection",
+          "settings": {
+            "collection": "smart-boots",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-0",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-1",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-2",
+        "template--16749019922675__3372bea2-b543-4de2-a7e0-db69501fe91c-16843915842133e303-3",
+        "fb214762-9f1b-47d6-94d2-fb470f077565",
+        "ce4555d9-78f2-432e-8cac-dd7e26334805",
+        "5f6c42a4-af38-465a-aecd-639bbe3a8f4d",
+        "db43cee7-791a-4ae7-9e73-d4b811f15f4f"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collection list",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "enable_slider": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c745700-17ec-4873-a17b-c3496b0a627c",
+    "3372bea2-b543-4de2-a7e0-db69501fe91c"
+  ]
+}

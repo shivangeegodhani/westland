@@ -1,0 +1,46 @@
+{% comment %}
+    Renders "Before and after" images comparison
+
+    Accepts:
+    - image_1: {Image} Image left
+    - image_2: {Image} Image right
+    - image_position: {String} Image position
+    - aspect_ratio: {Number} Image aspect ratio (Optional)
+    - animation_anchor: {String} ID of the element that will trigger animations
+    - modifier: {String} Section class name
+
+    Usage:
+    {% render 'compare-images', image_1: image_1, image_2: image_2, image_position: image_position, aspect_ratio: aspect_ratio, animation_anchor: animation_anchor, modifier: modifier %}
+{% endcomment %}
+
+{%- liquid
+  assign modifier = modifier | default: ''
+
+  unless aspect_ratio
+    if image_1
+      assign aspect_ratio = image_1.aspect_ratio
+    elsif image_2
+      assign aspect_ratio = image_2.aspect_ratio
+    else
+      assign aspect_ratio = 1
+    endif
+  endunless
+-%}
+
+<div class="compare {{ modifier }}" data-images-holder data-start-position="50%" data-aos="img-in" data-aos-anchor="{{ animation_anchor }}" data-aos-duration="800" data-aos-easing="ease-out-quart">
+  <div class="compare__image" style="--padding-ratio: {{ aspect_ratio | times: 100 }}%;">
+    <div class="compare__image__holder">
+      {% render 'image-fill', img_object: image_1, aspect_ratio: aspect_ratio, bg_position: image_position %}
+    </div>
+  </div>
+  
+  <div class="compare__image{% unless image_2 != blank %} compare__image--rotate{% endunless %}" style="--padding-ratio: {{ aspect_ratio | times: 100 }}%;" data-image-holder>
+    <div class="compare__image__holder" data-image-element>
+      {% render 'image-fill', img_object: image_2, aspect_ratio: aspect_ratio, bg_position: image_position %}
+    </div>
+  </div>
+
+  <div class="compare__btn" data-images-button>
+    {%- render 'icon-arrow-separate' -%}
+  </div>
+</div>

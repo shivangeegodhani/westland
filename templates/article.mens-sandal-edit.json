@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": false,
+        "bg_position": "center-center",
+        "image_height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "social": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "c39a2001-4889-4106-998f-beaa2d260b61": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Mens Sandal Edit",
+            "heading_size": 11
+          }
+        },
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-1": {
+          "type": "text",
+          "settings": {
+            "description": "Get that summer feeling with the JOSEF SEIBEL collection of men’s sandals and slip-ons. From classic leather sandals perfect for the beach, to versatile toe post flip flops and robust walking sandals - we have a sandal for every occasion.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-2": {
+          "type": "button",
+          "settings": {
+            "link_text": "shop",
+            "link": "shopify://collections/mens-sandals",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-0",
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-1",
+        "template--16796142010611__c39a2001-4889-4106-998f-beaa2d260b61-1684242383b031723f-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/27103_Maverick03_66_380_mocca_womens_ss23.jpg",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "747bb235-346e-4747-9013-0fcec82dd68d": {
+      "type": "section-double",
+      "blocks": {
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Bart 02",
+            "text_size": 8
+          }
+        },
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A modern take on a traditional fisherman’s style, designed to let your feet breath in the summer months. Bart 02 has an elasticated toggle fastening and rear heel strap. These leather sandals are as practical as they are stylish. A great everyday  summer staple that keeps your feet comfortable and cool.</p><p>Please note this style fits smaller so we recommend purchasing one size bigger.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-bart-02",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-0",
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-1",
+        "template--16796142010611__747bb235-346e-4747-9013-0fcec82dd68d-16842430350378d86e-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/253312_Bart02_66_300_moro_mens_ss23_2.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fba0497e-c2db-416d-8450-84a8935eb81e": {
+      "type": "section-double",
+      "blocks": {
+        "2fe86353-fd8e-4ae3-8c2d-9d22efeb45da": {
+          "type": "heading",
+          "settings": {
+            "title": "Maverick 05",
+            "text_size": 8
+          }
+        },
+        "b6f36aa6-b326-4fa9-9382-ddfb5b7d2c2b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A lightweight, toe post, slip- on sandal sat on a lightweight, flexible and highly durable PU sole. The Maverick 05 men's sandal has a perforated hole design and stitch features throughout, with a cushioned leather footbed for all day comfort. Perfect for slipping on and heading to the beach!</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "c4240171-62aa-47b7-959d-902897653569": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-maverick-05",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "2fe86353-fd8e-4ae3-8c2d-9d22efeb45da",
+        "b6f36aa6-b326-4fa9-9382-ddfb5b7d2c2b",
+        "c4240171-62aa-47b7-959d-902897653569"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/27105_maverick05_66_350_castagne_mens_ss23_1.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "07220f52-35e5-4dfc-9705-310915980252": {
+      "type": "section-double",
+      "blocks": {
+        "27bd66e3-110f-41c9-8d15-9a47fc179d1b": {
+          "type": "heading",
+          "settings": {
+            "title": "Maverick 03",
+            "text_size": 8
+          }
+        },
+        "ac64932a-bb32-4c39-94bf-f0c4543420a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Men's slip on leather mule with a handstitched sole and contrasting stitching throughout. The Maverick 03 has a cushioned leather footbed and leather inner linings ensuring all day comfortable wear underfoot. The flexible and hardwearing PU sole provides support and the unique contrasting stitch detail gives these every-day slip on shoes extra style. </p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "a70fc782-421e-4889-9c86-54f0f07ac832": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-maverick-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "27bd66e3-110f-41c9-8d15-9a47fc179d1b",
+        "ac64932a-bb32-4c39-94bf-f0c4543420a2",
+        "a70fc782-421e-4889-9c86-54f0f07ac832"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/27103_Maverick03_66_380_mocca_womens_ss23_4e759f37-5c7b-422a-8ee2-a12b0c7ee974.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1bf23f3b-49a9-4c71-9a46-0d553a047c74": {
+      "type": "section-double",
+      "blocks": {
+        "7d73d6a1-d3c0-46af-8fcc-6f2d9390da82": {
+          "type": "heading",
+          "settings": {
+            "title": "Vincent 12",
+            "text_size": 8
+          }
+        },
+        "d67f1e84-9a9e-4f09-bc28-10ffc267d6e9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For that summer sound effect, this toe post JOSEF SEIBEL Vincent 12 is styled with flat straps and soft materials between the toes, a lightweight, cushioned footbed ensures long lasting comfort. Finished with hand-stitched detailing and signature motif. An elevated take on a summer classic.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "8437dbd0-5dec-4082-9aa7-4186539b2fd7": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-maverick-03",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "7d73d6a1-d3c0-46af-8fcc-6f2d9390da82",
+        "d67f1e84-9a9e-4f09-bc28-10ffc267d6e9",
+        "8437dbd0-5dec-4082-9aa7-4186539b2fd7"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/27312_Vincent12_te86_301_braun-kombi_womens_ss23.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8b953af7-bf17-4e22-af9b-3b80de03fabe": {
+      "type": "section-double",
+      "blocks": {
+        "6eb9929f-30b7-4323-abe7-4da19289f831": {
+          "type": "heading",
+          "settings": {
+            "title": "Maverick 14",
+            "text_size": 8
+          }
+        },
+        "0aecbc49-9915-448e-a5bd-fad86ea51cc6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JOSEF SEIBEL Maverick 14 embraces a minimalist aesthetic and puts a Scandi twist on contemporary fisherman-style sandals. Made from soft and durable leather. Featuring an adjustable strap and contoured footbed for a secure and comfortable fit. Perfect paired with your favourite denim shorts.</p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "573e1f6b-fd15-4fce-9701-88d352d5f7cc": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop",
+            "button_url": "shopify://products/josef-seibel-maverick-14",
+            "button_color": "btn--neutral",
+            "button_style": "standard__cta caps--large"
+          }
+        }
+      },
+      "block_order": [
+        "6eb9929f-30b7-4323-abe7-4da19289f831",
+        "0aecbc49-9915-448e-a5bd-fad86ea51cc6",
+        "573e1f6b-fd15-4fce-9701-88d352d5f7cc"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height",
+        "image": "shopify://shop_images/27114_Maverick14_66_380_mocca_mens_ss23.jpg",
+        "bg_position": "center-center",
+        "text_alignment": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "eed3020c-6296-4576-9c0b-974873ffac0e": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "SHOP ALL MENS SANDALS",
+        "show_line": true,
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "shopify://collections/mens-sandals",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "mens-sandals",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c39a2001-4889-4106-998f-beaa2d260b61",
+    "747bb235-346e-4747-9013-0fcec82dd68d",
+    "fba0497e-c2db-416d-8450-84a8935eb81e",
+    "07220f52-35e5-4dfc-9705-310915980252",
+    "1bf23f3b-49a9-4c71-9a46-0d553a047c74",
+    "8b953af7-bf17-4e22-af9b-3b80de03fabe",
+    "eed3020c-6296-4576-9c0b-974873ffac0e"
+  ]
+}

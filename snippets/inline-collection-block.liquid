@@ -1,0 +1,68 @@
+<style>
+  .inline_collection_block7{
+      grid-column-start: 1;
+      grid-column-end: 4;
+  }
+
+  .bootstrapiso .product-item, .bootstrapiso .radio__fieldset{
+      background-color: #f2f2f1;
+  }
+
+  .bootstrapiso a:hover{
+      text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 749px) {
+      .inline_collection_block7{
+          grid-column-end: 3;
+      }
+  }
+  @media only screen and (max-width: 989px){
+      .inline_collection_block9{
+          display: none;
+      }
+  }
+  @media only screen and (min-width: 990px){
+      .inline_collection_block9{
+          grid-column-start: 1;
+          grid-column-end: 5;
+      }
+  }
+
+  {% if columns_desktop == 4 %}
+  @media only screen and (min-width: 990px){
+      .inline_collection_block7{
+          display: none;
+      }
+  }
+  {% endif %}
+</style>
+
+<div class="bootstrapiso conny_sec bg_gray prod_color  inline_collection_block{{ index }}" >
+  <div class="row g-0">
+    <div class="col-xl-6 align-self-center">
+      <div class="details">
+        <h3>{{ block.settings.title }}</h3>
+        <figure class="prod_image">
+          {% if block.settings.product_image %}
+          <img src="{{ block.settings.product_image | img_url: '500x' }}" alt="" class="p_image" style="transform: scale(1);opacity: 1;">
+          {% endif %}
+        </figure>
+        {% if block.settings.product != blank %}
+          {% render 'jos-product-grid-item', product: block.settings.product %}
+        {% endif %}
+
+
+        <a href="{{ block.settings.button_link }}" class="btns">{{ block.settings.button_text }}</a>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <figure class="big_image">
+        {% if block.settings.right_image %}
+        <img src="{{ block.settings.right_image | img_url: '900x' }}" alt="" style="transform: scale(1);opacity: 1;">
+        {% endif %}
+      </figure>
+    </div>
+  </div>
+</div>

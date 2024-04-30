@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "price_and_title": {
+          "type": "price_and_title",
+          "settings": {
+            "subheading_option": "none",
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "598cc7b4-d2c9-44d7-b14b-a07d2833e2eb": {
+          "type": "powerreviewblock",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "",
+            "show_quantity": true,
+            "show_remaining": false,
+            "show_payment_button": false,
+            "subscriptions_enable_selectors": false
+          }
+        },
+        "351be89d-935a-43f9-bd8d-0d6eeb885be8": {
+          "type": "share-on-social",
+          "settings": {
+          }
+        },
+        "71dc4408-4c99-401c-9925-2a05d81c50d4": {
+          "type": "tag-based-features",
+          "settings": {
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "tabs",
+            "title_1": "",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "title_2": "",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "c19202e5-6d96-4108-93cb-98c218ac85a0": {
+          "type": "review",
+          "settings": {
+            "reviewtitle": "Review",
+            "reviewdescrbition": ""
+          }
+        }
+      },
+      "block_order": [
+        "price_and_title",
+        "598cc7b4-d2c9-44d7-b14b-a07d2833e2eb",
+        "form",
+        "351be89d-935a-43f9-bd8d-0d6eeb885be8",
+        "71dc4408-4c99-401c-9925-2a05d81c50d4",
+        "tabs",
+        "c19202e5-6d96-4108-93cb-98c218ac85a0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "show_cart_bar": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "block_padding": 30,
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "f685046f-0a1f-4dcc-8e60-06ec7c3e9895": {
+      "type": "jos-power-review",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "You May Also Like",
+        "show_recently_viewed": false,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Recently viewed",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "7b782c2f-b552-4d5d-8de6-31640e05c091": {
+      "type": "jos-reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reviewtitle": "What our customers think...",
+        "reviewone": "<p>Josef Seibel make excellent shoes, extremely comfortable and long lasting. I'm on my 4th pair now, having bought my first pair ten years ago.</p>",
+        "reviewtwo": "<p>Love my Josef Seibel shoes. Bought them to replace my last ones which only needed replacing because I had worn down the heels.</p>",
+        "reviewthree": "<p>These shoes fit perfectly. They are some of the most comfortable shoes I have owned. I have received several compliments from friends and strangers about them.</p>",
+        "reviews_color_text": "#0a0909",
+        "reviews_color_container": "#f0f0f0",
+        "reviews_logo_select": false
+      }
+    },
+    "fd9f4d3d-6af5-4965-a4d0-ac102e70b9da": {
+      "type": "jos-section-newsletter",
+      "settings": {
+        "background_image": "shopify://shop_images/Copy_of_HOME_PAGE_Newsletter_Banner_1916_x_601_px.png",
+        "title": "Stay in the loop",
+        "description": "Subscribe to our mailing list and be the first to hear about the latest arrivals, new collections and promotions",
+        "button_text": "Sign Up",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "674a5393-ca9c-440d-893e-3fcc3e7af183": {
+      "type": "jos-power-review",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "reviews",
+    "f685046f-0a1f-4dcc-8e60-06ec7c3e9895",
+    "related",
+    "7b782c2f-b552-4d5d-8de6-31640e05c091",
+    "fd9f4d3d-6af5-4965-a4d0-ac102e70b9da",
+    "674a5393-ca9c-440d-893e-3fcc3e7af183"
+  ]
+}

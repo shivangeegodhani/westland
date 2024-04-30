@@ -1,0 +1,317 @@
+<style>
+ .mySelectedBorder{
+     background-image: none !important;
+    --swatch: #888888!important;
+  }
+</style>
+{%- assign filters_default = search.filters | default: collection.filters -%}
+{% assign selctedColorSwatch = "" %}
+<form data-collection-filters-form class="collection__filters">
+  {%- for filter in filters_default -%}
+    {%- liquid
+      assign filter_check_active = filter.values | where: 'active', false
+      assign filter_check_count = filter.values | where: 'count', 0
+      assign filter_hidden = false
+
+      if filter.type == 'list' and filter.values.size == filter_check_active.size and filter.values.size == filter_check_count.size
+        assign filter_hidden = true
+      endif
+    -%}
+
+
+    <div class="collection__sidebar__group{% if filter_hidden %} collection__sidebar__group--hidden{% endif %}"{% if filter_hidden %} style="display: none;"{% endif %} {% if filter.label == 'Availability' %} style="display: none;"{% endif %}>
+      <p class="collection__sidebar__heading is-active" data-collection-sidebar-heading tabindex="0" data-focus-element>
+        <span>{{ filter.label }} </span>
+        {%- if filter.active_values.size > 0 -%}
+          <span>({{ filter.active_values.size }})</span>
+        {%- endif -%}
+
+        {%- render 'icon-plus' -%}
+        {%- render 'icon-minus' -%}
+      </p>
+
+      {%- assign option_name_handle_separator = filter.label | handle | prepend: ',' | append: ',' -%}
+      {%- if settings.color_swatches -%}
+        {% comment %} Determine if current option matches swatch handle translations {% endcomment %}
+        {%- assign is_swatch_option = false -%}
+        {%- assign swatch_translation = 'general.swatches.color' | t -%}
+        {%- assign translation_string = swatch_translation | remove: '  ' | replace: ', ', ',' | replace: ' ,', ',' | replace: ',', '____' | handle | replace: '____', ',' | append: ',' | prepend: ',' -%}
+
+        {%- if translation_string contains option_name_handle_separator -%}
+          {%- assign is_swatch_option = true -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {% assign colorListCollection = "" %}
+      {% assign setColorValue = "" %}
+      {%- if is_swatch_option -%}
+        {%- for filter_value in filter.values -%}
+          {% assign newSwatchesColor = filter_value.value | split: "-" %}
+          {% assign setColorValue = newSwatchesColor[0] | append: ',' | append: setColorValue | upcase | strip %}
+          {% assign colorListCollection = setColorValue | split: "," | uniq %}
+
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- case filter.type -%}
+        {%- when 'list' or 'boolean' -%}
+          {% assign maxFilterItems = 10000 %}
+          <ul class="collection-nav {% if is_swatch_option %}collection-nav--inline{% endif %}" {% if is_swatch_option %} style="display:none"{% endif %}>
+            {%- for filter_value in filter.values -%}
+              {% if filterPTag == true %}{% assign maxFilterItems = 1000 %}{% endif %}
+              {% if filter_value.param_name == 'filter.p.tag' %}{% assign filterPTag = true %}{% endif %}
+
+              <li class="sidebar__item{% if is_swatch_option %} sidebar__item--swatch{% endif %}{% if filter_value.active %} sidebar__item--active link--remove{% elsif filter_value.count == 0 and filter_value.active == false %} link--disable{% else %} link--add{% endif %}{% if forloop.index > maxFilterItems %} is-hidden{% endif %}"{% if forloop.index > maxFilterItems %} data-link-hidden{% endif %}>
+                {% if is_swatch_option %}
+
+           <span class="swatch__button swatch__button--{{ settings.swatch_style }}"
+                        data-tooltip="{{ filter_value.value | escape_once | capitalize }}">
+                    <input type="checkbox"
+                           name="{{ filter_value.param_name }}"
+                           value="{{ filter_value.value }}"
+                           id="filter-{{ filter.label }}-{{ forloop.index }}"
+                           {% if filter_value.active -%} checked {%- assign selctedColorSwatch = filter_value.value -%}{%- endif %}
+                      {% if filter_value.count == 0 and filter_value.active == false -%}disabled{%- endif %}>
+
+                    <label for="filter-{{ filter.label }}-{{ forloop.index }}"
+                           data-swatch="{{ filter_value.label | escape_once }}">
+                      <span class="visually-hidden">{{ filter_value.label }}</span>
+                    </label>
+                  </span>
+
+                {%- else -%}
+                  {% if filter.label == 'Availability' %}
+                  {% else %}
+
+                    <input type="checkbox"
+                           name="{{ filter_value.param_name }}"
+                           value="{{ filter_value.value }}"
+                           id="filter-{{ filter.label }}-{{ forloop.index }}"
+                           {% if filter_value.active -%}checked{%- endif %}
+                      {% if filter_value.count == 0 and filter_value.active == false -%}disabled{%- endif %}>
+                      <label data-tooltip="{{ filter_value.value | escape_once | capitalize }}"
+                             for="filter-{{ filter.label }}-{{ forloop.index }}">{{ filter_value.label }}</label>
+                  {% endif %}
+            {%- endif -%}
+              </li>
+
+            {%- endfor -%}
+          </ul>
+          <ul>
+            {% assign anyOtherColorSwatch = false %}
+            {% assign listofMixColor = "" %}
+            {%- assign listOfBasicColor = "Black,Brown,Blue,Red,Grey,Yellow,Beige,Pink,Purple,Green,White,Orange" | upcase -%}
+
+            {% for basicColor in colorListCollection %}
+
+              {% assign checkbasicColor = basicColor | strip %}
+              {% assign checkedColor = selctedColorSwatch | split: "-" %}
+              {% assign checkedSwatchColor = checkedColor[0] | upcase | strip %}
+              {% if listOfBasicColor contains checkbasicColor %}
+
+                <li class="sidebar__item{% if is_swatch_option %} sidebar__item--swatch{% endif %}{% if filter_value.active %} sidebar__item--active link--remove{% elsif filter_value.count == 0 and filter_value.active == false %} link--disable{% else %} link--add{% endif %}{% if forloop.index > maxFilterItems %} is-hidden{% endif %}"{% if forloop.index > maxFilterItems %} data-link-hidden{% endif %}>
+                  <div class="swatchDiv" onclick="myfunctionSwatch('{{ basicColor }}')">
+                    <span class="swatch__button swatch__button--{{ settings.swatch_style }}"
+                        data-tooltip="{{ basicColor | escape_once | capitalize }}">
+                      <input type="checkbox" id="{{ basicColor }}" name="mySwatchesColor" class="myCheckboxSwatch"
+                             value="myColor" {%- if checkbasicColor == checkedSwatchColor -%} checked {%- endif -%}>
+                      <label for="filter-{{ filter.label }}-{{ forloop.index }}" class="mySelectedBorder"
+                            style="background-color:{{ basicColor }}!important;"
+                            data-swatch="{{ filter_value.label | escape_once }}">
+                        <span class="visually-hidden">{{ basicColor }}</span>
+                      </label>
+                  </span>
+                  </div>
+                </li>
+              {%- else -%}
+
+                          {% if checkbasicColor != "METALLIC" %}
+                            {% assign anyOtherColorSwatch = true %}
+                            {% assign listofMixColor = listofMixColor | append: ',' | append: checkbasicColor |  strip %}
+                          {% endif %}
+                      {% if checkbasicColor == "METALLIC" %}
+                              <li
+                                class="sidebar__item{% if is_swatch_option %} sidebar__item--swatch{% endif %}{% if filter_value.active %} sidebar__item--active link--remove{% elsif filter_value.count == 0 and filter_value.active == false %} link--disable{% else %} link--add{% endif %}{% if forloop.index > maxFilterItems %} is-hidden{% endif %}"
+                                {% if forloop.index> maxFilterItems %} data-link-hidden{% endif %}>
+                                <div class="swatchDiv" onclick="myfunctionSwatch('{{ basicColor }}')">
+                                  <span class="swatch__button swatch__button--{{ settings.swatch_style }}"
+                                    data-tooltip="{{ basicColor | escape_once | capitalize }}">
+                                    <input type="checkbox" id="{{ basicColor }}" name="mySwatchesColor" class="myCheckboxSwatch" value="myColor" {%-
+                                      if checkbasicColor==checkedSwatchColor -%} checked {%- endif -%}>
+                                    <label for="filter-{{ filter.label }}-{{ forloop.index }}" class="mySelectedBorder"
+                                      style='background-image:url("https://josefseibel.co.uk/cdn/shop/files/colour-metallic.png?v=111111") !important;'>
+                                      <span class="visually-hidden">{{ basicColor }}</span>
+                                    </label>
+                                  </span>
+                                </div>
+                              </li>
+
+                      {% endif %}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if anyOtherColorSwatch -%}
+            {%  assign isChecked = false  %}
+              <li class="sidebar__item{% if is_swatch_option %} sidebar__item--swatch{% endif %}{% if filter_value.active %} sidebar__item--active link--remove{% elsif filter_value.count == 0 and filter_value.active == false %} link--disable{% else %} link--add{% endif %}{% if forloop.index > maxFilterItems %} is-hidden{% endif %}"{% if forloop.index > maxFilterItems %} data-link-hidden{% endif %}>
+                  <div class="swatchDiv" onclick="myfunctionSwatch('{{listofMixColor}}',{{anyOtherColorSwatch}})">
+                    <span class="swatch__button swatch__button--{{ settings.swatch_style }}"
+                        data-tooltip="{{ "mix" | escape_once | capitalize }}">
+                   {% assign colorValues=  listofMixColor | remove_first: "," | split: "," %}
+                    {% for colorFromValue in colorValues  %}
+                        {% if colorFromValue==checkedSwatchColor %}
+                            {%  assign isChecked = true %}
+                            {%  break  %}
+                        {% endif %}
+                    {% endfor %}
+                      <input type="checkbox" id="mix" name="mySwatchesColorMix"
+                             value="mix" {%- if isChecked -%} checked {%- endif -%}>
+                      <label for="mix" class="mySelectedBorder" id="mixColorSwatch"
+                             style=" background:linear-gradient(red, transparent),linear-gradient(to top left, lime, transparent),linear-gradient(to top right, blue, transparent)!important;background-blend-mode: screen!important;"
+                            data-swatch="mix">
+                        <span class="visually-hidden">Mix</span>
+                      </label>
+                  </span>
+                  </div>
+                </li>
+            {%- endif-%}
+          </ul>
+
+
+          {%- if filter.values.size > maxFilterItems -%}
+            <div class="collection__sidebar__actions">
+              <a href="#" data-show-more class="collection__sidebar__link">
+                {%- render 'icon-arrow-separate-vertical' -%}
+                {{ 'collections.general.show_more' | t }}
+              </a>
+            </div>
+          {%- endif -%}
+          {% if filterPTag == true %}
+            <div class="collection__sidebar__actions">
+              <a href="#" class="collection__sidebar__link">
+                Find out about our icon
+              </a>
+            </div>
+          {% endif %}
+        {%- when 'price_range' -%}
+          <div class="filter__price" data-range-holder>
+            {%- liquid
+              if shop.money_format contains "comma_separator"
+                assign filter_max_money = filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.'
+              else
+                assign filter_max_money = filter.range_max | money_without_currency | replace: ',', ''
+              endif
+              assign filter_max_money_ceil = filter_max_money | ceil
+              assign filter_min_value = 0
+              assign filter_max_value = filter_max_money_ceil
+
+              if filter.min_value.value
+                if shop.money_format contains "comma_separator"
+                  assign filter_min_value = filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | floor
+                else
+                  assign filter_min_value = filter.min_value.value | money_without_currency | replace: ',', '' | floor
+                endif
+              endif
+
+              if filter.max_value.value
+                if shop.money_format contains "comma_separator"
+                  assign filter_max_value = filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' | ceil
+                else
+                  assign filter_max_value = filter.max_value.value | money_without_currency | replace: ',', '' | ceil
+                endif
+              endif
+            -%}
+
+            <div class="filter__price__range range" data-range-slider data-range-filter-update data-se-min="0"
+                 data-se-step="1" data-se-min-value="{{ filter_min_value }}" data-se-max-value="{{ filter_max_value }}"
+                 data-se-max="{{ filter_max_money_ceil }}">
+              <div class="range__dot range__dot--left" data-range-left>
+                <span>&nbsp;</span>
+              </div>
+              <div class="range__dot range__dot--right" data-range-right>
+                <span>&nbsp;</span>
+              </div>
+              <div class="range__line">
+                <span data-range-line>&nbsp;</span>
+              </div>
+            </div>
+
+            <div class="filter__price__fields">
+              <div class="filter__price__field filter__price__from">
+                <span>{{ cart.currency.symbol }}</span>
+
+                <input
+                        data-field-price-min
+                        class="filter__price__input"
+                        name="{{ filter.min_value.param_name }}"
+                        id="filter-price-from-{{ filter.label }}-{{ forloop.index }}"
+                        {% if filter.min_value.value %}value="{{ filter_min_value }}"{% endif %}
+                        type="number"
+                        placeholder="{{ filter_min_value }}"
+                        min="0"
+                        max="{{ filter_max_money }}">
+
+                <label for="filter-price-from-{{ filter.label }}-{{ forloop.index }}">{{ 'products.general.from' | t }}</label>
+              </div>
+              <div class="filter__price__spacer">-</div>
+              <div class="filter__price__field filter__price__to">
+                <span>{{ cart.currency.symbol }}</span>
+
+                <input
+                        data-field-price-max
+                        class="filter__price__input"
+                        name="{{ filter.max_value.param_name }}"
+                        id="filter-price-to-{{ filter.label }}-{{ forloop.index }}"
+                        {% if filter.max_value.value %}value="{{ filter_max_value }}"{% endif %}
+                        type="number"
+                        placeholder="{{ filter_max_value }}"
+                        min="0"
+                        max="{{ filter_max_money_ceil }}">
+
+                <label for="filter-price-to-{{ filter.label }}-{{ forloop.index }}">{{ 'products.general.to' | t }}</label>
+              </div>
+            </div>
+          </div>
+        {%- else -%}
+      {%- endcase -%}
+    </div>
+  {%- endfor -%}
+  <input type="checkbox" name="filter.v.availability" value="1" id="filter-Availability-1" checked="" style="display: none">
+</form>
+
+<script>
+  function myfunctionSwatch(swatchValue,ismixcolor) {
+  let inputList;
+  let mySwatchsList;
+  let mySwatchMix;
+  let currentURL = window.location.href;
+  let urlObj = new URL(currentURL);
+  if (urlObj.search.includes('filter.v.option.colour')) {
+     inputList = $(`input[name="filter.v.option.colour"]`);
+     mySwatchsList = $(`input[name="mySwatchesColor"]`);
+     mySwatchMix = $(`input[name="mySwatchesColorMix"]`);
+      Array.prototype.forEach.call(inputList, (element) => {
+        element.checked = false;
+      });
+      Array.prototype.forEach.call(mySwatchsList, (element) => {
+        element.checked = false;
+      });
+       Array.prototype.forEach.call(mySwatchMix, (element) => {
+        element.checked = false;
+      });
+ }
+  let myColorArray=swatchValue.split(",");
+  myColorArray= myColorArray.filter(n => n)
+  myColorArray.forEach((colorfromCome)=>{
+  inputList = $(`input[value^=${colorfromCome} i]`);
+    Array.prototype.forEach.call(inputList, (element) => {
+      element.checked = true;
+    })
+   })
+
+   document.getElementsByClassName("collection__filters")[0].submit();
+    if(ismixcolor){
+       document.getElementById('mix').checked = true;
+    }else{
+       document.getElementById(`${swatchValue}`).checked = true;
+    }
+  }
+</script>
